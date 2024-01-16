@@ -1,25 +1,66 @@
 /* TYPOGRAPHY */
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
 h1 {
+	font-family: "Oswald", sans-serif;
+	color: #e53c48;
 }
 
 h2 {
+	font-family: "Oswald", sans-serif;
+	color: #223858;
 }
 
 h3 {
+	font-family: "Oswald", sans-serif;
+	color: #477a9c;
 }
 
 h4 {
+	font-family: "Oswald", sans-serif;
+	color: #508bb3;
 }
 
 h5 {
+	font-family: "Oswald", sans-serif;
+	color: #508bb3;
 }
 
 h6 {
+	font-family: "Oswald", sans-serif;
+	color: #508bb3;
 }
 
 p {
+	font-family: "Poppins", sans-serif;
 }
 
 a {
+	font-family: "Poppins", sans-serif;
+	text-decoration: underline;
+	text-decoration-skip-ink: auto;
+	text-underline-offset: 2px;
+	text-decoration-thickness: 2px;
+	text-decoration-color: #223858;
+	color: #477a9c;
+}
+
+ul {
+	padding: 10px;
+	margin: 10px;
+    list-style-position: inside;
+    color: #223858;
+}
+ul li::before {
+    content: "► ";
+    color: #e53c48;
+    margin-left: -1em;
+  }
+
+li {
+	font-family: "Poppins", sans-serif;
+	padding: 2px;
+	padding-right: 0px;
+	font-size: 16px;	
+    margin-bottom: 10px;
 }
