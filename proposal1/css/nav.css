@@ -1,4 +1,73 @@
 /* NAVIGATION */
-
-nav {
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 14pt
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+nav{
+    background-color: #e11d2b;
+    width: 350px;
+    height: 50px;
+    
+}
+#navleft{
+    border-radius: 50px 0 0 50px;
+    padding-left: 30px;
+}
+.cornerright{
+    background-color: #e11d2b;
+    width: 50px;
+    height: 50px;
+    float: left;
+    transform: skew(-10deg);
+    margin-left: -20px;
+}
+#navright{
+    
+    border-radius: 0px 50px 50px 0px;
+    padding-right: 30px;
+}
+.cornerleft{
+    background-color: #e11d2b;
+    width: 50px;
+    height: 50px;
+    float: left;
+    transform: skew(-10deg);
+    margin-right: -20px;
+}
+#wij-nav{
+    margin-left: -5px;
+}
+#studieaanbod-nav{
+    margin-left: -2px;
+}
+#info-ouders-nav{
+    margin-left: 60px;
+}
+#contact-nav{
+    margin-left: 57px;
+}
+.navigation ul li{
+    display: inline;
+    list-style-type: none;
+}
+.navigation a{
+    font-size: 12pt;
+    text-decoration: none;
+    color: #eff3e8;
+} 
+.navigation a:hover{
+    text-decoration: underline;
+}
+.logo{
+    margin: 0 15px;
+}
+.logo img{
+    width: 75px;
 }

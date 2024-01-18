@@ -1,25 +1,46 @@
 /* TYPOGRAPHY */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap');
+@import url("https://use.typekit.net/his8hem.css");
 
+body{
+    font-size: 12pt;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #eff3e8;
+    padding: 0;
+    margin: 0;
+}
 h1 {
+    color: #e11d2b;
+    font-size: 36pt;
 }
-
 h2 {
+    color: #eff3e8;
+    font-size: 24pt;
+    background-color: #e11d2b;
+    padding: 10px;
 }
-
 h3 {
+    color: #000000;
+    font-size: 18pt;
 }
-
-h4 {
-}
-
-h5 {
-}
-
-h6 {
-}
-
 p {
+    font-size: 12pt;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e11d2b;
+}
+a {
+    color: #000;
+    font-size: 14pt;
+    text-decoration: underline transparent 1pt;
+    transition: text-decoration 300ms ease;
+}
+a:hover {
+    text-decoration-color: #e11d2b;
+}
+ul{
+    color: #e11d2b;
+    font-family: "myriad-pro", sans-serif;
 }
 
-a {
-}
