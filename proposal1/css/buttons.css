@@ -1,39 +1,36 @@
 /* BUTTONS */
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap');
-
-.btn-primary {
-    background-color: #223858;
-    padding: 12px 48px;
-    border: 4px solid #f1faed;
-    border-radius: 12px;
+.btn-primary {  
+   
+}
+.btn-primary img{
+    width: 200px;
+    height: auto;
+    transition: all .3s ease-in-out;
+}
+.btn-primary img:hover{
+    width: 210px;
+}
+#button{
     text-decoration: none;
-    color: #f1faed;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
 }
-.btn-primary:hover {
-    background-color: transparent;
-    color: #223858;
-    border-color: #e53c48;
-    
+.btn-secondary  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e11d2b;
+    color: #eff3e8;
+    font-size: 12pt;
+    width: 125px    ;
+    height: 35px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all .3s ease-in-out;
 }
-
-.btn-secondary {
-    padding: 12px 48px;
-    border-radius: 12px;
-    text-decoration: none;
-    color: #223858;
-    border: 4px solid transparent;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
+.btn-secondary:hover{
+    background-color: #eff3e8;
+    border: solid 1pt #e11d2b;
+    color: #e11d2b;
 }
-.btn-secondary:hover {
-    background-color: transparent;
-    color: #223858;
-    border: 4px solid #e53c48;
-    border-radius: 12px;
-    padding: 12px 48px;
+.buttons{
+    display: flex;
 }

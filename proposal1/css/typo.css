@@ -1,66 +1,46 @@
 /* TYPOGRAPHY */
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap');
+@import url("https://use.typekit.net/his8hem.css");
+
+body{
+    font-size: 12pt;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #eff3e8;
+    padding: 0;
+    margin: 0;
+}
 h1 {
-	font-family: "Oswald", sans-serif;
-	color: #e53c48;
+    color: #e11d2b;
+    font-size: 36pt;
 }
-
 h2 {
-	font-family: "Oswald", sans-serif;
-	color: #223858;
+    color: #eff3e8;
+    font-size: 24pt;
+    background-color: #e11d2b;
+    padding: 10px;
 }
-
 h3 {
-	font-family: "Oswald", sans-serif;
-	color: #477a9c;
+    color: #000000;
+    font-size: 18pt;
 }
-
-h4 {
-	font-family: "Oswald", sans-serif;
-	color: #508bb3;
-}
-
-h5 {
-	font-family: "Oswald", sans-serif;
-	color: #508bb3;
-}
-
-h6 {
-	font-family: "Oswald", sans-serif;
-	color: #508bb3;
-}
-
 p {
-	font-family: "Poppins", sans-serif;
+    font-size: 12pt;
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e11d2b;
 }
-
 a {
-	font-family: "Poppins", sans-serif;
-	text-decoration: underline;
-	text-decoration-skip-ink: auto;
-	text-underline-offset: 2px;
-	text-decoration-thickness: 2px;
-	text-decoration-color: #223858;
-	color: #477a9c;
+    color: #000;
+    font-size: 14pt;
+    text-decoration: underline transparent 1pt;
+    transition: text-decoration 300ms ease;
+}
+a:hover {
+    text-decoration-color: #e11d2b;
+}
+ul{
+    color: #e11d2b;
+    font-family: "myriad-pro", sans-serif;
 }
 
-ul {
-	padding: 10px;
-	margin: 10px;
-    list-style-position: inside;
-    color: #223858;
-}
-ul li::before {
-    content: "► ";
-    color: #e53c48;
-    margin-left: -1em;
-  }
-
-li {
-	font-family: "Poppins", sans-serif;
-	padding: 2px;
-	padding-right: 0px;
-	font-size: 16px;	
-    margin-bottom: 10px;
-}
