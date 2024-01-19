@@ -4,15 +4,14 @@ body {
 	margin: 0;
 }
 
-<<<<<<< HEAD
-.footer{
+.footer-wrapper{
 	background-color: #e11d2b;
 	padding: 32px 0;
 	border-top-left-radius: 75px;
 }
 .footer-lists{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	width: 1024px;
 	margin: 0 auto;
 	padding: 0px;
@@ -21,7 +20,10 @@ body {
 	color: #eff3e8;
 	font-size: 12pt;
 }
-.footer ul li{
+.footer-lists ul{
+	text-decoration: none;
+}
+.footer-lists ul li{
 	padding-bottom: 30px;
 }
 #socials img{
@@ -37,5 +39,3 @@ body {
 	width: 100px;
 }
 
-=======
->>>>>>> 9367969ca03db2530f288e6ad9be20ddfeb1d794

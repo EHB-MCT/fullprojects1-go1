@@ -1,6 +1,8 @@
 /* BUTTONS */
+.buttons-wrapper{
+    display: flex;
+}
 .btn-primary {  
-   
 }
 .btn-primary img{
     width: 200px;
@@ -31,6 +33,4 @@
     border: solid 1pt #e11d2b;
     color: #e11d2b;
 }
-.buttons{
-    display: flex;
-}
+
