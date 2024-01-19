@@ -3,3 +3,36 @@
 body {
 	margin: 0;
 }
+
+.footer{
+	background-color: #e11d2b;
+	padding: 32px 0;
+	border-top-left-radius: 75px;
+}
+.footer-lists{
+	display: flex;
+	justify-content: space-evenly;
+	width: 1024px;
+	margin: 0 auto;
+	padding: 0px;
+}
+#lists a{
+	color: #eff3e8;
+	font-size: 12pt;
+}
+.footer ul li{
+	padding-bottom: 30px;
+}
+#socials img{
+	width: 25px;
+	height: auto;
+	border: solid #eff3e8;
+}
+.logo-footer{
+	display: flex;
+	justify-content: center;
+}
+.logo-footer img{
+	width: 100px;
+}
+
