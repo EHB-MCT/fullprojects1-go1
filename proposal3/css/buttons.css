@@ -1,7 +1,38 @@
 /* BUTTONS */
 
-.btn-primary {
-}
+.buttons{
 
+}
+.btn-primary {  
+   background-color: #faff8a;
+   font-family: "ropa-mix-pro", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 21pt;
+    padding: 15px 80px;
+    border: solid 2pt #000000;
+    box-shadow: 10px 10px 0px #000000;
+    color: #000000;
+    margin: 0 20px 0px 0;
+} 
+.buttons a:hover{
+    text-decoration: underline transparent 1pt;
+}
+#button{
+    text-decoration: none;
+}
 .btn-secondary {
+    background-color: #faff8a;
+    font-family: "ropa-mix-pro", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 21pt;
+    padding: 15px 80px;
+    border: solid 2pt #000000;
+    color: #000000;
+}
+.btn-secondary:hover{
+}
+.buttons{
+    display: flex;
 }

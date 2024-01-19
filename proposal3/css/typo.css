@@ -1,25 +1,45 @@
 /* TYPOGRAPHY */
 
+@import url("https://use.typekit.net/kxh3iir.css");
+
+body{
+    font-family: "ropa-mix-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    background-color: #aae8ff;
+    padding: 0;
+    margin: 0;
+}
 h1 {
-}
 
+    color: #000;
+    font-size: 72pt;
+}
 h2 {
+    color: #000000;
+    font-size: 32pt;
+    ;
 }
-
 h3 {
+    color: #000000;
+    font-size: 21pt;
 }
-
-h4 {
-}
-
-h5 {
-}
-
-h6 {
-}
-
 p {
+    font-size: pt;
+    font-family: 'bahnschrift';
+    color: #000000;
+}
+a {
+    color: #ff8ff3;
+    font-size: 14pt;
+    text-decoration: underline transparent 1pt;
+    transition: text-decoration 300ms ease;
+}
+a:hover {
+    text-decoration-color: #ff8ff3;
+}
+ul{
+    color: #ff8ff3;
 }
 
-a {
-}
