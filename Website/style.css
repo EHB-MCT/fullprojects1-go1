@@ -1,86 +1,104 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Arial", sans-serif;
 	line-height: 1.6;
 	font-size: 14pt;
 }
-header{
-    position: relative;
-    width: 100%;
+header {
+	position: relative;
+	width: 100%;
 }
-#header-homepage{
-    width: 100%;
+#header-homepage {
+	width: 100%;
 }
-#white-header-wave{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+#white-header-wave {
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
-.logo{
-    position: absolute;
-    top: 30px;
-    left: 50px;
+.logo {
+	position: absolute;
+	top: 30px;
+	left: 50px;
 }
-.logo img{
-    width: 30px;
-    height: auto;
+.logo img {
+	width: 30px;
+	height: auto;
 }
-nav{
-    position: absolute;
-    width: 950px;
-    top: 30px;
-    right: 50px;
-    display: flex;
-    justify-content: space-between;
+nav {
+	position: absolute;
+	width: 950px;
+	top: 30px;
+	right: 50px;
+	display: flex;
+	justify-content: space-between;
 }
-nav a{
+nav a {
+	font-size: 16pt;
+	text-decoration: none;
+	color: #eff3e8;
+}
+span {
     font-size: 16pt;
-    text-decoration: none;
-    color: #eff3e8;
-    
-} 
-.header-text{
-    position: absolute;
-    top: 440px;
-    right: 280px;
+	text-decoration: none;
+	color: #eff3e8;
 }
-.header-text h1{
-    font-size: 56pt;
-    line-height: 1.4;
-    color: #fff;
-}
-.info-wrapper{
-    position: relative;
-    height: 100%;
-    padding-bottom: 900px;
-}
-#pink-side-wave{  
-    position: absolute;
-    top: -400px;
-    width: 40%;
-}
-.onze-school{
-    position: absolute; 
-}
-.onze-school-image{
-    padding-left: 100px;
-}
-.onze-school-image img{
-    border-radius: 35px;
-}
-.onze-school-text{
-    width: 400px;
+.dropdown {
+	position: relative;
+	display: inline-block;
 }
 
-
-
-
-
-.quote{
-    position: relative;
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #d13389;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 12px 16px;
+	z-index: 1;
 }
-#quote-image{
-    position: absolute;
-    width: 100%;
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.header-text {
+	position: absolute;
+	top: 440px;
+	right: 280px;
+}
+.header-text h1 {
+	font-size: 56pt;
+	line-height: 1.4;
+	color: #fff;
+}
+.info-wrapper {
+	position: relative;
+	height: 100%;
+	padding-bottom: 900px;
+}
+#pink-side-wave {
+	position: absolute;
+	top: -400px;
+	width: 40%;
+}
+.onze-school {
+	position: absolute;
+}
+.onze-school-image {
+	padding-left: 100px;
+}
+.onze-school-image img {
+	border-radius: 35px;
+}
+.onze-school-text {
+	width: 400px;
+}
+
+.quote {
+	position: relative;
+}
+#quote-image {
+	position: absolute;
+	width: 100%;
 }
