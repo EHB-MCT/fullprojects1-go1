@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+	line-height: 1.6;
+	font-size: 14pt;
+}
+.header{
+    position: relative;
+    width: 100%;
+}
+#header-homepage{
+    width: 100%;
+}
+#white-header-wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.logo img{
+    width: 30px;
+    height: auto;
+}
+.navigation{
+    position: absolute;
+    width: 950px;
+    top: 30px;
+    right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation a{
+    font-size: 16pt;
+    text-decoration: none;
+    color: #eff3e8;
+    
+} 
+.abc{
+    display: flex;
+    justify-content: flex-start;
+}
+#pink-side-wave{   
+    transform: rotate(90deg);
+}
