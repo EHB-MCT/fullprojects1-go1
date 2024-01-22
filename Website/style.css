@@ -40,10 +40,47 @@ body{
     color: #eff3e8;
     
 } 
-.abc{
-    display: flex;
-    justify-content: flex-start;
+.header-text{
+    position: absolute;
+    top: 440px;
+    right: 280px;
 }
-#pink-side-wave{   
-    transform: rotate(90deg);
+.header-text h1{
+    font-size: 56pt;
+    line-height: 1.4;
+    color: #fff;
+}
+.info-wrapper{
+    position: relative;
+    height: 100%;
+    padding-bottom: 900px;
+}
+#pink-side-wave{  
+    position: absolute;
+    top: -400px;
+    width: 40%;
+}
+.onze-school{
+    position: absolute; 
+}
+.onze-school-image{
+    padding-left: 100px;
+}
+.onze-school-image img{
+    border-radius: 35px;
+}
+.onze-school-text{
+    width: 400px;
+}
+
+
+
+
+
+.quote{
+    position: relative;
+}
+#quote-image{
+    position: absolute;
+    width: 100%;
 }
