@@ -2,8 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-	line-height: 1.6;
-	font-size: 14pt;
+/* 	line-height: 1.6; */
+	font-size: 12pt;
 }
 .header{
     position: relative;
@@ -38,7 +38,6 @@ body{
     font-size: 16pt;
     text-decoration: none;
     color: #eff3e8;
-    
 } 
 .header-text{
     position: absolute;
@@ -51,36 +50,61 @@ body{
     color: #fff;
 }
 .info-wrapper{
+    background-image: url("../Website/SVG/Asset\ 7.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: -300px;
     position: relative;
-    height: 100%;
-    padding-bottom: 900px;
-}
-#pink-side-wave{  
-    position: absolute;
-    top: -400px;
-    width: 40%;
 }
 .onze-school{
-    position: absolute; 
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 250px;
 }
 .onze-school-image{
-    padding-left: 100px;
+   padding-left: 60px;
 }
-.onze-school-image img{
-    border-radius: 35px;
+.onze-school-title{
+    
 }
 .onze-school-text{
-    width: 400px;
+  padding: 0 280px 0 250px;
 }
-
-
-
-
-
-.quote{
+.studieaanbod{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.studieaanbod-image{
+    padding-left: 140px;
+}
+.ostudieaanbod-image img{
+}
+.studieaanbod-title{
+}   
+.studieaanbod-text{
+    padding: 0 100px 0 250px;
+}
+.inschrijving{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.inschrijving-image{
+   padding-left: 60px;
+}
+.inschrijving-title{
+    
+}
+.inschrijving-text{
+  padding: 0 280px 0 250px;
+}
+#Info-text-foto{
     position: relative;
-}
-#quote-image{
-    position: absolute;
-    width: 100%;
+    bottom: 70px;
+    left: 20px;
+    color: #fff;
 }
