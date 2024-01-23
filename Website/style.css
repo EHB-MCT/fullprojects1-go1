@@ -85,7 +85,8 @@ span {
 	color: #fff;
 }
 .info-wrapper{
-    background-image: url("SVG/Asset\ 7.png");
+    background-image: url("SVG/Pink-side-wave-final.svg");
+	background-size: 35%;
     background-repeat: no-repeat;
 
     display: flex;
@@ -94,6 +95,7 @@ span {
 
     position: relative;
     margin-top: -300px;
+	padding-bottom: 200px;
 }
 .info-list{
     display: flex;
@@ -106,19 +108,24 @@ span {
 .info-image{
     display: flex;
     align-items: center;
-    padding-left: 60px;     
+    padding-left: 6%;     
 }
 .info-text{
-    padding: 0 280px 0 0px;
+    padding: 0 310px 0 0px;
 }
 .info-title{
     position: relative;
-    left: -280px;
-    bottom: -60px;
+    left: -313px;
+    bottom: -80px;
     color: white;
 }
 .info-title h2{
-    width: 300px;
+    width: 313px;
+	text-align: center;
+
+}
+#info-list-onze-school{
+    padding-top: 15%;
 }
 #info-list-studieaanbod{
     padding-left: 75px;
@@ -126,12 +133,11 @@ span {
 #info-list-studieaanbod .info-text{
     padding-right: 205px;
 }
-#info-list-onze-school{
-    padding-top: 250px;
+.quote-outer-wrapper{
+	position: relative;
 }
 .quote-image{
-/*     position: relative; */
-     margin-top: -50px ; 
+	margin-top: -50px ; 
 }
 .quote-image img{
     width: 100%;
@@ -145,9 +151,10 @@ span {
     color: #ffffff;
 }
 .pijlers-wrapper{
-	background-image: url("Images/Asset\ 31.png");
+	background-image: url("Images/Shapes2-3.svg");
 	background-repeat: no-repeat;
-	background-size: 30%;
+	background-size: 25%;
+	background-position: 45% 50%;
 
 	padding-top: 64px;
 }
@@ -186,11 +193,11 @@ span {
 }
 #pijlers-list-taal{
 	transform: rotate(3deg);
-	padding-left: 45%;
+	padding-left: 35%;
 }
 #pijlers-list-OLB{
 	transform: rotate(-3deg);
-	padding-right: 45%;
+	padding-right: 35%;
 	margin-top: -130px;
 }
 #pijlers-list-welzijn{
@@ -214,6 +221,7 @@ span {
 	background-image: url("images/Footer_2.svg");
 	background-repeat: no-repeat;
 	background-position: bottom 0px right 0px;
+	background-size: 100%;
 
 	height: 1000px;
 	width: 100%;
@@ -235,35 +243,44 @@ span {
 	padding-top: 15px;
 }
 .footer-list p{
-	text-align: center;
 	color: #ffffff;
 }
 .footer-logo img{
 	width: 400px;
 }
-
+.footer-list img{
+	padding-top: 10px;
+	width: 25px;
+}
 .leefregels {
 	width: 90%;
 }
 .graad{
-	padding-bottom: 124px;
+	padding-bottom: 264px;
 }
 
 .title-graad{
 	width: 30%;
 	padding-bottom: 64px;
 	width: 50%;
-	padding-left: 30%;
+	padding-left: 29%;
 }
 .title-graad h3{
-	padding: 0;
 }
 .info-graad{
-	width: 35%;
-	padding-left: 35%;
-	text-align: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.info-graad p{
+	width: 700px;
 }
 .studierichtingen{
+	background-image: url("Images/Shapes3-2.svg");
+	background-repeat: no-repeat;	
+	background-size: 50%;
+	background-position: 48% 10%;
+
 	display: flex;
 	justify-content: space-between;
 }
@@ -276,11 +293,11 @@ span {
 	width: 40%;
 
 	position: relative;
-	margin-top: -500px;
+	margin-top: -270px;
 }  
 .jaar1 {
-	padding-left: 4%;
-	padding-top: 50%;
+	padding-left: 5%;
+	padding-top: 55%;
 }
 .jaar2-wrapper{
 	background-image: url("SVG/Asset\ 15.svg");
@@ -303,8 +320,9 @@ span {
 }
 
 .rooster{
-	margin-top: -600px;
-	padding-left: 14%;
+	display: flex;
+	justify-content: center;
+	margin-top: -500px;
 }
 .rooster img{
 	width: 45%;
