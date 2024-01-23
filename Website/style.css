@@ -129,9 +129,6 @@ span {
 #info-list-onze-school{
     padding-top: 250px;
 }
-.quote-wrapper{
-	pos
-}
 .quote-image{
 /*     position: relative; */
      margin-top: -50px ; 
@@ -148,8 +145,10 @@ span {
     color: #ffffff;
 }
 .pijlers-wrapper{
-	background-image: url(Images/Asset\ 31.png);
+	background-image: url("Images/Asset\ 31.png");
 	background-repeat: no-repeat;
+	background-size: 30%;
+
 	padding-top: 64px;
 }
 .pijlers-list{
@@ -163,7 +162,7 @@ span {
 	color: #000000;
 	
 	background-color: #cacaca;
-	padding: 150px 50px;
+	padding: 100px 50px;
 	border-radius: 75px;
 
 	width: 300px;
@@ -174,39 +173,51 @@ span {
 	padding-right: 60px;
 	z-index: 1;
 }
+.pijlers img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: -50px;
+}
 .pijlers-list-header{
 	display: flex;
 	justify-content: space-between;
 	width: 400px;
+	align-items: flex-end;
 }
 #pijlers-list-taal{
 	transform: rotate(3deg);
-	padding-left: 25%;
+	padding-left: 45%;
 }
 #pijlers-list-OLB{
 	transform: rotate(-3deg);
-	padding-right: 25%;
+	padding-right: 45%;
+	margin-top: -130px;
 }
 #pijlers-list-welzijn{
 	transform: rotate(3deg);
-	padding-left: 25%;
+	padding-left: 35%;
+	margin-top: -130px;
 }
-.bollen{
-	padding-left: 20%;
-	margin-top: -120px;
+#pijlers-list-header-welzijn{
+	margin-left: 8%;
 }
-.bollen img{
+.background-bollen{
+	padding-left: 15%;
+	margin-top: -100px;
+}
+.background-bollen img{
 	transform: rotate(-80deg);
+	width: 270px;
+	height: auto;
 }
 .footer-wrapper{
-	background-image: url(images/Footer_2.svg);
+	background-image: url("images/Footer_2.svg");
 	background-repeat: no-repeat;
 	background-position: bottom 0px right 0px;
 
 	height: 1000px;
 	width: 100%;
-/* 	position: relative; */
-	margin-top: -35%;
+	margin-top: -25%;
 
 	display: flex;
 	align-items: flex-end;
@@ -229,4 +240,72 @@ span {
 }
 .footer-logo img{
 	width: 400px;
+}
+
+.leefregels {
+	width: 90%;
+}
+.graad{
+	padding-bottom: 124px;
+}
+
+.title-graad{
+	width: 30%;
+	padding-bottom: 64px;
+	width: 50%;
+	padding-left: 30%;
+}
+.title-graad h3{
+	padding: 0;
+}
+.info-graad{
+	width: 35%;
+	padding-left: 35%;
+	text-align: center;
+}
+.studierichtingen{
+	display: flex;
+	justify-content: space-between;
+}
+.jaar1-wrapper{
+	background-image: url("SVG/Asset\ 11_1.svg");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 60%;
+
+	width: 40%;
+
+	position: relative;
+	margin-top: -500px;
+}  
+.jaar1 {
+	padding-left: 4%;
+	padding-top: 50%;
+}
+.jaar2-wrapper{
+	background-image: url("SVG/Asset\ 15.svg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 80%;
+
+	width: 35%;
+	height: 900px;
+
+
+	display: flex;
+	justify-content: flex-end;
+
+	position: relative;
+}  
+.jaar2 {
+	padding-right: 15%;
+	padding-top: 20%;
+}
+
+.rooster{
+	margin-top: -600px;
+	padding-left: 14%;
+}
+.rooster img{
+	width: 45%;
 }
