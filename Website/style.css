@@ -482,16 +482,28 @@ h3 {
 
 	background-repeat: no-repeat;
 }
+.inschrijving-1ste h2 {
+	color: white;
+}
+.inschrijving-2detot6de-text h2 {
+	color: white;
+}
 .inschrijving-2detot6de-text {
 	margin-bottom: 20%;
+	margin-right: auto;
+
 	padding-top: 15%;
 	padding-bottom: 15%;
 	padding-left: 10%;
 	background-image: url("Images/Asset\ 13_2.png");
-	background-size: 65%;
+	background-size: 80%;
 	background-position: left;
 
 	background-repeat: no-repeat;
+}
+.inschrijving-2detot6de-text li {
+	font-weight: 400;
+	font-family: "Arial";
 }
 
 .leefregels-wrapper {
