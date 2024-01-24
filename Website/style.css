@@ -2,24 +2,24 @@
 body {
 	margin: 0;
 	padding: 0;
-    font-family: "pragmatica", sans-serif;
-    font-weight: 900;
-    font-style: normal;
+	font-family: "pragmatica", sans-serif;
+	font-weight: 900;
+	font-style: normal;
 	font-size: 14pt;
 }
 header {
 	position: relative;
 	width: 100%;
 }
-h3{
+h3 {
 	margin: 0;
 	font-size: 42pt;
 }
 a,
-p{
-    font-family: "Arial", sans-serif;
-    font-weight: 400;
-    margin: 0;
+p {
+	font-family: "Arial", sans-serif;
+	font-weight: 400;
+	margin: 0;
 }
 #header-homepage {
 	width: 100%;
@@ -52,7 +52,7 @@ nav a {
 	color: #eff3e8;
 }
 span {
-    font-size: 16pt;
+	font-size: 16pt;
 	text-decoration: none;
 	color: #eff3e8;
 }
@@ -84,83 +84,82 @@ span {
 	line-height: 1.4;
 	color: #fff;
 }
-.info-wrapper{
-    background-image: url("SVG/Asset\ 7.png");
-    background-repeat: no-repeat;
+.info-wrapper {
+	background-image: url("SVG/Asset\ 7.png");
+	background-repeat: no-repeat;
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 
-    position: relative;
-    margin-top: -300px;
+	position: relative;
+	margin-top: -300px;
 }
-.info-list{
-    display: flex;
-    align-items: center;
-    padding-bottom: 46px;
+.info-list {
+	display: flex;
+	align-items: center;
+	padding-bottom: 46px;
 }
-.info-list p{
-    font-size: 12pt;
+.info-list p {
+	font-size: 12pt;
 }
-.info-image{
-    display: flex;
-    align-items: center;
-    padding-left: 60px;     
+.info-image {
+	display: flex;
+	align-items: center;
+	padding-left: 60px;
 }
-.info-text{
-    padding: 0 280px 0 0px;
+.info-text {
+	padding: 0 280px 0 0px;
 }
-.info-title{
-    position: relative;
-    left: -280px;
-    bottom: -60px;
-    color: white;
+.info-title {
+	position: relative;
+	left: -280px;
+	bottom: -60px;
+	color: white;
 }
-.info-title h2{
-    width: 300px;
+.info-title h2 {
+	width: 300px;
 }
-#info-list-studieaanbod{
-    padding-left: 75px;
+#info-list-studieaanbod {
+	padding-left: 75px;
 }
-#info-list-studieaanbod .info-text{
-    padding-right: 205px;
+#info-list-studieaanbod .info-text {
+	padding-right: 205px;
 }
-#info-list-onze-school{
-    padding-top: 250px;
+#info-list-onze-school {
+	padding-top: 250px;
 }
-.quote-image{
-/*     position: relative; */
-     margin-top: -50px ; 
+.quote-image {
+	/*     position: relative; */
+	margin-top: -50px;
 }
-.quote-image img{
-    width: 100%;
+.quote-image img {
+	width: 100%;
 }
-#quote-image-text{
-    position: absolute;
-    margin-top: 30%; 
-    margin-left: 10%;
-    font-size: 56pt;
-    line-height: 1;
-    color: #ffffff;
+#quote-image-text {
+	position: absolute;
+	margin-top: 30%;
+	margin-left: 10%;
+	font-size: 56pt;
+	line-height: 1;
+	color: #ffffff;
 }
-.pijlers-wrapper{
+.pijlers-wrapper {
 	background-image: url("Images/Asset\ 31.png");
 	background-repeat: no-repeat;
 	background-size: 30%;
 
 	padding-top: 64px;
 }
-.pijlers-list{
-	
+.pijlers-list {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	padding-bottom: 32px;
 }
-.pijlers p{
+.pijlers p {
 	color: #000000;
-	
+
 	background-color: #cacaca;
 	padding: 100px 50px;
 	border-radius: 75px;
@@ -168,49 +167,50 @@ span {
 	width: 300px;
 	font-size: 12pt;
 }
-.pijlers img, h3{
+.pijlers img,
+h3 {
 	margin-bottom: -30px;
 	padding-right: 60px;
 	z-index: 1;
 }
-.pijlers img{
+.pijlers img {
 	width: 100px;
 	height: 100px;
 	margin-bottom: -50px;
 }
-.pijlers-list-header{
+.pijlers-list-header {
 	display: flex;
 	justify-content: space-between;
 	width: 400px;
 	align-items: flex-end;
 }
-#pijlers-list-taal{
+#pijlers-list-taal {
 	transform: rotate(3deg);
 	padding-left: 45%;
 }
-#pijlers-list-OLB{
+#pijlers-list-OLB {
 	transform: rotate(-3deg);
 	padding-right: 45%;
 	margin-top: -130px;
 }
-#pijlers-list-welzijn{
+#pijlers-list-welzijn {
 	transform: rotate(3deg);
 	padding-left: 35%;
 	margin-top: -130px;
 }
-#pijlers-list-header-welzijn{
+#pijlers-list-header-welzijn {
 	margin-left: 8%;
 }
-.background-bollen{
+.background-bollen {
 	padding-left: 15%;
 	margin-top: -100px;
 }
-.background-bollen img{
+.background-bollen img {
 	transform: rotate(-80deg);
 	width: 270px;
 	height: auto;
 }
-.footer-wrapper{
+.footer-wrapper {
 	background-image: url("images/Footer_2.svg");
 	background-repeat: no-repeat;
 	background-position: bottom 0px right 0px;
@@ -222,52 +222,51 @@ span {
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-evenly;
-	
 }
 .footer-list,
-.footer-logo{
+.footer-logo {
 	padding-bottom: 64px;
 }
-.footer-list a{
+.footer-list a {
 	display: block;
 	text-decoration: none;
 	color: #ffffff;
 	padding-top: 15px;
 }
-.footer-list p{
+.footer-list p {
 	text-align: center;
 	color: #ffffff;
 }
-.footer-logo img{
+.footer-logo img {
 	width: 400px;
 }
 
 .leefregels {
 	width: 90%;
 }
-.graad{
+.graad {
 	padding-bottom: 124px;
 }
 
-.title-graad{
+.title-graad {
 	width: 30%;
 	padding-bottom: 64px;
 	width: 50%;
 	padding-left: 30%;
 }
-.title-graad h3{
+.title-graad h3 {
 	padding: 0;
 }
-.info-graad{
+.info-graad {
 	width: 35%;
 	padding-left: 35%;
 	text-align: center;
 }
-.studierichtingen{
+.studierichtingen {
 	display: flex;
 	justify-content: space-between;
 }
-.jaar1-wrapper{
+.jaar1-wrapper {
 	background-image: url("SVG/Asset\ 11_1.svg");
 	background-repeat: no-repeat;
 	background-position: top left;
@@ -277,12 +276,12 @@ span {
 
 	position: relative;
 	margin-top: -500px;
-}  
+}
 .jaar1 {
 	padding-left: 4%;
 	padding-top: 50%;
 }
-.jaar2-wrapper{
+.jaar2-wrapper {
 	background-image: url("SVG/Asset\ 15.svg");
 	background-repeat: no-repeat;
 	background-position: top right;
@@ -291,21 +290,44 @@ span {
 	width: 35%;
 	height: 900px;
 
-
 	display: flex;
 	justify-content: flex-end;
 
 	position: relative;
-}  
+}
 .jaar2 {
 	padding-right: 15%;
 	padding-top: 20%;
 }
 
-.rooster{
+.rooster {
 	margin-top: -600px;
 	padding-left: 14%;
 }
-.rooster img{
+.rooster img {
 	width: 45%;
+}
+
+#header-inschrijvingen {
+	width: 100%;
+}
+#wegwijzers {
+	margin-left: 10%;
+	margin-right: 18%;
+	margin-top: 7%;
+	height: 500px;
+}
+
+.alinea1 {
+	display: flex;
+	flex-direction: row;
+}
+.inschrijving-1ste {
+	margin-right: 0;
+
+	padding-right: 10%;
+}
+.inschrijving-2tot6de {
+	margin-left: 10%;
+	margin-top: 20%;
 }
