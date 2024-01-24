@@ -6,6 +6,7 @@ body {
     font-weight: 900;
     font-style: normal;
 	font-size: 14pt;
+	overflow-x: hidden; /* deactiveerd horizontaal scrollen */
 }
 header {
 	position: relative;
@@ -97,6 +98,9 @@ span {
     margin-top: -300px;
 	padding-bottom: 200px;
 }
+.info{
+	padding-top: 62px;
+}
 .info-list{
     display: flex;
     align-items: center;
@@ -108,10 +112,10 @@ span {
 .info-image{
     display: flex;
     align-items: center;
-    padding-left: 6%;     
+    padding-left: 8%;     
 }
 .info-text{
-    padding: 0 310px 0 0px;
+    padding: 0 15% 0 0px;
 }
 .info-title{
     position: relative;
@@ -122,7 +126,6 @@ span {
 .info-title h2{
     width: 313px;
 	text-align: center;
-
 }
 #info-list-onze-school{
     padding-top: 15%;
@@ -131,10 +134,11 @@ span {
     padding-left: 75px;
 }
 #info-list-studieaanbod .info-text{
-    padding-right: 205px;
+    padding-right: 10%;
 }
 .quote-outer-wrapper{
 	position: relative;
+	margin-left: -2%;
 }
 .quote-image{
 	margin-top: -50px ; 
@@ -181,8 +185,8 @@ span {
 	z-index: 1;
 }
 .pijlers img{
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	margin-bottom: -50px;
 }
 .pijlers-list-header{
@@ -205,8 +209,11 @@ span {
 	padding-left: 35%;
 	margin-top: -130px;
 }
-#pijlers-list-header-welzijn{
+#pijlers-list-header-OLB{
 	margin-left: 8%;
+}
+#pijlers-list-header-welzijn{
+	padding-right: 5%;
 }
 .background-bollen{
 	padding-left: 15%;
@@ -251,7 +258,13 @@ span {
 .footer-list img{
 	padding-top: 10px;
 	width: 25px;
+	padding-right: 10px;
 }
+.footer-item {
+	display: flex;
+	align-self: center;
+}
+
 .leefregels {
 	width: 90%;
 }
@@ -318,11 +331,18 @@ span {
 	padding-right: 15%;
 	padding-top: 20%;
 }
-
+.rooster-wrapper{
+	background-image: url("Images/Asset\ 21.png");
+	background-repeat: no-repeat;
+	background-position: 95% 80%;
+}	
+#rooster-2degraad{
+	background-position: 5% 80%;
+}
 .rooster{
 	display: flex;
 	justify-content: center;
-	margin-top: -500px;
+	margin-top: -400px;
 }
 .rooster img{
 	width: 45%;
