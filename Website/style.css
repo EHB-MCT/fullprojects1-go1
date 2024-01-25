@@ -5,7 +5,7 @@ body {
 	font-family: "pragmatica", sans-serif;
 	font-weight: 900;
 	font-style: normal;
-	font-size: 1rem;
+	font-size: 2rem;
 	overflow-x: hidden; /* deactiveerd horizontaal scrollen */
 }
 p {
@@ -29,7 +29,7 @@ header .wave {
 }
 
 span {
-	font-size: 1rem;
+	font-size: 2rem;
 	text-align: center;
 	text-decoration: none;
 	color: #eff3e8;
@@ -59,14 +59,11 @@ p {
 	text-decoration: none;
 	color: #eff3e8;
 	text-align: center;
-
 	transition: all 0.3s ease-in-out;
 }
 .button-top a:hover {
 	background-color: #d13389;
 }
-
-
 
 header h1 {
 	position: absolute;
@@ -86,7 +83,7 @@ header h1 {
 	position: relative;
 	margin-top: -200px;
 }
-.info{
+.info {
 	margin-left: 28%;
 }
 .info-list {
@@ -225,12 +222,11 @@ header h1 {
 }
 .footer-list a {
 	display: block;
-    text-decoration: underline transparent 1pt;
-    transition: text-decoration .3s ease;
+	text-decoration: underline transparent 1pt;
+	transition: text-decoration 0.3s ease;
 	color: #ffffff;
-
 }
-.flex.row a:hover{
+.flex.row a:hover {
 	text-decoration-color: #fff;
 }
 .footer-list p {
@@ -249,20 +245,19 @@ header h1 {
 	align-self: center;
 }
 
-.flex{
+.flex {
 	display: flex;
 	flex-direction: column;
 }
 
-.flex.row{
+.flex.row {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-end;
 	padding: 15px 0;
 }
 
-
-#footer-homepage{
+#footer-homepage {
 	margin-top: -20%;
 }
 #footer-studieaanbod {
@@ -271,7 +266,7 @@ header h1 {
 #footer-leefregels {
 	margin-top: -30%;
 }
-#footer-contact{
+#footer-contact {
 	margin-top: -10%;
 }
 
@@ -444,9 +439,6 @@ header h1 {
 	z-index: 3;
 
 	background-repeat: no-repeat;
-
-
-	
 }
 .inschrijving-2detot6de-text li {
 	font-weight: 400;
@@ -487,7 +479,7 @@ header h1 {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.leefregels-wrapper{
+.leefregels-wrapper {
 	width: 1024px;
 	margin: 0 auto;
 	display: flex;
@@ -517,85 +509,84 @@ header h1 {
 	justify-content: center;
 	flex-wrap: wrap;
 }
-.infrastructuur-outer-wrapper{
+.infrastructuur-outer-wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	background-image: url("Images/Asset\ 21.png");
 	background-repeat: no-repeat;
 	background-position: 85% 35%;
 }
-.infrastructuur-outer-wrapper-right{
+.infrastructuur-outer-wrapper-right {
 	display: flex;
 	flex-wrap: wrap;
 	background-image: url("Images/Asset\ 21.png");
 	background-repeat: no-repeat;
 	background-position: 15% 15%;
 }
-.infrastructuur-wrapper{
+.infrastructuur-wrapper {
 	background-image: url("Images/Asset-inschrijving2_2.svg");
 	background-repeat: no-repeat;
 	background-position: top left;
-	background-size:50%;
+	background-size: 50%;
 
 	height: 1000px;
 	width: 100%;
 }
-.infrastructuur-wrapper-right{
+.infrastructuur-wrapper-right {
 	background-image: url("Images/Asset-Inschrijving-2.3.svg");
 	background-repeat: no-repeat;
 	background-position: top right;
-	background-size:50%;
+	background-size: 50%;
 	width: 100%;
 	height: 1000px;
-
 }
-.infrastructuur{
+.infrastructuur {
 	padding-top: 10%;
 	margin-left: 5%;
 }
-.infrastructuur img{
+.infrastructuur img {
 	width: 35%;
 	margin-top: 2rem;
 	border-radius: 35px;
 }
-.infrastructuur p{
+.infrastructuur p {
 	color: #fff;
 	width: 35%;
 }
-.infrastructuur h3{
+.infrastructuur h3 {
 	color: #fff;
 	width: 35%;
 	padding-bottom: 50px;
 }
-.infrastructuur-right{
+.infrastructuur-right {
 	display: flex;
 	justify-content: flex-end;
 	flex-wrap: wrap;
 	padding-top: 10%;
 }
-.infrastructuur-right img{
+.infrastructuur-right img {
 	width: 35%;
 	margin-top: 2rem;
 	border-radius: 35px;
 	margin-right: 5%;
 }
-.infrastructuur-right p{
+.infrastructuur-right p {
 	color: #fff;
 	width: 35%;
 	padding-left: 60%;
-	margin-right: 5% ;
+	margin-right: 5%;
 }
-.infrastructuur-right h3{
+.infrastructuur-right h3 {
 	width: 40%;
 	padding-left: 60%;
-	margin-right: 10% ;
+	margin-right: 10%;
 	color: #fff;
 	width: 100%;
 	padding-bottom: 50px;
 }
-#infrastructuur-wrapper-speelplaats{
+#infrastructuur-wrapper-speelplaats {
 	margin-top: -15%;
 }
-#infrastructuur-wrapper-bib{
+#infrastructuur-wrapper-bib {
 	margin-top: -15%;
 }
