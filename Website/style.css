@@ -445,10 +445,16 @@ h3 {
 	padding-top: 20%;
 	padding-left: 200px;
 	padding-right: 10%;
+	padding-bottom: 20%;
+	background-image: url("Images/Asset\ inschrijving2_1.png");
+	background-size: 120%;
+	background-position: left;
+
+	background-repeat: no-repeat;
 }
 .inschrijving-2tot6de {
-	margin-left: 10%;
-	margin-top: 20%;
+	margin-left: 5%;
+	margin-top: 20%;}
 .inschrijving-1ste h2 {
 	color: white;
 }
@@ -459,7 +465,7 @@ h3 {
 .inschrijving-2detot6de-text {
 	margin-bottom: 20%;
 	margin-right: auto;
-	margin-top: -300px;
+	margin-top: -500px;
 
 	padding-top: 15%;
 	padding-bottom: 15%;
@@ -470,6 +476,9 @@ h3 {
 	z-index: 3;
 
 	background-repeat: no-repeat;
+
+
+	
 }
 .inschrijving-2detot6de-text li {
 	font-weight: 400;
@@ -518,7 +527,7 @@ h3 {
 	padding-top: 150px;
 } */
 
-.leefregels-outer-wrapper {
+.leefregels-outer-wrapper {}
 =======
 .leefregels-wrapper{
 	width: 1024px;
