@@ -107,13 +107,13 @@ header h1 {
 	position: relative;
 	margin-top: -200px;
 }
+.info{
+	margin-left: 28%;
+}
 .info-list {
 	display: flex;
 	align-items: center;
 	padding-bottom: 46px;
-}
-.info-list p {
-	font-size: 12pt;
 }
 .info-image {
 	display: flex;
@@ -121,25 +121,20 @@ header h1 {
 	padding-left: 60px;
 }
 .info-text {
-	padding: 0 280px 0 0px;
+	padding: 0 10% 0 0px;
+	margin-left: -20%;
 }
-.info-title {
-	position: relative;
-	left: -280px;
-	bottom: -60px;
-	color: white;
-}
-.info-title h2 {
+.info-image h2 {
 	width: 300px;
+	margin-left: -47%;
+	margin-bottom: -25%;
+	color: #fff;
 }
 #info-list-studieaanbod {
 	padding-left: 75px;
 }
-#info-list-studieaanbod .info-text {
-	padding-right: 205px;
-}
 #info-list-onze-school {
-	padding-top: 250px;
+	padding-top: 20%;
 }
 #info-list-inschrijving {
 	padding-bottom: 100px;
@@ -234,12 +229,12 @@ header h1 {
 	height: auto;
 }
 .footer-wrapper {
-	z-index: 1;
+	z-index: 3;
 	background-image: url("images/Footer_2.svg");
 	background-repeat: no-repeat;
 	background-position: bottom 0px right 0px;
 	background-size: 100%;
-	height: 1000px;
+	height: 106vh;
 	width: 100%;
 	display: flex;
 	align-items: flex-end;
@@ -247,12 +242,17 @@ header h1 {
 }
 .footer-list,
 .footer-logo {
-	padding-bottom: 64px;
+	padding-bottom: 13vh;
 }
 .footer-list a {
 	display: block;
-	text-decoration: none;
+    text-decoration: underline transparent 1pt;
+    transition: text-decoration .3s ease;
 	color: #ffffff;
+
+}
+.flex.row a:hover{
+	text-decoration-color: #fff;
 }
 .footer-list p {
 	text-align: center;
@@ -284,17 +284,16 @@ header h1 {
 
 
 #footer-homepage{
-	margin-top: -30%;
+	margin-top: -20%;
 }
 #footer-studieaanbod {
-	margin-top: -30%;
+	margin-top: -20%;
 }
 #footer-leefregels {
 	margin-top: -30%;
 }
 #footer-contact{
-	margin-top: -20%;
-	z-index: ;
+	margin-top: -10%;
 }
 
 .leefregels {
