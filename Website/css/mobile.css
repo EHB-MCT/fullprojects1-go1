@@ -6,6 +6,9 @@
     .dropdown{
         visibility: hidden;
     }
+    ul{
+        list-style-type: none;
+    }
     body {
         font-size: 0.5rem;
         overflow-x: hidden; /* deactiveerd horizontaal scrollen */
