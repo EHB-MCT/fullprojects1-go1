@@ -5,7 +5,7 @@ body {
 	font-family: "pragmatica", sans-serif;
 	font-weight: 900;
 	font-style: normal;
-	font-size: 14pt;
+	font-size: 1rem;
 	overflow-x: hidden; /* deactiveerd horizontaal scrollen */
 }
 html {
@@ -14,36 +14,24 @@ html {
 header {
 	position: relative;
 	width: 100%;
+	height: 100vh;
+	background-image: url(Images/Header-Homepage.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
-.logo {
+
+header .wave {
 	position: absolute;
-	top: 30px;
-	left: 50px;
+	bottom: 0;
 }
-.logo img {
-	width: 30px;
-	height: auto;
-}
-nav {
-	position: absolute;
-	width: 950px;
-	top: 30px;
-	right: 50px;
-	display: flex;
-	justify-content: space-between;
-}
-nav a {
+
+span {
 	font-size: 16pt;
 	text-decoration: none;
 	color: #eff3e8;
 }
-span {
-    font-size: 16pt;
-	text-decoration: none;
-	color: #eff3e8;
-}
 
-h3{
+h3 {
 	margin: 0;
 	font-size: 42pt;
 }
@@ -62,35 +50,22 @@ p {
 	position: fixed;
 	bottom: 2%;
 	right: 2%;
-
 	font-family: "pragmatica", sans-serif;
 	text-decoration: none;
 	color: #eff3e8;
 	text-align: center;
 
-	transition: all .3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
-.button-top a:hover{
+.button-top a:hover {
 	background-color: #d13389;
 }
-#header-homepage {
-	width: 100%;
-}
-#white-header-wave {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-}
+
 .logo {
-	position: absolute;
-	top: 30px;
-	left: 50px;
+	width: auto;
+	height: 50px;
 }
-.logo img {
-	width: 30px;
-	height: auto;
-}
-svg{
+svg {
 	transform: rotateY(180deg);
 }
 .dropdown {
@@ -111,12 +86,11 @@ svg{
 .dropdown:hover .dropdown-content {
 	display: block;
 }
-.header-text {
+
+header h1 {
 	position: absolute;
-	top: 420px;
+	top: 400px;
 	right: 250px;
-}
-.header-text h1 {
 	font-size: 56pt;
 	line-height: 1.4;
 	color: #fff;
@@ -167,7 +141,7 @@ svg{
 #info-list-onze-school {
 	padding-top: 250px;
 }
-#info-list-inschrijving{
+#info-list-inschrijving {
 	padding-bottom: 100px;
 }
 #info-list-studieaanbod .info-text {
@@ -177,8 +151,8 @@ svg{
 	position: relative;
 	margin-left: -2%;
 }
-.quote-image{
-	margin-top: -50px ; 
+.quote-image {
+	margin-top: -50px;
 }
 .quote-image img {
 	width: 100%;
@@ -264,10 +238,8 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: bottom 0px right 0px;
 	background-size: 100%;
-
 	height: 1000px;
 	width: 100%;
-
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-evenly;
@@ -298,30 +270,30 @@ h3 {
 	display: flex;
 	align-self: center;
 }
-#footer-homepage{
+#footer-homepage {
 	margin-top: -30%;
 }
 #footer-studieaanbod {
 	margin-top: -30%;
 }
-#footer-leefregels{
+#footer-leefregels {
 	margin-top: -30%;
 }
 
 .leefregels {
 	width: 90%;
 }
-.quick-navigate-buttons-wrapper{
+.quick-navigate-buttons-wrapper {
 	display: flex;
 	justify-content: flex-end;
 	padding: 64px 0;
 }
-.quick-navigate-buttons{
+.quick-navigate-buttons {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
-.quick-navigate-buttons a{
+.quick-navigate-buttons a {
 	padding: 15px 30px;
 	margin: 0px 10px;
 	background-color: #e174ac;
@@ -332,12 +304,12 @@ h3 {
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-	
+
 	width: 120px;
 
-	transition: all .3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
-.quick-navigate-buttons a:hover{
+.quick-navigate-buttons a:hover {
 	width: 140px;
 	background-color: #d13389;
 }
@@ -345,7 +317,7 @@ h3 {
 	padding-bottom: 124px;
 }
 .graad ul li,
-.graad h4{
+.graad h4 {
 	color: #fff;
 }
 
@@ -365,7 +337,7 @@ h3 {
 }
 .studierichtingen {
 	background-image: url("Images/Shapes3-2.svg");
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
 	background-size: 50%;
 	background-position: 48% 10%;
 	display: flex;
@@ -407,7 +379,7 @@ h3 {
 	padding-top: 22%;
 }
 
-.rooster-wrapper{
+.rooster-wrapper {
 	background-image: url("Images/Asset\ 21.png");
 	background-repeat: no-repeat;
 	background-position: 95% 80%;
@@ -421,7 +393,7 @@ h3 {
 	justify-content: center;
 	margin-top: -400px;
 }
-.rooster img{
+.rooster img {
 	width: 45%;
 }
 #header-inschrijvingen {
@@ -453,8 +425,9 @@ h3 {
 	background-repeat: no-repeat;
 }
 .inschrijving-2tot6de {
-	margin-left: 5%;
-	margin-top: 20%;}
+	margin-left: 10%;
+	margin-top: 20%;
+}
 .inschrijving-1ste h2 {
 	color: white;
 }
@@ -476,9 +449,6 @@ h3 {
 	z-index: 3;
 
 	background-repeat: no-repeat;
-
-
-	
 }
 .inschrijving-2detot6de-text li {
 	font-weight: 400;
@@ -510,49 +480,39 @@ h3 {
 	margin-top: -400px;
 }
 
-.leefregels-wrapper{
+.leefregels-wrapper {
 	padding: 150px;
 	margin-bottom: 100px;
 }
-.leefregels-outer-wrapper{
+.leefregels-outer-wrapper {
 	background-image: url("Images/Asset23.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 }
-<<<<<<< HEAD
 
-.leefregels-row {
-}
-/* #leefregels-row-2{
-	padding-top: 150px;
-} */
-
-.leefregels-outer-wrapper {}
-=======
-.leefregels-wrapper{
+.leefregels-wrapper {
 	width: 1024px;
-	margin: 0 auto;
->>>>>>> a81b1d4e3c5849451ad2a2e9ecfa6fda68c9ec1d
+
 	display: flex;
 	flex-wrap: wrap;
 	padding-top: 100px;
 }
-.leefregels-wrapper img{
+.leefregels-wrapper img {
 	width: 70%;
 	padding-bottom: 100px;
-	transition: all .3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
-.leefregels-wrapper img:hover{
+.leefregels-wrapper img:hover {
 	width: 75%;
 }
-.image-row-1{
+.image-row-1 {
 	width: 50%;
 	height: 1500px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
-.image-row-2{
+.image-row-2 {
 	margin-top: 15%;
 	width: 50%;
 	height: 1500px;
@@ -560,7 +520,7 @@ h3 {
 	justify-content: center;
 	flex-wrap: wrap;
 }
-.maximumfactuur-alinea1{
+.maximumfactuur-alinea1 {
 	margin-left: 5%;
 	padding-left: 7%;
 	padding-right: 10%;
@@ -569,9 +529,8 @@ h3 {
 	background-image: url(Images/Asset\ 18.png);
 	background-repeat: no-repeat;
 	background-size: 48%;
-	
 }
-#kostenoverzicht-1ste-jaar{
+#kostenoverzicht-1ste-jaar {
 	height: 600px;
 	width: 100%;
 }
