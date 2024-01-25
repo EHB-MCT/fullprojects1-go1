@@ -108,7 +108,7 @@
 			<div class="contact-wrapper">
 				<div class="contact">
 					<div class="contact-form">
-						<form action="#">
+						<form action="#" class="form-contact">
 							<div class="contact-form">
 								<div class="form-row-name">
 									<label for="contact-form-name">Naam</label>
@@ -128,7 +128,7 @@
 								  </div>
 							</div>
 							<div class="send-button">
-								<button id="send-button">Verstuur</button>
+								<button  onclick="send()" id="send-button">Verstuur</button>
 							</div>
 							
 						</form>
@@ -174,5 +174,8 @@
 				</div>
 			</div>
 		</div>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script src="contact-form.js"></script>
+		
 	</body>
 </html>
