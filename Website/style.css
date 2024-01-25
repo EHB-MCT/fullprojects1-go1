@@ -86,37 +86,34 @@ header h1 {
 	position: relative;
 	margin-top: -200px;
 }
+.info{
+	margin-left: 28%;
+}
 .info-list {
 	display: flex;
 	align-items: center;
 	padding-bottom: 46px;
 }
-
 .info-image {
 	display: flex;
 	align-items: center;
 	padding-left: 60px;
 }
 .info-text {
-	padding: 0 280px 0 0px;
+	padding: 0 10% 0 0px;
+	margin-left: -20%;
 }
-.info-title {
-	position: relative;
-	left: -280px;
-	bottom: -60px;
-	color: white;
-}
-.info-title h2 {
+.info-image h2 {
 	width: 300px;
+	margin-left: -47%;
+	margin-bottom: -25%;
+	color: #fff;
 }
 #info-list-studieaanbod {
 	padding-left: 75px;
 }
-#info-list-studieaanbod .info-text {
-	padding-right: 205px;
-}
 #info-list-onze-school {
-	padding-top: 250px;
+	padding-top: 20%;
 }
 #info-list-inschrijving {
 	padding-bottom: 100px;
@@ -168,7 +165,7 @@ header h1 {
 	font-size: 12pt;
 }
 .pijlers img,
-h3 {
+.pijlers h3 {
 	margin-bottom: -30px;
 	padding-right: 60px;
 	z-index: 1;
@@ -211,11 +208,12 @@ h3 {
 	height: auto;
 }
 .footer-wrapper {
+	z-index: 3;
 	background-image: url("images/Footer_2.svg");
 	background-repeat: no-repeat;
 	background-position: bottom 0px right 0px;
 	background-size: 100%;
-	height: 1000px;
+	height: 106vh;
 	width: 100%;
 	display: flex;
 	align-items: flex-end;
@@ -223,13 +221,17 @@ h3 {
 }
 .footer-list,
 .footer-logo {
-	padding-bottom: 64px;
+	padding-bottom: 13vh;
 }
 .footer-list a {
 	display: block;
-	text-decoration: none;
+    text-decoration: underline transparent 1pt;
+    transition: text-decoration .3s ease;
 	color: #ffffff;
-	padding-top: 15px;
+
+}
+.flex.row a:hover{
+	text-decoration-color: #fff;
 }
 .footer-list p {
 	text-align: center;
@@ -239,7 +241,6 @@ h3 {
 	width: 400px;
 }
 .footer-list img {
-	padding-top: 10px;
 	width: 25px;
 	padding-right: 10px;
 }
@@ -247,14 +248,31 @@ h3 {
 	display: flex;
 	align-self: center;
 }
-#footer-homepage {
-	margin-top: -30%;
+
+.flex{
+	display: flex;
+	flex-direction: column;
+}
+
+.flex.row{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	padding: 15px 0;
+}
+
+
+#footer-homepage{
+	margin-top: -20%;
 }
 #footer-studieaanbod {
-	margin-top: -30%;
+	margin-top: -20%;
 }
 #footer-leefregels {
 	margin-top: -30%;
+}
+#footer-contact{
+	margin-top: -10%;
 }
 
 .leefregels {
@@ -469,10 +487,9 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: center;
 }
- 
 .leefregels-wrapper{
 	width: 1024px;
-
+	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 	padding-top: 100px;
@@ -499,4 +516,86 @@ h3 {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+}
+.infrastructuur-outer-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("Images/Asset\ 21.png");
+	background-repeat: no-repeat;
+	background-position: 85% 35%;
+}
+.infrastructuur-outer-wrapper-right{
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("Images/Asset\ 21.png");
+	background-repeat: no-repeat;
+	background-position: 15% 15%;
+}
+.infrastructuur-wrapper{
+	background-image: url("Images/Asset-inschrijving2_2.svg");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size:50%;
+
+	height: 1000px;
+	width: 100%;
+}
+.infrastructuur-wrapper-right{
+	background-image: url("Images/Asset-Inschrijving-2.3.svg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size:50%;
+	width: 100%;
+	height: 1000px;
+
+}
+.infrastructuur{
+	padding-top: 10%;
+	margin-left: 5%;
+}
+.infrastructuur img{
+	width: 35%;
+	margin-top: 2rem;
+	border-radius: 35px;
+}
+.infrastructuur p{
+	color: #fff;
+	width: 35%;
+}
+.infrastructuur h3{
+	color: #fff;
+	width: 35%;
+	padding-bottom: 50px;
+}
+.infrastructuur-right{
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	padding-top: 10%;
+}
+.infrastructuur-right img{
+	width: 35%;
+	margin-top: 2rem;
+	border-radius: 35px;
+	margin-right: 5%;
+}
+.infrastructuur-right p{
+	color: #fff;
+	width: 35%;
+	padding-left: 60%;
+	margin-right: 5% ;
+}
+.infrastructuur-right h3{
+	width: 40%;
+	padding-left: 60%;
+	margin-right: 10% ;
+	color: #fff;
+	width: 100%;
+	padding-bottom: 50px;
+}
+#infrastructuur-wrapper-speelplaats{
+	margin-top: -15%;
+}
+#infrastructuur-wrapper-bib{
+	margin-top: -15%;
 }
