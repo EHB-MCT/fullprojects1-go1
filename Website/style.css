@@ -434,7 +434,7 @@ h3 {
 	height: 500px;
 }
 
-.alinea1 {
+.inschrijvingen-alinea1 {
 	display: flex;
 	flex-direction: row;
 }
@@ -559,4 +559,19 @@ h3 {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+}
+.maximumfactuur-alinea1{
+	margin-left: 5%;
+	padding-left: 7%;
+	padding-right: 10%;
+	padding-top: 100px;
+	padding-bottom: 200px;
+	background-image: url(Images/Asset\ 18.png);
+	background-repeat: no-repeat;
+	background-size: 48%;
+	
+}
+#kostenoverzicht-1ste-jaar{
+	height: 600px;
+	width: 100%;
 }
