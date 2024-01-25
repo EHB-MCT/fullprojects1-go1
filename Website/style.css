@@ -485,12 +485,14 @@ h3 {
 .inschrijving-1ste h2 {
 	color: white;
 }
+
 .inschrijving-2detot6de-text h2 {
 	color: white;
 }
 .inschrijving-2detot6de-text {
 	margin-bottom: 20%;
 	margin-right: auto;
+	margin-top: -300px;
 
 	padding-top: 15%;
 	padding-bottom: 15%;
@@ -498,12 +500,38 @@ h3 {
 	background-image: url("Images/Asset\ 13_2.png");
 	background-size: 80%;
 	background-position: left;
+	z-index: 3;
 
 	background-repeat: no-repeat;
 }
 .inschrijving-2detot6de-text li {
 	font-weight: 400;
 	font-family: "Arial";
+}
+.inschrijving-2detot6de-text a {
+	color: #000000;
+}
+.inschrijving-2tot6de img {
+	height: 200px;
+}
+#asset20-inschrijvingen {
+	display: flex;
+	align-items: flex-end;
+
+	transform: scaleX(-1);
+
+	margin-left: auto;
+	transform: rotate(-80deg);
+}
+#asset21-inschrijvingen {
+	margin-top: -700px;
+	padding-bottom: 400px;
+	margin-left: 10%;
+}
+
+#asset13-inschrijvingen {
+	margin-left: 10%;
+	margin-top: -400px;
 }
 
 .leefregels-wrapper {
@@ -526,8 +554,7 @@ h3 {
 	padding: 150px;
 	margin-bottom: 100px;
 }
-#asset31-inschrijving {
-}
+
 .leefregels-row {
 }
 /* #leefregels-row-2{
