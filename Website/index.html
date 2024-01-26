@@ -6,8 +6,9 @@
 		<title>Go! Atheneum Emanuel Hiel</title>
 		<link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/mobile.css">
+<!--         <link rel="stylesheet" href="css/mobile.css"> -->
 		<link rel="shortcut icon" type="x-icon" href="Images/GO-Logo.png" />
+		<link rel="stylesheet" href="css/mobile-2.css">
 	</head>
 
 	<body>
@@ -68,23 +69,44 @@
 							<span></span>
 						</div>
 						<div class="off-screen-menu">
-							<ul>                                
-								<li><a href="wie-is-wie.html">Wie-is-wie</a></li>
-								<li><a href="studieaanbod.html">Studieaanbod</a></li>
-								<li><a href="https://schoolreglement.g-o.be/r/8_41756-1/?year=2022">Het GO!</a></li>
-                                <li><a href="schoolregelement.html">Schoolreglement</a></li>
-                                <li><a href="leefregels.html">Leefregels</a></li>
-                                <li><a href="basispijlers.html">De 3 basispijlers</a></li>
-								<li><a href="#">Maximum factuur</a></li>
-								<li><a href="infrastructuur.html">Infrastructuur</a></li>
-								<li><a href="#">Humaniora</a></li>
-                                <li><a href="#">Activiteiten</a></li>
-								<li><a href="#">Maximum factuur</a></li>
-                                <li><a href="Inschrijvingen.html">Inschrijvingen</a></li>
-								<li><a href="#">Hoe? Wanneer?</a></li>
-								<li><a href="studieaanbod.html">Studieaanbod</a></li>
-								<li><a href="#">Hospiteerlessen</a></li>
-							</ul>
+							<div class="dropdown-burger">
+								<span>Wie zijn we?</span>
+								<div class="dropdown-content">
+									<a href="wie-is-wie.html">Wie-is-wie</a>
+									<a href="studieaanbod.html">Studieaanbod</a>
+									<a href="https://schoolreglement.g-o.be/r/8_41756-1/?year=2022"
+										>Het GO!</a
+									>
+									<a href="schoolregelement.html">Schoolreglement</a>
+									<a href="leefregels.html">Leefregels</a>
+								</div>
+							</div>
+							<div class="dropdown-burger">
+								<span>Waarom Hiel?</span>
+								<div class="dropdown-content">
+									<a href="basispijlers.html">De 3 basispijlers</a>
+									<a href="#">Maximum factuur</a>
+									<a href="infrastructuur.html">Infrastructuur</a>
+									<a href="#">Humaniora</a>
+								</div>
+							</div>
+							<div class="dropdown-burger">
+								<span>Met Hiel op pad</span>
+								<div class="dropdown-content">
+									<a href="#">Activiteiten</a>
+									<a href="#">Maximum factuur</a>
+								</div>
+							</div>
+							<div class="dropdown-burger">
+								<span>Inschrijvingen</span>
+								<div class="dropdown-content">
+									<a href="Inschrijvingen.html">Inschrijvingen</a>
+									<a href="#">Hoe? Wanneer?</a>
+									<a href="studieaanbod.html">Studieaanbod</a>
+									<a href="#">Hospiteerlessen</a>
+									
+								</div>
+							</div>
 						</div>
 					</nav>
 					<script src="script.js"></script>
@@ -101,7 +123,9 @@
 				<div class="info">
 					<div class="info-list" id="info-list-onze-school">
 						<div class="info-image">
-							<img src="images/Onze-school.png" alt="" />
+							<div class="image-right-side">
+								<img src="images/Onze-school.png" alt="" />
+							</div>
 								<h2>Onze school</h2>
 						</div>
 						<div class="info-text">
@@ -129,9 +153,11 @@
 					</div>
 
 					<div class="info-list" id="info-list-studieaanbod">
-						<div class="info-image">
-							<img src="images/studieaanbod_1.png" alt="" />
-								<h2>Studieaanbod</h2>
+						<div class="info-image" >
+							<div class="image-left-side">
+								<img src="images/studieaanbod_1.png" alt="" />
+							</div>
+							<h2>Studieaanbod</h2>
 						</div>
 						<div class="info-text">
 							<p>
@@ -153,7 +179,10 @@
 
 					<div class="info-list" id="info-list-inschrijving">
 						<div class="info-image">
-							<img src="images/inschrijving.png" alt="" />
+							<div class="image-right-side">
+								<img src="images/inschrijving.png" alt="" />
+							</div>
+							
 							<h2>Inschrijving</h2>
 						</div>
 						<div class="info-text">
@@ -242,37 +271,40 @@
 				<div class="footer-logo">
 					<img src="images/GO!_VLA_Logo_2regels_WIT.png" alt="">
 				</div>
-				<div class="footer-list flex">
-					<div class="flex row">
-						<img src="Icons/Facebook_f_logo_(2019).svg">
-						<a href="https://www.facebook.com/KAEHiel/?locale=nl_NL">Facebook</a>
+				<!-- <div class="nogeendiv"> -->
+					<div class="footer-list flex">
+						<div class="flex row">
+							<img src="Icons/Facebook_f_logo_(2019).svg">
+							<a href="https://www.facebook.com/KAEHiel/?locale=nl_NL">Facebook</a>
+						</div>
+						<div class="flex row">
+							<img src="Icons/instagram-logo.webp">
+							<a href="https://www.instagram.com/atheneumhiel/">Instagram</a>                
+						</div>
+						<div class="flex row">
+							<img src="Icons/smartschool_logo.png">
+							<a href="https://kahiel.smartschool.be/login">Smartschool</a>                
+						</div>
+		
 					</div>
-					<div class="flex row">
-						<img src="Icons/instagram-logo.webp">
-						<a href="https://www.instagram.com/atheneumhiel/">Instagram</a>                
+					<div class="footer-list flex">
+						<div class="flex row">
+							<img src="Icons/Location-pin.svg">
+							<a href="https://maps.app.goo.gl/P8RWkq9mgJQYTn7M7">Charles Gillesquetlaan 34 <br>1030, Brussel</a>
+						</div>
+						<div class="flex row">
+							<img src="Icons/Phone.svg">
+							<a href="tel:022413108">02 241 31 08</a>
+						</div>
+						<div class="flex row">
+							<img src="Icons/Mail.svg">
+							<a href="mailto:info@kahiel.be">info@kahiel.be</a>
+						</div>
 					</div>
-					<div class="flex row">
-						<img src="Icons/smartschool_logo.png">
-						<a href="https://kahiel.smartschool.be/login">Smartschool</a>                
-					</div>
+				<!-- </div> -->
+				
 	
-				</div>
-				<div class="footer-list flex">
-					<div class="flex row">
-						<img src="Icons/Location-pin.svg">
-						<a href="https://maps.app.goo.gl/P8RWkq9mgJQYTn7M7">Charles Gillesquetlaan 34 <br>1030, Brussel</a>
-					</div>
-					<div class="flex row">
-						<img src="Icons/Phone.svg">
-						<a href="tel:022413108">02 241 31 08</a>
-					</div>
-					<div class="flex row">
-						<img src="Icons/Mail.svg">
-						<a href="mailto:info@kahiel.be">info@kahiel.be</a>
-					</div>
-				</div>
-	
-				<div class="footer-list flex">
+				<div class="footer-list flex" id="footer-navigation">
 					<div class="flex row"><p><strong>Menu</strong></p></div>
 					<div class="flex row"><a href="#">Wie zijn we?</a></div>
 					<div class="flex row"><a href="waarom-hiel.html">Waarom Hiel?</a></div>
