@@ -10,7 +10,7 @@
         list-style-type: none;
     }
     body {
-        font-size: 0.5rem;
+        font-size: 12pt;
         overflow-x: hidden; /* deactiveerd horizontaal scrollen */
     }
     header {
