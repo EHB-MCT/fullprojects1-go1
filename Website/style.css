@@ -820,6 +820,11 @@
 		height: 1200px;
 		width: 55%;
 	}
+	.instagram-post-outer-wrapper{
+		display: flex;
+		justify-content: space-around;
+	}
+
 	.schoolregelement{
 		display: flex;
 		justify-content: space-between;
