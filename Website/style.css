@@ -377,7 +377,7 @@
 
 	.jaar1 {
 		padding-left: 5%;
-		padding-top: 55%;
+		padding-top: 51%;
 	}
 	.jaar2-wrapper {
 		background-image: url("SVG/Asset\ 15.svg");
@@ -404,10 +404,55 @@
 	#rooster-2degraad {
 		background-position: 5% 80%;
 	}
+	table{
+		border-collapse: collapse;
+		min-width: 400px;		
+		border-radius: 75px;
+		overflow: hidden;
+		font-size: .95rem;
+	}
+	thead th{
+		background-color: #ea008937;
+		width: 50px;
+		color: #000000;
+	}
+	th,
+	td{
+		padding: 12px 15px;
+		text-align: center;
+		font-weight: 400;
+		height: 30px;
+	}
+
+	tbody tr td{
+		border: 1pt solid #fbb0ff;
+		border-right: none;
+	}
+	td{
+		font-weight: 400;
+		background-color: #ea008915;
+	}
+	#top-table-head th{
+		font-weight: Bold;
+		color: #fff;
+		font-size: 1.25rem;
+	}
+	td#vak{
+		width: 250px;
+		border: none;
+		background-color: #ea00892b;
+	}
+	#last-tablerow td{
+		border-bottom: none;
+	}
+	#Dubbele-Finaliteit{
+		margin-top: 64px;
+	}
 
 	.rooster {
 		display: flex;
-		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 		margin-top: -400px;
 	}
 	.rooster img {
@@ -814,36 +859,5 @@
 		width: 80%;
 		text-align: center;
 		color: #ffffff;
-	}
-
-	table{
-		border-collapse: collapse;
-		min-width: 400px;
-	}
-	thead th{
-		background-color: #ea008937;
-		font-weight: Bold;
-		width: 80px;
-		color: #000000;
-	}
-	th,
-	td{
-		padding: 12px 15px;
-		text-align: center;
-	}
-
-	tbody tr td{
-		border: 1pt solid #fbb0ff;
-	}
-	td{
-		font-weight: 400;
-		background-color: #ea008915;
-	}
-	#top-table-head th{
-		color: #fff;
-	}
-	td#vak{
-		width: 350px;
-		border-left: none;
 	}
 }
