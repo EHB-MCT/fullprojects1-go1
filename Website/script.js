@@ -8,6 +8,13 @@ hamMenu.addEventListener("click", () => {
 })
 
 
+function openForm() {
+    document.getElementById("infodag").style.display = "block";
+}
+  
+function closeForm() {
+    document.getElementById("infodag").style.display = "none";
+}
 
 
 

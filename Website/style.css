@@ -51,6 +51,9 @@
 		font-weight: 400;
 		margin: 0;
 	}
+/* 	.button-top{
+		width: 125px;
+	} */
 	.button-top a {
 		padding: 20px 40px;
 		background-color: #e174ac;
@@ -60,6 +63,7 @@
 		position: fixed;
 		bottom: 2%;
 		right: 2%;
+		width: 45px;
 		font-family: "pragmatica", sans-serif;
 		text-decoration: none;
 		color: #eff3e8;
@@ -69,7 +73,67 @@
 	.button-top a:hover {
 		background-color: #d13389;
 	}
-
+	.open-button {
+		padding: 20px 40px;
+		background-color: #e174ac;
+		border-radius: 60px;
+		color: #eff3e8;
+		font-family: "pragmatica", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 14pt;
+	
+		z-index: 3;
+		position: fixed;
+		bottom: 14%;
+		right: 2%;
+		width: 125px;
+		text-align: center;
+		border: none;
+		transition: all 0.3s ease-in-out;
+		
+	}
+	.open-button img{
+		width: 25px ;
+	}
+	.info-popup {
+		display: none;
+		position: fixed;
+		bottom: 2%;
+		right: 2%;
+		border: none;
+		z-index: 9;
+	} 
+	.infodag {
+		width: 400px;
+		padding: 25px;
+		background-color: #e174ac;
+		border-radius: 35px;
+		color: #eff3e8;
+	}
+	.infodag p{
+		padding-bottom: 16px;
+	}
+	.btn {
+		color: #e174ac;
+		padding: 16px 20px;
+		border: 1pt solid #e174ac;
+		width: 100%;
+		margin-bottom:10px;
+		border-radius: 45px;
+		transition: all 0.3s ease-in-out;
+	}
+	.cancel {
+		background-color: #eff3e8;
+	}
+	.btn:hover{
+		background-color: #e174ac;
+		color: #eff3e8;
+		border: 1pt solid #eff3e8;
+	}
+	.open-button:hover {
+		background-color: #d13389;
+	}
 	.header-title {
 		display: flex;
 		justify-content: flex-end;
@@ -90,14 +154,14 @@
 		padding-right: 10%;
 	}
 	#contact-button{
-		padding: 10px 25px;
+		padding: 15px 40px;
 		background-color: #e174ac;
 		border-radius: 35px;
 		transition: all 0.3s ease-in-out;
 	}
 	#contact-button:hover{
 		background-color: #d13389;
-		padding: 10px 35px;
+		padding: 15px 45px;
 	}
 	.info-wrapper {
 		background-image: url("SVG/Pink-side-wave-final.svg");
@@ -571,7 +635,7 @@
 		height: 353px;
 		margin-bottom: 100px;
 		box-shadow: 12px 12px 2px 1px #e174ac;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.5s ease-in-out;
 	}
 	.leefregels-wrapper img:hover{
 		transform:scale(1.5);
@@ -666,6 +730,83 @@
 		margin-top: -15%;
 	}
 	#infrastructuur-wrapper-bib {
+		margin-top: -15%;
+	}
+	.Basic-pillars-outer-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		background-image: url("Images/Asset\ 21.png");
+		background-position: 85% 35%;
+	}
+	.Basic-pillars-outer-wrapper-right {
+		display: flex;
+		flex-wrap: wrap;
+		background-image: url("Images/Asset\ 21.png");
+		background-position: 15% 15%;
+	}
+	.Basic-pillars-wrapper {
+		background-image: url("Images/Asset-inschrijving2_2.svg");
+		background-position: top left;
+		background-size: 50%;
+
+		height: 1000px;
+		width: 100%;
+	}
+	.Basic-pillars-wrapper-right {
+		background-image: url("Images/Asset-Inschrijving-2.3.svg");
+		background-position: top right;
+		background-size: 50%;
+		width: 100%;
+		height: 1000px;
+	}
+	.Basic-pillars {
+		padding-top: 10%;
+		margin-left: 5%;
+	}
+	.Basic-pillars img {
+		width: 35%;
+		margin-top: 2rem;
+		border-radius: 35px;
+	}
+	.Basic-pillars p {
+		color: #fff;
+		width: 35%;
+	}
+	.Basic-pillars h3 {
+		color: #fff;
+		width: 35%;
+		padding-bottom: 50px;
+	}
+	.Basic-pillars-right {
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+		padding-top: 10%;
+	}
+	.Basic-pillars-right img {
+		width: 35%;
+		margin-top: 2rem;
+		border-radius: 35px;
+		margin-right: 5%;
+	}
+	.Basic-pillars-right p {
+		color: #fff;
+		width: 35%;
+		padding-left: 60%;
+		margin-right: 5%;
+	}
+	.Basic-pillars-right h3 {
+		width: 40%;
+		padding-left: 60%;
+		margin-right: 10%;
+		color: #fff;
+		width: 100%;
+		padding-bottom: 50px;
+	}
+	#Basic-pillars-wrapper-speelplaats {
+		margin-top: -15%;
+	}
+	#Basic-pillars-wrapper-bib {
 		margin-top: -15%;
 	}
 	.info-leerlingbegeleiding-outer-wrapper{
@@ -859,7 +1000,7 @@
 		width: 35%;
 		height: 500px;
 
-		margin-top: 30%;
+		margin-top: 20%;
 		margin-right: 3%;
 	}
 	.schoolregelement-link-wrapper h2{
@@ -868,3 +1009,4 @@
 		color: #ffffff;
 	}
 }
+
