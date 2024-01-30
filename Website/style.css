@@ -1,1147 +1,1134 @@
-@media (min-width: 1024px) {
-	@import url("https://use.typekit.net/kxh3iir.css");
-	body {
-		margin: 0;
-		padding: 0;
-		font-family: "pragmatica", sans-serif;
-		font-weight: 900;
-		font-style: normal;
-		font-size: 14pt;
-		overflow-x: hidden; /* deactiveerd horizontaal scrollen */
-	}
-	p {
-		font-size: 14pt;
-	}
-	h4 {
-		font-size: 18pt;
-	}
-	li{
-		list-style: disk outside url("SVG/List-item.svg");
-		font-family: 'Arial', sans-serif;
-		font-weight: 400;
-		font-size: 14pt;
-	}
-	hr{
-		color: #eff3e8;
-		border-top: 1pt solid;
-	}
-	html {
-		scroll-behavior: smooth;
-	}
-	header {
-		position: relative;
-		width: 100%;
-		height: 115vh;
-		background-image: url("Images/Header-Homepage.png");
-		background-position: center;
-	}
-	div {
-		background-repeat: no-repeat;
-	}
-	header .wave {
-		position: absolute;
-		bottom: 0;
-	}
-	span {
-		font-size: 16pt;
-		text-align: center;
-		text-decoration: none;
-		color: #eff3e8;
-	}
-
-	h3 {
-		margin: 0;
-		font-size: 36pt;
-	}
-	h2 {
-		margin: 10px 0;
-	}
-
-	a,
-	p {
-		font-family: "Arial", sans-serif;
-		font-weight: 400;
-		margin: 0;
-	}
-	/* 	.button-top{
-		width: 125px;
-	} */
-	.button-top a {
-		padding: 15px 25px;
-		background-color: #e174ac;
-		border-radius: 60px;
-
-		z-index: 2;
-		position: fixed;
-		bottom: 2%;
-		right: 2%;
-		width: 45px;
-		font-family: "pragmatica", sans-serif;
-		text-decoration: none;
-		color: #eff3e8;
-		text-align: center;
-		transition: all 0.3s ease-in-out;
-	}
-	.button-top a:hover {
-		background-color: #d13389;
-	}
-	#close_pop_up {
-		float: right;
-		font-size: 12pt;
-		cursor: pointer;
-		transition: all 0.3s ease-in-out;
-	}
-	#pop_up {
-		z-index: 10;
-		width: 400px;
-		padding: 25px;
-		background-color: #e174ac;
-		border-radius: 35px;
-		color: #eff3e8;
-		position: absolute;
-		width: 400px;
-		padding: 25px;
-		height: 150px;
-		bottom: 2%;
-		right: 2%;
-		color: #eff3e8;
-		font-family: "pragmatica", sans-serif;
-		font-weight: 400;
-		font-style: normal;
-		font-size: 14pt;
-		transition: all 0.3s ease-in-out;
-	}
-	.row p {
-		padding: 10px 0;
-	}
-	#pop_up img {
-		width: 25px;
-	}
-	#close_pop_up:hover {
-		transform: scale(1.5);
-	}
-	.pop_up-inside {
-		display: flex;
-	}
-	.pop_up-text {
-		width: 200px;
-	}
-	.pop_up-asset {
-		width: 100px;
-		padding-top: 15px;
-	}
-	img#pop_up_asset {
-		width: 100px;
-		padding-left: 50%;
-	}
-	.header-title {
-		display: flex;
-		justify-content: flex-end;
-		align-items: flex-end;
-		margin-top: 25vh;
-		position: absolute;
-		top: 0;
-		right: 0;
-		font-size: 36pt;
-		line-height: 1.4;
-		color: #fff;
-		width: 100%;
-		height: 55vh;
-	}
-	.header-title h1 {
-		margin: 0;
-		padding-right: 10%;
-	}
-	#contact-button{
-		padding: 15px 40px;
-		background-color: #e174ac;
-		border-radius: 35px;
-		transition: all 0.3s ease-in-out;
-	}
-	#contact-button:hover {
-		background-color: #d13389;
-		padding: 15px 45px;
-	}
-	.info-wrapper {
-		background-image: url("SVG/Pink-side-wave-final.svg");
-		background-size: 30%;
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		position: relative;
-		margin-top: -200px;
-	}
-	.info {
-		margin-left: 28%;
-	}
-	.info-list {
-		display: flex;
-		align-items: center;
-		padding-bottom: 46px;
-	}
-	.info-image {
-		display: flex;
-		align-items: center;
-		padding-left: 60px;
-	}
-	.info-text {
-		padding: 0 10% 0 0px;
-		margin-left: -20%;
-	}
-	.info-image h2 {
-		width: 300px;
-		margin-left: -47%;
-		margin-bottom: -25%;
-		color: #fff;
-	}
-	#info-list-studieaanbod {
-		padding-left: 75px;
-	}
-	#info-list-onze-school {
-		padding-top: 25%;
-	}
-	#info-list-inschrijving {
-		padding-bottom: 100px;
-	}
-	#info-list-studieaanbod .info-text {
-		padding-right: 10%;
-	}
-	.quote-outer-wrapper {
-		position: relative;
-		margin-left: -2%;
-	}
-	.quote-image {
-		margin-top: -50px;
-	}
-	.quote-image img {
-		width: 100%;
-	}
-	#quote-image-text {
-		position: absolute;
-		z-index: 1;
-		margin-top: 30%;
-		margin-left: 10%;
-		font-size: 56pt;
-		line-height: 1;
-		color: #ffffff;
-	}
-	.pijlers-wrapper {
-		background-image: url("Images/Shapes2-3.svg");
-		background-size: 25%;
-		background-position: 45% 35%;
-		padding-top: 64px;
-	}
-	.pijlers-list {
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		padding-bottom: 32px;
-	}
-	.pijlers p {
-		color: #000000;
-
-		background-color: #cacaca;
-		padding: 100px 50px;
-		border-radius: 75px;
-
-		width: 300px;
-		font-size: 12pt;
-	}
-	.pijlers img,
-	.pijlers h3 {
-		margin-bottom: -30px;
-		padding-right: 60px;
-		z-index: 1;
-	}
-	.pijlers img {
-		width: 100px;
-		height: 100px;
-		margin-bottom: -50px;
-	}
-	.pijlers-list-header {
-		display: flex;
-		justify-content: space-between;
-		width: 400px;
-		align-items: flex-end;
-	}
-	#pijlers-list-taal {
-		transform: rotate(3deg);
-		padding-left: 35%;
-	}
-	#pijlers-list-OLB {
-		transform: rotate(-3deg);
-		padding-right: 35%;
-		margin-top: -130px;
-	}
-	#pijlers-list-welzijn {
-		transform: rotate(3deg);
-		padding-left: 35%;
-		margin-top: -130px;
-	}
-	#pijlers-list-header-welzijn {
-		margin-left: 8%;
-	}
-	.background-bollen {
-		padding-left: 15%;
-		margin-top: -100px;
-	}
-	.background-bollen img {
-		transform: rotate(-80deg);
-		width: 21%;
-		height: auto;
-	}
-	.footer-wrapper {
-		z-index: 3;
-		background-image: url("images/Footer_2.svg");
-		background-position: bottom 0px right 0px;
-		background-size: 100%;
-		height: 160vh;
-		width: 100%;
-		display: flex;
-		align-items: flex-end;
-		justify-content: space-evenly;
-	}
-	.footer-list,
-	.footer-logo {
-		padding-bottom: 3%;
-	}
-	.footer-list a {
-		display: block;
-		text-decoration: underline transparent 1pt;
-		transition: text-decoration 0.3s ease;
-		color: #ffffff;
-	}
-	.flex.row a:hover {
-		text-decoration-color: #fff;
-	}
-	.footer-list p {
-		text-align: center;
-		color: #ffffff;
-	}
-	.footer-logo img {
-		width: 400px;
-	}
-	.footer-list img {
-		width: 25px;
-		padding-right: 10px;
-	}
-	.footer-item {
-		display: flex;
-		align-self: center;
-	}
-
-	.flex {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.flex.row {
-		display: flex;
-		flex-direction: row;
-		align-items: flex-end;
-		padding: 15px 0;
-	}
-
-	#footer-homepage {
-		margin-top: -50%;
-	}
-	#footer-studieaanbod {
-		margin-top: -45%;
-	}
-	#footer-leefregels {
-		margin-top: -45%;
-	}
-	#footer-contact {
-		margin-top: -35%;
-	}
-	#footer-leerlingbegeleiding {
-		margin-top: -55%;
-	}
-	#footer-schoolregelement{
-		margin-top: -55%;
-	}
-	#footer-infrastructuur {
-		margin-top: -50%;
-	}
-	#footer-max-factuur {
-		margin-top: -60%;
-	}
-	#footer-hospiteerlessen{
-		margin-top: -55%;
-	}
-	#footer-basispijlers{
-		margin-top: -55%;
-	}
-
-	.leefregels {
-		width: 90%;
-	}
-	.quick-navigate-buttons-wrapper {
-		display: flex;
-		justify-content: flex-end;
-		padding: 64px 0;
-	}
-	.quick-navigate-buttons {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-	}
-	.quick-navigate-buttons a {
-		padding: 15px 30px;
-		margin: 0px 10px;
-		background-color: #e174ac;
-		border-radius: 25px;
-
-		font-family: "pragmatica", sans-serif;
-		font-weight: 900;
-		color: #fff;
-		text-decoration: none;
-		text-align: center;
-
-		width: 120px;
-
-		transition: all 0.3s ease-in-out;
-	}
-	.quick-navigate-buttons a:hover {
-		width: 140px;
-		background-color: #d13389;
-	}
-	.graad {
-		padding-bottom: 124px;
-	}
-	.graad ul li,
-	.graad h4 {
-		color: #fff;
-	}
-
-	.title-graad {
-		width: 30%;
-		padding-bottom: 64px;
-		width: 50%;
-		padding-left: 29%;
-	}
-	.title-graad h3 {
-		padding: 0;
-	}
-	.info-graad {
-		width: 35%;
-		padding-left: 30%;
-		text-align: left;
-	}
-	.studierichtingen {
-		background-image: url("Images/Shapes3-2.svg");
-		background-size: 50%;
-		background-position: 48% 10%;
-		display: flex;
-		justify-content: space-between;
-	}
-	.jaar1-wrapper {
-		background-image: url("SVG/Asset\ 11_1.svg");
-		background-position: top left;
-		background-size: 400px;
-
-		width: 40%;
-
-		position: relative;
-
-		margin-top: -275px;
-	}
-
-	.jaar1 {
-		padding-left: 5%;
-		padding-top: 51%;
-	}
-	.jaar2-wrapper {
-		background-image: url("SVG/Asset\ 15.svg");
-		background-position: top right;
-		background-size: 475px;
-
-		width: 35%;
-		height: 900px;
-
-		display: flex;
-		justify-content: flex-end;
-
-		position: relative;
-	}
-	.jaar2 {
-		padding-right: 15%;
-		padding-top: 22%;
-	}
-
-	.rooster-wrapper {
-		background-image: url("Images/Asset\ 21.png");
-		background-position: 95% 80%;
-	}
-	#rooster-2degraad {
-		background-position: 5% 80%;
-	}
-	table {
-		border-collapse: collapse;
-		min-width: 400px;
-		border-radius: 75px;
-		overflow: hidden;
-		font-size: 0.95rem;
-	}
-	thead th {
-		background-color: #ea008937;
-		width: 50px;
-		color: #000000;
-	}
-	th,
-	td {
-		padding: 12px 15px;
-		text-align: center;
-		font-weight: 400;
-		height: 30px;
-	}
-
-	tbody tr td {
-		border: 1pt solid #fbb0ff;
-		border-right: none;
-	}
-	td {
-		font-weight: 400;
-		background-color: #ea008915;
-	}
-	#top-table-head th {
-		font-weight: Bold;
-		color: #fff;
-		font-size: 1.25rem;
-	}
-	td#vak {
-		width: 250px;
-		border: none;
-		background-color: #ea00892b;
-	}
-	#last-tablerow td {
-		border-bottom: none;
-	}
-	#Dubbele-Finaliteit {
-		margin-top: 64px;
-	}
-
-	.rooster {
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		margin-top: -400px;
-	}
-	.rooster img {
-		width: 45%;
-	}
-	.header-wrapper-inschrijvingen {
-		header {
-			position: relative;
-			width: 100%;
-			height: 100vh;
-			background-image: url(Images/inschrijvingen1.png);
-			/* background-position: center; */
-		}
-	}
-	#wegwijzers {
-		margin-left: 10%;
-		margin-right: 5%;
-		margin-top: 7%;
-		height: 500px;
-	}
-	#info-open-class-days {
-		margin-left: 5%;
-		margin-right: 7.5%;
-		height: 800px;
-	}
-
-	.inschrijvingen-alinea1 {
-		display: flex;
-		flex-direction: row;
-	}
-	.inschrijving-1ste {
-		margin-top: -300px;
-		margin-left: auto;
-		z-index: 1;
-		padding-top: 20%;
-		padding-left: 200px;
-		padding-right: 10%;
-		padding-bottom: 20%;
-		background-image: url("Images/Asset\ inschrijving2_1.png");
-		background-size: 120%;
-		background-position: left;
-	}
-	.inschrijving-2tot6de {
-		margin-left: 10%;
-		margin-top: 20%;
-	}
-	.inschrijving-1ste h2 {
-		color: white;
-	}
-
-	.inschrijving-2detot6de-text h2 {
-		color: white;
-	}
-	.inschrijving-2detot6de-text {
-		margin-bottom: 10%;
-		margin-right: auto;
-		margin-top: -500px;
-
-		padding-top: 15%;
-		padding-bottom: 15%;
-		padding-left: 10%;
-		background-image: url("Images/Asset\ 13_2.png");
-		background-size: 80%;
-		background-position: left;
-		z-index: 3;
-	}
-	.info-open-class-day-text {
-		margin-bottom: 10%;
-		margin-right: auto;
-		margin-top: -500px;
-
-		padding-top: 16%;
-		padding-bottom: 16%;
-		padding-left: 10%;
-		background-image: url("Images/Asset\ 13_2.png");
-		background-size: 60%;
-		background-position: left;
-		z-index: 3;
-	}
-	.inschrijving-2detot6de-text li {
-		font-weight: 400;
-		font-family: "Arial";
-	}
-	.inschrijving-2detot6de-text a {
-		color: #000000;
-	}
-
-	.inschrijving-2tot6de img {
-		height: 200px;
-	}
-	#asset20-inschrijvingen {
-		display: flex;
-		align-items: flex-end;
-
-		transform: scaleX(-1);
-
-		margin-left: auto;
-		transform: rotate(-80deg);
-	}
-	#asset21-inschrijvingen {
-		margin-top: -700px;
-		padding-bottom: 400px;
-		margin-left: 10%;
-	}
-
-	#asset13-inschrijvingen {
-		margin-left: 10%;
-		margin-top: -400px;
-	}
-	#info-open-class-days {
-		margin-left: 5%;
-		margin-right: 7.5%;
-		height: 800px;
-	}
-
-	.info-open-class-days-wrapper {
-		display: flex;
-		flex-direction: row;
-	}
-	.info-open-class-days {
-		margin-top: -300px;
-		margin-left: auto;
-		z-index: 1;
-		padding-top: 20%;
-		padding-left: 200px;
-		padding-right: 10%;
-		padding-bottom: 20%;
-		background-image: url("Images/Asset\ inschrijving2_1.png");
-		background-size: 120%;
-		background-position: left;
-	}
-	.info-open-class-days-two {
-		margin-left: 10%;
-		margin-top: 20%;
-	}
-	.info-open-class-days h2 {
-		color: white;
-	}
-
-	.info-open-class-day-text h2 {
-		color: white;
-	}
-	.info-open-class-day-text {
-		margin-bottom: 10%;
-		margin-right: auto;
-		margin-top: -750px;
-
-		padding-top: 16%;
-		padding-bottom: 16%;
-		padding-left: 10%;
-		background-image: url("Images/Asset\ 13_2.png");
-		background-size: 60%;
-		background-position: left;
-		z-index: 3;
-	}
-	.info-open-class-day-text li {
-		font-weight: 400;
-		font-family: "Arial";
-	}
-	.info-open-class-day-text a {
-		color: #000000;
-	}
-
-	.info-open-class-days-two img {
-		height: 200px;
-	}
-	#asset20-info-open-class-days {
-		display: flex;
-		align-items: flex-end;
-
-		transform: scaleX(-1);
-
-		margin-left: auto;
-		transform: rotate(-80deg);
-	}
-	#asset21-info-open-class-days {
-		margin-top: -700px;
-		padding-bottom: 400px;
-		margin-left: 10%;
-	}
-
-	#asset13-info-open-class-days {
-		margin-left: 10%;
-		margin-top: -200px;
-	}
-
-	.leefregels-wrapper {
-		padding: 150px;
-		margin-bottom: 100px;
-	}
-	.leefregels-outer-wrapper {
-		background-image: url("Images/Asset23.svg");
-		background-position: center;
-	}
-	.leefregels-wrapper {
-		width: 1024px;
-		margin: 0 auto;
-		display: flex;
-		flex-wrap: wrap;
-		padding-top: 100px;
-	}
-	.leefregels-wrapper img {
-		width: 250px;
-		height: 353px;
-		margin-bottom: 100px;
-		box-shadow: 12px 12px 2px 1px #e174ac;
-		transition: all 0.5s ease-in-out;
-	}
-	.leefregels-wrapper img:hover {
-		transform: scale(1.5);
-	}
-	.image-row-1 {
-		width: 50%;
-		height: 1500px;
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-	}
-	.image-row-2 {
-		margin-top: 15%;
-		width: 50%;
-		height: 1500px;
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-	}
-	.infrastructuur-outer-wrapper {
-		display: flex;
-		flex-wrap: wrap;
-		background-image: url("Images/Asset\ 21.png");
-		background-position: 85% 35%;
-	}
-	.infrastructuur-outer-wrapper-right {
-		display: flex;
-		flex-wrap: wrap;
-		background-image: url("Images/Asset\ 21.png");
-		background-position: 15% 15%;
-	}
-	.infrastructuur-wrapper {
-		background-image: url("Images/Asset-inschrijving2_2.svg");
-		background-position: top left;
-		background-size: 50%;
-
-		height: 1000px;
-		width: 100%;
-	}
-	.infrastructuur-wrapper-right {
-		background-image: url("Images/Asset-Inschrijving-2.3.svg");
-		background-position: top right;
-		background-size: 50%;
-		width: 100%;
-		height: 1000px;
-	}
-	.infrastructuur {
-		padding-top: 10%;
-		margin-left: 5%;
-	}
-	.infrastructuur img {
-		width: 35%;
-		margin-top: 2rem;
-		border-radius: 35px;
-	}
-	.infrastructuur p {
-		color: #fff;
-		width: 35%;
-	}
-	.infrastructuur h3 {
-		color: #fff;
-		width: 35%;
-		padding-bottom: 50px;
-	}
-	.infrastructuur-right {
-		display: flex;
-		justify-content: flex-end;
-		flex-wrap: wrap;
-		padding-top: 10%;
-	}
-	.infrastructuur-right img {
-		width: 35%;
-		margin-top: 2rem;
-		border-radius: 35px;
-		margin-right: 5%;
-	}
-	.infrastructuur-right p {
-		color: #fff;
-		width: 35%;
-		padding-left: 60%;
-		margin-right: 5%;
-	}
-	.infrastructuur-right h3 {
-		width: 40%;
-		padding-left: 60%;
-		margin-right: 10%;
-		color: #fff;
-		width: 100%;
-		padding-bottom: 50px;
-	}
-	#infrastructuur-wrapper-speelplaats {
-		margin-top: -15%;
-	}
-	#infrastructuur-wrapper-bib {
-		margin-top: -15%;
-	}
-	.Basic-pillars-outer-wrapper {
-		display: flex;
-		flex-wrap: wrap;
-		background-image: url("Images/Asset\ 21.png");
-		background-position: 85% 35%;
-	}
-	.Basic-pillars-outer-wrapper-right {
-		display: flex;
-		flex-wrap: wrap;
-		background-image: url("Images/Asset\ 21.png");
-		background-position: 15% 15%;
-	}
-	.Basic-pillars-wrapper {
-		background-image: url("Images/Asset-inschrijving2_2.svg");
-		background-position: top left;
-		background-size: 50%;
-
-		height: 1000px;
-		width: 100%;
-	}
-	.Basic-pillars-wrapper-right {
-		background-image: url("Images/Asset-Inschrijving-2.3.svg");
-		background-position: top right;
-		background-size: 50%;
-		width: 100%;
-		height: 1000px;
-	}
-	.Basic-pillars {
-		padding-top: 10%;
-		margin-left: 5%;
-	}
-	.Basic-pillars img {
-		width: 35%;
-		margin-top: 2rem;
-		border-radius: 35px;
-	}
-	.Basic-pillars p {
-		color: #fff;
-		width: 35%;
-	}
-	.Basic-pillars h3 {
-		color: #fff;
-		width: 35%;
-		padding-bottom: 50px;
-	}
-	.Basic-pillars-right {
-		display: flex;
-		justify-content: flex-end;
-		flex-wrap: wrap;
-		padding-top: 10%;
-	}
-	.Basic-pillars-right img {
-		width: 35%;
-		margin-top: 2rem;
-		border-radius: 35px;
-		margin-right: 5%;
-	}
-	.Basic-pillars-right p {
-		color: #fff;
-		width: 35%;
-		padding-left: 60%;
-		margin-right: 5%;
-	}
-	.Basic-pillars-right h3 {
-		width: 40%;
-		padding-left: 60%;
-		margin-right: 10%;
-		color: #fff;
-		width: 100%;
-		padding-bottom: 50px;
-	}
-	#Basic-pillars-wrapper-speelplaats {
-		margin-top: -15%;
-	}
-	#Basic-pillars-wrapper-bib {
-		margin-top: -15%;
-	}
-	.info-leerlingbegeleiding-outer-wrapper {
-		background-image: url("Images/Asset\ 27.png");
-		background-position: 80% 0%;
-		background-size: 15%;
-	}
-	.info-leerlingbegeleiding {
-		background-image: url("SVG/Asset\ 26.svg");
-		background-position: top left;
-		background-size: 850px;
-
-		height: 500px;
-
-		margin-top: 100px;
-	}
-	.info-leerlingbegeleiding-text {
-		display: flex;
-		align-items: center;
-		width: 50%;
-		height: 500px;
-	}
-	.info-leerlingbegeleiding p {
-		color: #fff;
-		width: 65%;
-		margin-left: 5%;
-	}
-	.info-leerlingbegeleiding-wrapper {
-		display: flex;
-		justify-content: space-around;
-	}
-	.info-kader {
-		width: 40%;
-		transform: rotate(-6deg);
-		margin-left: 10%;
-	}
-	.info-kader img {
-		transform: rotate(6deg);
-		margin-bottom: -10%;
-		margin-left: 75%;
-		width: 25%;
-	}
-	.info-kader-text {
-		background-color: #cacaca;
-		padding: 70px 15px;
-		border-radius: 75px;
-		width: 90%;
-	}
-	.info-kader-text ul li {
-		font-family: "Ariel", sans-serif;
-		font-weight: 400;
-	}
-	.info-kader-text H4 {
-		font-size: 16pt;
-		font-family: "Ariel", sans-serif;
-		font-weight: 400;
-		text-align: center;
-	}
-
-	.info-leerlingbegeleiding-2 {
-		background-image: url("SVG/Asset-28.svg");
-		background-position: top right;
-		background-size: 800px;
-
-		height: 800px;
-		width: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: flex-end;
-	}
-	.info-leerlingbegeleiding-2 p {
-		color: #fff;
-		width: 48%;
-		margin-right: 5%;
-	}
-	.background2 {
-		background-image: url("SVG/Asset\ 16.svg");
-		background-size: 20%;
-		background-position: center left;
-		height: 500px;
-	}
-	.wrapper-maximumfactuur {
-		position: relative;
-		margin-top: -400px;
-	}
-	.maximumfactuur-alinea1 {
-		margin-left: 5%;
-		margin-right: 5%;
-		padding-left: 7%;
-		padding-right: 10%;
-		margin-top: 400px;
-		padding-top: 100px;
-		padding-bottom: 300px;
-		background-image: url("Images/Asset\ 18.png");
-		background-size: 50%;
-		z-index: 1;
-	}
-	.kostenoverzichten {
-		margin-left: 50%;
-		margin-top: -40%;
-
-		padding-left: 5%;
-		padding-right: 0%;
-		margin-right: 10%;
-		padding-bottom: 10%;
-		padding-top: 10%;
-		background-image: url("Images/Asset\ 19.png");
-		background-size: 80%;
-		background-position: center;
-	}
-	.asset8-maximumfactuur {
-		margin-left: 40%;
-		height: 200px;
-		width: auto;
-		margin-top: -2000vh;
-	}
-	#kosten1 {
-		height: 800px;
-		width: 100%;
-	}
-	#kosten2 {
-		height: 800px;
-		width: 100%;
-	}
-	#kosten3 {
-		height: 800px;
-		width: 100%;
-	}
-	#kosten4 {
-		height: 800px;
-		width: 100%;
-	}
-	#kosten5 {
-		height: 800px;
-		width: 100%;
-	}
-	#kosten6 {
-		height: 800px;
-		width: 100%;
-	}
-	.kostenoverzichten {
-		padding-left: 10%;
-	}
-	.facebook-page-outer-wrapper {
-		background-image: url("Images/Asset\ 21.png");
-		background-position: 95% 55%;
-	}
-	.facebook-page-wrapper {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-		background-image: url("Images/Asset-inschrijving2_2.svg");
-		background-size: 100%;
-		background-position: left;
-
-		height: 1200px;
-		width: 55%;
-	}
-	.instagram-post-outer-wrapper{
-		display: flex;
-		padding: 0 5%;
-		justify-content: space-evenly;
-		background-image: url("SVG/Asset-socials_3.svg");
-		background-position: 50%;
-		background-size: 45%;
-	}
-	.schoolregelement{
-		display: flex;
-		justify-content: space-between;
-		margin-top: -100px;
-	}
-	.schoolregelement-wrapper {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-		background-image: url("Images/Asset-inschrijving2_2.svg");
-		background-size: 100%;
-		background-position: left;
-
-		height: 1200px;
-		width: 55%;
-	}
-	.schoolregelement-wrapper p {
-		width: 70%;
-		color: #ffffff;
-	}
-	.schoolregelement-link-wrapper {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-
-		background-image: url("Images/Asset\ 19.png");
-		background-size: 100%;
-		background-position: top right;
-
-		width: 35%;
-		height: 500px;
-
-		margin-top: 20%;
-		margin-right: 3%;
-	}
-	.schoolregelement-link-wrapper h2 {
-		width: 80%;
-		text-align: center;
-		color: #ffffff;
-	}
+@import url("https://use.typekit.net/kxh3iir.css");
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "pragmatica", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 14pt;
+	overflow-x: hidden; /* deactiveerd horizontaal scrollen */
+}
+p {
+	font-size: 14pt;
+}
+h4 {
+	font-size: 18pt;
+}
+li {
+	list-style: disk outside url("SVG/List-item.svg");
+	font-family: "Arial", sans-serif;
+	font-weight: 400;
+	font-size: 14pt;
+}
+hr {
+	color: #eff3e8;
+	border-top: 1pt solid;
+}
+html {
+	scroll-behavior: smooth;
+}
+header {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: url("Images/Header-Homepage.png");
+	background-position: center;
+}
+header h1 {
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	font-size: 3rem;
+	line-height: 1.4;
+	color: #fff;
+	width: 80%;
+}
+div {
+	background-repeat: no-repeat;
+}
+header .wave {
+	position: absolute;
+	bottom: 0;
+}
+.header-wrapper-inschrijvingen header {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: url(Images/inschrijvingen1.png);
+	/* background-position: center; */
 }
 
-	table {
-		border-collapse: collapse;
-		min-width: 400px;
-	}
-	thead th {
-		background-color: #ea008937;
-		font-weight: Bold;
-		width: 80px;
-		color: #000000;
-	}
-	th,
-	td {
-		padding: 12px 15px;
-		text-align: center;
-	}
+span {
+	font-size: 16pt;
+	text-align: center;
+	text-decoration: none;
+	color: #eff3e8;
+}
 
-	tbody tr td {
-		border: 1pt solid #fbb0ff;
-	}
-	td {
-		font-weight: 400;
-		background-color: #ea008915;
-	}
-	#top-table-head th {
-		color: #fff;
-	}
-	td#vak {
-		width: 350px;
-		border-left: none;
-	}
+h3 {
+	margin: 0;
+	font-size: 36pt;
+}
+h2 {
+	margin: 0 0;
+}
+
+a,
+p {
+	font-family: "Arial", sans-serif;
+	font-weight: 400;
+	margin: 0;
+}
+
+.button-top a {
+	padding: 15px 25px;
+	background-color: #e174ac;
+	border-radius: 60px;
+
+	z-index: 2;
+	position: fixed;
+	bottom: 2%;
+	right: 2%;
+	width: 45px;
+	font-family: "pragmatica", sans-serif;
+	text-decoration: none;
+	color: #eff3e8;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+}
+.button-top a:hover {
+	background-color: #d13389;
+}
+#close_pop_up {
+	float: right;
+	font-size: 12pt;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+#pop_up {
+	z-index: 10;
+	width: 400px;
+	padding: 25px;
+	background-color: #e174ac;
+	border-radius: 35px;
+	color: #eff3e8;
+	position: absolute;
+	width: 400px;
+	padding: 25px;
+	height: 150px;
+	bottom: 2%;
+	right: 2%;
+	color: #eff3e8;
+	font-family: "pragmatica", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14pt;
+	transition: all 0.3s ease-in-out;
+}
+.row p {
+	padding: 10px 0;
+}
+#pop_up img {
+	width: 25px;
+}
+#close_pop_up:hover {
+	transform: scale(1.5);
+}
+.pop_up-inside {
+	display: flex;
+}
+.pop_up-text {
+	width: 200px;
+}
+.pop_up-asset {
+	width: 100px;
+	padding-top: 15px;
+}
+img#pop_up_asset {
+	width: 100px;
+	padding-left: 50%;
+}
+
+#contact-button {
+	padding: 15px 40px;
+	background-color: #e174ac;
+	border-radius: 35px;
+	transition: all 0.3s ease-in-out;
+}
+#contact-button:hover {
+	background-color: #d13389;
+	padding: 15px 45px;
+}
+.info-wrapper {
+	background-image: url("SVG/Pink-side-wave-final.svg");
+	background-size: 30%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	margin-top: -200px;
+}
+.info {
+	margin-left: 28%;
+}
+.info-list {
+	display: flex;
+	align-items: center;
+	padding-bottom: 46px;
+}
+.info-image {
+	display: flex;
+	align-items: center;
+	padding-left: 60px;
+}
+.info-text {
+	padding: 0 10% 0 0px;
+	margin-left: -20%;
+}
+.info-image h2 {
+	width: 300px;
+	margin-left: -47%;
+	margin-bottom: -25%;
+	color: #fff;
+}
+#info-list-studieaanbod {
+	padding-left: 75px;
+}
+#info-list-onze-school {
+	padding-top: 25%;
+}
+#info-list-inschrijving {
+	padding-bottom: 100px;
+}
+#info-list-studieaanbod .info-text {
+	padding-right: 10%;
+}
+.quote-outer-wrapper {
+	position: relative;
+	margin-left: -2%;
+}
+.quote-image {
+	margin-top: -50px;
+}
+.quote-image img {
+	width: 100%;
+}
+#quote-image-text {
+	position: absolute;
+	z-index: 1;
+	margin-top: 30%;
+	margin-left: 10%;
+	font-size: 56pt;
+	line-height: 1;
+	color: #ffffff;
+}
+.pijlers-wrapper {
+	background-image: url("Images/Shapes2-3.svg");
+	background-size: 25%;
+	background-position: 45% 35%;
+	padding-top: 64px;
+}
+.pijlers-list {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 32px;
+}
+.pijlers p {
+	color: #000000;
+
+	background-color: #cacaca;
+	padding: 100px 50px;
+	border-radius: 75px;
+
+	width: 300px;
+	font-size: 12pt;
+}
+.pijlers img,
+.pijlers h3 {
+	margin-bottom: -30px;
+	padding-right: 60px;
+	z-index: 1;
+}
+.pijlers img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: -50px;
+}
+.pijlers-list-header {
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+	align-items: flex-end;
+}
+#pijlers-list-taal {
+	transform: rotate(3deg);
+	padding-left: 35%;
+}
+#pijlers-list-OLB {
+	transform: rotate(-3deg);
+	padding-right: 35%;
+	margin-top: -130px;
+}
+#pijlers-list-welzijn {
+	transform: rotate(3deg);
+	padding-left: 35%;
+	margin-top: -130px;
+}
+#pijlers-list-header-welzijn {
+	margin-left: 8%;
+}
+.background-bollen {
+	padding-left: 15%;
+	margin-top: -100px;
+}
+.background-bollen img {
+	transform: rotate(-80deg);
+	width: 21%;
+	height: auto;
+}
+.footer-wrapper {
+	z-index: 3;
+	background-image: url("images/Footer_2.svg");
+	background-position: bottom 0px right 0px;
+	background-size: 100%;
+	height: 160vh;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-evenly;
+}
+.footer-list,
+.footer-logo {
+	padding-bottom: 3%;
+}
+.footer-list a {
+	display: block;
+	text-decoration: underline transparent 1pt;
+	transition: text-decoration 0.3s ease;
+	color: #ffffff;
+}
+.flex.row a:hover {
+	text-decoration-color: #fff;
+}
+.footer-list p {
+	text-align: center;
+	color: #ffffff;
+}
+.footer-logo img {
+	width: 400px;
+}
+.footer-list img {
+	width: 25px;
+	padding-right: 10px;
+}
+.footer-item {
+	display: flex;
+	align-self: center;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex.row {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	padding: 15px 0;
+}
+
+#footer-homepage {
+	margin-top: -50%;
+}
+#footer-studieaanbod {
+	margin-top: -45%;
+}
+#footer-leefregels {
+	margin-top: -45%;
+}
+#footer-contact {
+	margin-top: -35%;
+}
+#footer-leerlingbegeleiding {
+	margin-top: -55%;
+}
+#footer-schoolregelement {
+	margin-top: -55%;
+}
+#footer-infrastructuur {
+	margin-top: -50%;
+}
+#footer-max-factuur {
+	margin-top: -60%;
+}
+#footer-hospiteerlessen {
+	margin-top: -55%;
+}
+#footer-basispijlers {
+	margin-top: -55%;
+}
+
+.leefregels {
+	width: 90%;
+}
+.quick-navigate-buttons-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	padding: 64px 0;
+}
+.quick-navigate-buttons {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.quick-navigate-buttons a {
+	padding: 15px 30px;
+	margin: 0px 10px;
+	background-color: #e174ac;
+	border-radius: 25px;
+
+	font-family: "pragmatica", sans-serif;
+	font-weight: 900;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+
+	width: 120px;
+
+	transition: all 0.3s ease-in-out;
+}
+.quick-navigate-buttons a:hover {
+	width: 140px;
+	background-color: #d13389;
+}
+.graad {
+	padding-bottom: 124px;
+}
+.graad ul li,
+.graad h4 {
+	color: #fff;
+}
+
+.title-graad {
+	width: 30%;
+	padding-bottom: 64px;
+	width: 50%;
+	padding-left: 29%;
+}
+.title-graad h3 {
+	padding: 0;
+}
+.info-graad {
+	width: 35%;
+	padding-left: 30%;
+	text-align: left;
+}
+.studierichtingen {
+	background-image: url("Images/Shapes3-2.svg");
+	background-size: 50%;
+	background-position: 48% 10%;
+	display: flex;
+	justify-content: space-between;
+}
+.jaar1-wrapper {
+	background-image: url("SVG/Asset\ 11_1.svg");
+	background-position: top left;
+	background-size: 400px;
+
+	width: 40%;
+
+	position: relative;
+
+	margin-top: -275px;
+}
+
+.jaar1 {
+	padding-left: 5%;
+	padding-top: 51%;
+}
+.jaar2-wrapper {
+	background-image: url("SVG/Asset\ 15.svg");
+	background-position: top right;
+	background-size: 475px;
+
+	width: 35%;
+	height: 900px;
+
+	display: flex;
+	justify-content: flex-end;
+
+	position: relative;
+}
+.jaar2 {
+	padding-right: 15%;
+	padding-top: 22%;
+}
+
+.rooster-wrapper {
+	background-image: url("Images/Asset\ 21.png");
+	background-position: 95% 80%;
+}
+#rooster-2degraad {
+	background-position: 5% 80%;
+}
+table {
+	border-collapse: collapse;
+	min-width: 400px;
+	border-radius: 75px;
+	overflow: hidden;
+	font-size: 0.95rem;
+}
+thead th {
+	background-color: #ea008937;
+	width: 50px;
+	color: #000000;
+}
+th,
+td {
+	padding: 12px 15px;
+	text-align: center;
+	font-weight: 400;
+	height: 30px;
+}
+
+tbody tr td {
+	border: 1pt solid #fbb0ff;
+	border-right: none;
+}
+td {
+	font-weight: 400;
+	background-color: #ea008915;
+}
+#top-table-head th {
+	font-weight: Bold;
+	color: #fff;
+	font-size: 1.25rem;
+}
+td#vak {
+	width: 250px;
+	border: none;
+	background-color: #ea00892b;
+}
+#last-tablerow td {
+	border-bottom: none;
+}
+#Dubbele-Finaliteit {
+	margin-top: 64px;
+}
+
+.rooster {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: -400px;
+}
+.rooster img {
+	width: 45%;
+}
+
+#wegwijzers {
+	margin-left: 10%;
+	margin-right: 5%;
+	margin-top: 7%;
+	height: 500px;
+}
+#info-open-class-days {
+	margin-left: 5%;
+	margin-right: 7.5%;
+	height: 800px;
+}
+
+.inschrijvingen-alinea1 {
+	display: flex;
+	flex-direction: row;
+}
+.inschrijving-1ste {
+	margin-top: -300px;
+	margin-left: auto;
+	z-index: 1;
+	padding-top: 20%;
+	padding-left: 200px;
+	padding-right: 10%;
+	padding-bottom: 20%;
+	background-image: url("Images/Asset\ inschrijving2_1.png");
+	background-size: 120%;
+	background-position: left;
+}
+.inschrijving-2tot6de {
+	margin-left: 10%;
+	margin-top: 20%;
+}
+.inschrijving-1ste h2 {
+	color: white;
+}
+
+.inschrijving-2detot6de-text h2 {
+	color: white;
+}
+.inschrijving-2detot6de-text {
+	margin-bottom: 10%;
+	margin-right: auto;
+	margin-top: -500px;
+
+	padding-top: 15%;
+	padding-bottom: 15%;
+	padding-left: 10%;
+	background-image: url("Images/Asset\ 13_2.png");
+	background-size: 80%;
+	background-position: left;
+	z-index: 3;
+}
+.info-open-class-day-text {
+	margin-bottom: 10%;
+	margin-right: auto;
+	margin-top: -500px;
+
+	padding-top: 16%;
+	padding-bottom: 16%;
+	padding-left: 10%;
+	background-image: url("Images/Asset\ 13_2.png");
+	background-size: 60%;
+	background-position: left;
+	z-index: 3;
+}
+.inschrijving-2detot6de-text li {
+	font-weight: 400;
+	font-family: "Arial";
+}
+.inschrijving-2detot6de-text a {
+	color: #000000;
+}
+
+.inschrijving-2tot6de img {
+	height: 200px;
+}
+#asset20-inschrijvingen {
+	display: flex;
+	align-items: flex-end;
+
+	transform: scaleX(-1);
+
+	margin-left: auto;
+	transform: rotate(-80deg);
+}
+#asset21-inschrijvingen {
+	margin-top: -700px;
+	padding-bottom: 400px;
+	margin-left: 10%;
+}
+
+#asset13-inschrijvingen {
+	margin-left: 10%;
+	margin-top: -400px;
+}
+#info-open-class-days {
+	margin-left: 5%;
+	margin-right: 7.5%;
+	height: 800px;
+}
+
+.info-open-class-days-wrapper {
+	display: flex;
+	flex-direction: row;
+}
+.info-open-class-days {
+	margin-top: -300px;
+	margin-left: auto;
+	z-index: 1;
+	padding-top: 20%;
+	padding-left: 200px;
+	padding-right: 10%;
+	padding-bottom: 20%;
+	background-image: url("Images/Asset\ inschrijving2_1.png");
+	background-size: 120%;
+	background-position: left;
+}
+.info-open-class-days-two {
+	margin-left: 10%;
+	margin-top: 20%;
+}
+.info-open-class-days h2 {
+	color: white;
+}
+
+.info-open-class-day-text h2 {
+	color: white;
+}
+.info-open-class-day-text {
+	margin-bottom: 10%;
+	margin-right: auto;
+	margin-top: -750px;
+
+	padding-top: 16%;
+	padding-bottom: 16%;
+	padding-left: 10%;
+	background-image: url("Images/Asset\ 13_2.png");
+	background-size: 60%;
+	background-position: left;
+	z-index: 3;
+}
+.info-open-class-day-text li {
+	font-weight: 400;
+	font-family: "Arial";
+}
+.info-open-class-day-text a {
+	color: #000000;
+}
+
+.info-open-class-days-two img {
+	height: 200px;
+}
+#asset20-info-open-class-days {
+	display: flex;
+	align-items: flex-end;
+
+	transform: scaleX(-1);
+
+	margin-left: auto;
+	transform: rotate(-80deg);
+}
+#asset21-info-open-class-days {
+	margin-top: -700px;
+	padding-bottom: 400px;
+	margin-left: 10%;
+}
+
+#asset13-info-open-class-days {
+	margin-left: 10%;
+	margin-top: -200px;
+}
+
+.leefregels-wrapper {
+	padding: 150px;
+	margin-bottom: 100px;
+}
+.leefregels-outer-wrapper {
+	background-image: url("Images/Asset23.svg");
+	background-position: center;
+}
+.leefregels-wrapper {
+	width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 100px;
+}
+.leefregels-wrapper img {
+	width: 250px;
+	height: 353px;
+	margin-bottom: 100px;
+	box-shadow: 12px 12px 2px 1px #e174ac;
+	transition: all 0.5s ease-in-out;
+}
+.leefregels-wrapper img:hover {
+	transform: scale(1.5);
+}
+.image-row-1 {
+	width: 50%;
+	height: 1500px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.image-row-2 {
+	margin-top: 15%;
+	width: 50%;
+	height: 1500px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.infrastructuur-outer-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("Images/Asset\ 21.png");
+	background-position: 85% 35%;
+}
+.infrastructuur-outer-wrapper-right {
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("Images/Asset\ 21.png");
+	background-position: 15% 15%;
+}
+.infrastructuur-wrapper {
+	background-image: url("Images/Asset-inschrijving2_2.svg");
+	background-position: top left;
+	background-size: 50%;
+
+	height: 1000px;
+	width: 100%;
+}
+.infrastructuur-wrapper-right {
+	background-image: url("Images/Asset-Inschrijving-2.3.svg");
+	background-position: top right;
+	background-size: 50%;
+	width: 100%;
+	height: 1000px;
+}
+.infrastructuur {
+	padding-top: 10%;
+	margin-left: 5%;
+}
+.infrastructuur img {
+	width: 35%;
+	margin-top: 2rem;
+	border-radius: 35px;
+}
+.infrastructuur p {
+	color: #fff;
+	width: 35%;
+}
+.infrastructuur h3 {
+	color: #fff;
+	width: 35%;
+	padding-bottom: 50px;
+}
+.infrastructuur-right {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	padding-top: 10%;
+}
+.infrastructuur-right img {
+	width: 35%;
+	margin-top: 2rem;
+	border-radius: 35px;
+	margin-right: 5%;
+}
+.infrastructuur-right p {
+	color: #fff;
+	width: 35%;
+	padding-left: 60%;
+	margin-right: 5%;
+}
+.infrastructuur-right h3 {
+	width: 40%;
+	padding-left: 60%;
+	margin-right: 10%;
+	color: #fff;
+	width: 100%;
+	padding-bottom: 50px;
+}
+#infrastructuur-wrapper-speelplaats {
+	margin-top: -15%;
+}
+#infrastructuur-wrapper-bib {
+	margin-top: -15%;
+}
+.Basic-pillars-outer-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("Images/Asset\ 21.png");
+	background-position: 85% 35%;
+}
+.Basic-pillars-outer-wrapper-right {
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("Images/Asset\ 21.png");
+	background-position: 15% 15%;
+}
+.Basic-pillars-wrapper {
+	background-image: url("Images/Asset-inschrijving2_2.svg");
+	background-position: top left;
+	background-size: 50%;
+
+	height: 1000px;
+	width: 100%;
+}
+.Basic-pillars-wrapper-right {
+	background-image: url("Images/Asset-Inschrijving-2.3.svg");
+	background-position: top right;
+	background-size: 50%;
+	width: 100%;
+	height: 1000px;
+}
+.Basic-pillars {
+	padding-top: 10%;
+	margin-left: 5%;
+}
+.Basic-pillars img {
+	width: 35%;
+	margin-top: 2rem;
+	border-radius: 35px;
+}
+.Basic-pillars p {
+	color: #fff;
+	width: 35%;
+}
+.Basic-pillars h3 {
+	color: #fff;
+	width: 35%;
+	padding-bottom: 50px;
+}
+.Basic-pillars-right {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	padding-top: 10%;
+}
+.Basic-pillars-right img {
+	width: 35%;
+	margin-top: 2rem;
+	border-radius: 35px;
+	margin-right: 5%;
+}
+.Basic-pillars-right p {
+	color: #fff;
+	width: 35%;
+	padding-left: 60%;
+	margin-right: 5%;
+}
+.Basic-pillars-right h3 {
+	width: 40%;
+	padding-left: 60%;
+	margin-right: 10%;
+	color: #fff;
+	width: 100%;
+	padding-bottom: 50px;
+}
+#Basic-pillars-wrapper-speelplaats {
+	margin-top: -15%;
+}
+#Basic-pillars-wrapper-bib {
+	margin-top: -15%;
+}
+.info-leerlingbegeleiding-outer-wrapper {
+	background-image: url("Images/Asset\ 27.png");
+	background-position: 80% 0%;
+	background-size: 15%;
+}
+.info-leerlingbegeleiding {
+	background-image: url("SVG/Asset\ 26.svg");
+	background-position: top left;
+	background-size: 850px;
+
+	height: 500px;
+
+	margin-top: 100px;
+}
+.info-leerlingbegeleiding-text {
+	display: flex;
+	align-items: center;
+	width: 50%;
+	height: 500px;
+}
+.info-leerlingbegeleiding p {
+	color: #fff;
+	width: 65%;
+	margin-left: 5%;
+}
+.info-leerlingbegeleiding-wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+.info-kader {
+	width: 40%;
+	transform: rotate(-6deg);
+	margin-left: 10%;
+}
+.info-kader img {
+	transform: rotate(6deg);
+	margin-bottom: -10%;
+	margin-left: 75%;
+	width: 25%;
+}
+.info-kader-text {
+	background-color: #cacaca;
+	padding: 70px 15px;
+	border-radius: 75px;
+	width: 90%;
+}
+.info-kader-text ul li {
+	font-family: "Ariel", sans-serif;
+	font-weight: 400;
+}
+.info-kader-text H4 {
+	font-size: 16pt;
+	font-family: "Ariel", sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+.info-leerlingbegeleiding-2 {
+	background-image: url("SVG/Asset-28.svg");
+	background-position: top right;
+	background-size: 800px;
+
+	height: 800px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.info-leerlingbegeleiding-2 p {
+	color: #fff;
+	width: 48%;
+	margin-right: 5%;
+}
+.background2 {
+	background-image: url("SVG/Asset\ 16.svg");
+	background-size: 20%;
+	background-position: center left;
+	height: 500px;
+}
+.wrapper-maximumfactuur {
+	position: relative;
+	margin-top: -400px;
+}
+.maximumfactuur-alinea1 {
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 7%;
+	padding-right: 10%;
+	margin-top: 400px;
+	padding-top: 100px;
+	padding-bottom: 300px;
+	background-image: url("Images/Asset\ 18.png");
+	background-size: 50%;
+	z-index: 1;
+}
+.kostenoverzichten {
+	margin-left: 50%;
+	margin-top: -40%;
+
+	padding-left: 5%;
+	padding-right: 0%;
+	margin-right: 10%;
+	padding-bottom: 10%;
+	padding-top: 10%;
+	background-image: url("Images/Asset\ 19.png");
+	background-size: 80%;
+	background-position: center;
+}
+.asset8-maximumfactuur {
+	margin-left: 40%;
+	height: 200px;
+	width: auto;
+	margin-top: -2000vh;
+}
+#kosten1 {
+	height: 800px;
+	width: 100%;
+}
+#kosten2 {
+	height: 800px;
+	width: 100%;
+}
+#kosten3 {
+	height: 800px;
+	width: 100%;
+}
+#kosten4 {
+	height: 800px;
+	width: 100%;
+}
+#kosten5 {
+	height: 800px;
+	width: 100%;
+}
+#kosten6 {
+	height: 800px;
+	width: 100%;
+}
+.kostenoverzichten {
+	padding-left: 10%;
+}
+.facebook-page-outer-wrapper {
+	background-image: url("Images/Asset\ 21.png");
+	background-position: 95% 55%;
+}
+.facebook-page-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-image: url("Images/Asset-inschrijving2_2.svg");
+	background-size: 100%;
+	background-position: left;
+
+	height: 1200px;
+	width: 55%;
+}
+.instagram-post-outer-wrapper {
+	display: flex;
+	padding: 0 5%;
+	justify-content: space-evenly;
+	background-image: url("SVG/Asset-socials_3.svg");
+	background-position: 50%;
+	background-size: 45%;
+}
+.schoolregelement {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -100px;
+}
+.schoolregelement-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-image: url("Images/Asset-inschrijving2_2.svg");
+	background-size: 100%;
+	background-position: left;
+
+	height: 1200px;
+	width: 55%;
+}
+.schoolregelement-wrapper p {
+	width: 70%;
+	color: #ffffff;
+}
+.schoolregelement-link-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	background-image: url("Images/Asset\ 19.png");
+	background-size: 100%;
+	background-position: top right;
+
+	width: 35%;
+	height: 500px;
+
+	margin-top: 20%;
+	margin-right: 3%;
+}
+.schoolregelement-link-wrapper h2 {
+	width: 80%;
+	text-align: center;
+	color: #ffffff;
+}
+
+table {
+	border-collapse: collapse;
+	min-width: 400px;
+}
+thead th {
+	background-color: #ea008937;
+	font-weight: Bold;
+	width: 80px;
+	color: #000000;
+}
+th,
+td {
+	padding: 12px 15px;
+	text-align: center;
+}
+
+tbody tr td {
+	border: 1pt solid #fbb0ff;
+}
+td {
+	font-weight: 400;
+	background-color: #ea008915;
+}
+#top-table-head th {
+	color: #fff;
+}
+td#vak {
+	width: 350px;
+	border-left: none;
 }
