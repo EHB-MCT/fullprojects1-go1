@@ -15,7 +15,16 @@
 	h4 {
 		font-size: 18pt;
 	}
-
+	li{
+		list-style: disk outside url("SVG/List-item.svg");
+		font-family: 'Arial', sans-serif;
+		font-weight: 400;
+		font-size: 14pt;
+	}
+	hr{
+		color: #eff3e8;
+		border-top: 1pt solid;
+	}
 	html {
 		scroll-behavior: smooth;
 	}
@@ -123,6 +132,7 @@
 	}
 	img#pop_up_asset {
 		width: 100px;
+		padding-left: 50%;
 	}
 	.header-title {
 		display: flex;
@@ -142,13 +152,8 @@
 		margin: 0;
 		padding-right: 10%;
 	}
-<<<<<<< HEAD
-	#contact-button {
-		padding: 10px 25px;
-=======
 	#contact-button{
 		padding: 15px 40px;
->>>>>>> fdb4db5a8dcfba59d80861e343d9a228078c2fe6
 		background-color: #e174ac;
 		border-radius: 35px;
 		transition: all 0.3s ease-in-out;
@@ -352,11 +357,20 @@
 	#footer-leerlingbegeleiding {
 		margin-top: -55%;
 	}
+	#footer-schoolregelement{
+		margin-top: -55%;
+	}
 	#footer-infrastructuur {
 		margin-top: -50%;
 	}
 	#footer-max-factuur {
 		margin-top: -60%;
+	}
+	#footer-hospiteerlessen{
+		margin-top: -55%;
+	}
+	#footer-basispijlers{
+		margin-top: -55%;
 	}
 
 	.leefregels {
@@ -531,6 +545,11 @@
 		margin-top: 7%;
 		height: 500px;
 	}
+	#info-open-class-days {
+		margin-left: 5%;
+		margin-right: 7.5%;
+		height: 800px;
+	}
 
 	.inschrijvingen-alinea1 {
 		display: flex;
@@ -572,6 +591,19 @@
 		background-position: left;
 		z-index: 3;
 	}
+	.info-open-class-day-text {
+		margin-bottom: 10%;
+		margin-right: auto;
+		margin-top: -500px;
+
+		padding-top: 16%;
+		padding-bottom: 16%;
+		padding-left: 10%;
+		background-image: url("Images/Asset\ 13_2.png");
+		background-size: 60%;
+		background-position: left;
+		z-index: 3;
+	}
 	.inschrijving-2detot6de-text li {
 		font-weight: 400;
 		font-family: "Arial";
@@ -601,6 +633,82 @@
 	#asset13-inschrijvingen {
 		margin-left: 10%;
 		margin-top: -400px;
+	}
+	#info-open-class-days {
+		margin-left: 5%;
+		margin-right: 7.5%;
+		height: 800px;
+	}
+
+	.info-open-class-days-wrapper {
+		display: flex;
+		flex-direction: row;
+	}
+	.info-open-class-days {
+		margin-top: -300px;
+		margin-left: auto;
+		z-index: 1;
+		padding-top: 20%;
+		padding-left: 200px;
+		padding-right: 10%;
+		padding-bottom: 20%;
+		background-image: url("Images/Asset\ inschrijving2_1.png");
+		background-size: 120%;
+		background-position: left;
+	}
+	.info-open-class-days-two {
+		margin-left: 10%;
+		margin-top: 20%;
+	}
+	.info-open-class-days h2 {
+		color: white;
+	}
+
+	.info-open-class-day-text h2 {
+		color: white;
+	}
+	.info-open-class-day-text {
+		margin-bottom: 10%;
+		margin-right: auto;
+		margin-top: -750px;
+
+		padding-top: 16%;
+		padding-bottom: 16%;
+		padding-left: 10%;
+		background-image: url("Images/Asset\ 13_2.png");
+		background-size: 60%;
+		background-position: left;
+		z-index: 3;
+	}
+	.info-open-class-day-text li {
+		font-weight: 400;
+		font-family: "Arial";
+	}
+	.info-open-class-day-text a {
+		color: #000000;
+	}
+
+	.info-open-class-days-two img {
+		height: 200px;
+	}
+	#asset20-info-open-class-days {
+		display: flex;
+		align-items: flex-end;
+
+		transform: scaleX(-1);
+
+		margin-left: auto;
+		transform: rotate(-80deg);
+	}
+	#asset21-info-open-class-days {
+		margin-top: -700px;
+		padding-bottom: 400px;
+		margin-left: 10%;
+	}
+
+	#asset13-info-open-class-days {
+		margin-left: 10%;
+		margin-top: -200px;
 	}
 
 	.leefregels-wrapper {
@@ -720,9 +828,6 @@
 	#infrastructuur-wrapper-bib {
 		margin-top: -15%;
 	}
-<<<<<<< HEAD
-	.info-leerlingbegeleiding-outer-wrapper {
-=======
 	.Basic-pillars-outer-wrapper {
 		display: flex;
 		flex-wrap: wrap;
@@ -801,7 +906,6 @@
 		margin-top: -15%;
 	}
 	.info-leerlingbegeleiding-outer-wrapper{
->>>>>>> fdb4db5a8dcfba59d80861e343d9a228078c2fe6
 		background-image: url("Images/Asset\ 27.png");
 		background-position: 80% 0%;
 		background-size: 15%;
@@ -958,18 +1062,18 @@
 		height: 1200px;
 		width: 55%;
 	}
-<<<<<<< HEAD
-	.schoolregelement {
-=======
 	.instagram-post-outer-wrapper{
 		display: flex;
-		justify-content: space-around;
+		padding: 0 5%;
+		justify-content: space-evenly;
+		background-image: url("SVG/Asset-socials_3.svg");
+		background-position: 50%;
+		background-size: 45%;
 	}
-
 	.schoolregelement{
->>>>>>> fdb4db5a8dcfba59d80861e343d9a228078c2fe6
 		display: flex;
 		justify-content: space-between;
+		margin-top: -100px;
 	}
 	.schoolregelement-wrapper {
 		display: flex;
@@ -1010,7 +1114,6 @@
 	}
 }
 
-<<<<<<< HEAD
 	table {
 		border-collapse: collapse;
 		min-width: 400px;
@@ -1042,5 +1145,3 @@
 		border-left: none;
 	}
 }
-=======
->>>>>>> fdb4db5a8dcfba59d80861e343d9a228078c2fe6
