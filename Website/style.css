@@ -372,7 +372,9 @@
 	#footer-basispijlers{
 		margin-top: -55%;
 	}
-
+	#footer-humaniora{
+		margin-top: -55%;
+	}
 	.leefregels {
 		width: 90%;
 	}
@@ -640,12 +642,14 @@
 		height: 800px;
 	}
 
-	.info-open-class-days-wrapper {
+
+
+	.info-humaniora-wrapper {
 		display: flex;
 		flex-direction: row;
 	}
-	.info-open-class-days {
-		margin-top: -300px;
+	.info-humaniora{
+		margin-top: -100px;
 		margin-left: auto;
 		z-index: 1;
 		padding-top: 20%;
@@ -656,42 +660,47 @@
 		background-size: 120%;
 		background-position: left;
 	}
-	.info-open-class-days-two {
+	.info-humaniora-two {
 		margin-left: 10%;
 		margin-top: 20%;
 	}
-	.info-open-class-days h2 {
+	.info-humaniora h2 {
 		color: white;
 	}
 
-	.info-open-class-day-text h2 {
+	.info-humaniora-two-text h2 {
 		color: white;
+		width: 80%;
 	}
-	.info-open-class-day-text {
+	.info-humaniora-two-text {
 		margin-bottom: 10%;
 		margin-right: auto;
 		margin-top: -750px;
 
+		width: 40%;
+
 		padding-top: 16%;
 		padding-bottom: 16%;
-		padding-left: 10%;
+		padding-left: 7.5%;
 		background-image: url("Images/Asset\ 13_2.png");
-		background-size: 60%;
+		background-size: 100%;
 		background-position: left;
 		z-index: 3;
+		display: flex;
+		flex-direction: column;
 	}
-	.info-open-class-day-text li {
+	.info-humaniora-two-text li {
 		font-weight: 400;
 		font-family: "Arial";
+		width: 80%;
 	}
-	.info-open-class-day-text a {
+	.info-humaniora-two-text a {
 		color: #000000;
 	}
-
-	.info-open-class-days-two img {
+	.info-humaniora-two img {
 		height: 200px;
 	}
-	#asset20-info-open-class-days {
+	#asset20-info-humaniora {
 		display: flex;
 		align-items: flex-end;
 
@@ -700,17 +709,21 @@
 		margin-left: auto;
 		transform: rotate(-80deg);
 	}
-	#asset21-info-open-class-days {
+	#asset21-info-humaniora {
 		margin-top: -700px;
 		padding-bottom: 400px;
 		margin-left: 10%;
 	}
 
-	#asset13-info-open-class-days {
+	#asset13-info-humaniora {
 		margin-left: 10%;
 		margin-top: -200px;
 	}
-
+	#info-humaniora-image{
+		margin-left: 5%;
+		margin-right: 7.5%;
+		height: 800px;
+	}
 	.leefregels-wrapper {
 		padding: 150px;
 		margin-bottom: 100px;
@@ -1112,7 +1125,7 @@
 		text-align: center;
 		color: #ffffff;
 	}
-}
+
 
 	table {
 		border-collapse: collapse;
