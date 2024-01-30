@@ -53,7 +53,7 @@
 		margin: 0;
 		font-size: 36pt;
 	}
-	h2{
+	h2 {
 		margin: 10px 0;
 	}
 
@@ -63,7 +63,7 @@
 		font-weight: 400;
 		margin: 0;
 	}
-/* 	.button-top{
+	/* 	.button-top{
 		width: 125px;
 	} */
 	.button-top a {
@@ -85,13 +85,13 @@
 	.button-top a:hover {
 		background-color: #d13389;
 	}
-	#close_pop_up{
+	#close_pop_up {
 		float: right;
 		font-size: 12pt;
 		cursor: pointer;
 		transition: all 0.3s ease-in-out;
 	}
-	#pop_up{
+	#pop_up {
 		z-index: 10;
 		width: 400px;
 		padding: 25px;
@@ -108,25 +108,25 @@
 		font-family: "pragmatica", sans-serif;
 		font-weight: 400;
 		font-style: normal;
-		font-size: 14pt;		
+		font-size: 14pt;
 		transition: all 0.3s ease-in-out;
 	}
-	.row p{
+	.row p {
 		padding: 10px 0;
 	}
-	#pop_up img{
+	#pop_up img {
 		width: 25px;
 	}
-	#close_pop_up:hover{
-		transform:scale(1.5);
+	#close_pop_up:hover {
+		transform: scale(1.5);
 	}
-	.pop_up-inside{
+	.pop_up-inside {
 		display: flex;
 	}
-	.pop_up-text{
+	.pop_up-text {
 		width: 200px;
 	}
-	.pop_up-asset{
+	.pop_up-asset {
 		width: 100px;
 		padding-top: 15px;
 	}
@@ -476,48 +476,48 @@
 	#rooster-2degraad {
 		background-position: 5% 80%;
 	}
-	table{
+	table {
 		border-collapse: collapse;
-		min-width: 400px;		
+		min-width: 400px;
 		border-radius: 75px;
 		overflow: hidden;
-		font-size: .95rem;
+		font-size: 0.95rem;
 	}
-	thead th{
+	thead th {
 		background-color: #ea008937;
 		width: 50px;
 		color: #000000;
 	}
 	th,
-	td{
+	td {
 		padding: 12px 15px;
 		text-align: center;
 		font-weight: 400;
 		height: 30px;
 	}
 
-	tbody tr td{
+	tbody tr td {
 		border: 1pt solid #fbb0ff;
 		border-right: none;
 	}
-	td{
+	td {
 		font-weight: 400;
 		background-color: #ea008915;
 	}
-	#top-table-head th{
+	#top-table-head th {
 		font-weight: Bold;
 		color: #fff;
 		font-size: 1.25rem;
 	}
-	td#vak{
+	td#vak {
 		width: 250px;
 		border: none;
 		background-color: #ea00892b;
 	}
-	#last-tablerow td{
+	#last-tablerow td {
 		border-bottom: none;
 	}
-	#Dubbele-Finaliteit{
+	#Dubbele-Finaliteit {
 		margin-top: 64px;
 	}
 
@@ -733,8 +733,8 @@
 		box-shadow: 12px 12px 2px 1px #e174ac;
 		transition: all 0.5s ease-in-out;
 	}
-	.leefregels-wrapper img:hover{
-		transform:scale(1.5);
+	.leefregels-wrapper img:hover {
+		transform: scale(1.5);
 	}
 	.image-row-1 {
 		width: 50%;
@@ -905,7 +905,7 @@
 	#Basic-pillars-wrapper-bib {
 		margin-top: -15%;
 	}
-	.info-leerlingbegeleiding-outer-wrapper{
+	.info-leerlingbegeleiding-outer-wrapper {
 		background-image: url("Images/Asset\ 27.png");
 		background-position: 80% 0%;
 		background-size: 15%;
