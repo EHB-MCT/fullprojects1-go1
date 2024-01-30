@@ -1,4 +1,4 @@
-@media(min-width: 1024px){
+@media (min-width: 1024px) {
 	@import url("https://use.typekit.net/kxh3iir.css");
 	body {
 		margin: 0;
@@ -12,7 +12,7 @@
 	p {
 		font-size: 14pt;
 	}
-	h4{
+	h4 {
 		font-size: 18pt;
 	}
 
@@ -26,7 +26,7 @@
 		background-image: url("Images/Header-Homepage.png");
 		background-position: center;
 	}
-	div{
+	div {
 		background-repeat: no-repeat;
 	}
 	header .wave {
@@ -137,19 +137,23 @@
 		color: #fff;
 		width: 100%;
 		height: 55vh;
-
 	}
-	.header-title h1{
+	.header-title h1 {
 		margin: 0;
 		padding-right: 10%;
 	}
+<<<<<<< HEAD
+	#contact-button {
+		padding: 10px 25px;
+=======
 	#contact-button{
 		padding: 15px 40px;
+>>>>>>> fdb4db5a8dcfba59d80861e343d9a228078c2fe6
 		background-color: #e174ac;
 		border-radius: 35px;
 		transition: all 0.3s ease-in-out;
 	}
-	#contact-button:hover{
+	#contact-button:hover {
 		background-color: #d13389;
 		padding: 15px 45px;
 	}
@@ -345,13 +349,13 @@
 	#footer-contact {
 		margin-top: -35%;
 	}
-	#footer-leerlingbegeleiding{
+	#footer-leerlingbegeleiding {
 		margin-top: -55%;
 	}
-	#footer-infrastructuur{
+	#footer-infrastructuur {
 		margin-top: -50%;
 	}
-	#footer-max-factuur{
+	#footer-max-factuur {
 		margin-top: -60%;
 	}
 
@@ -512,19 +516,14 @@
 	.rooster img {
 		width: 45%;
 	}
-	.header-wrapper-inschrijvingen{
-   
-   
-		header{
+	.header-wrapper-inschrijvingen {
+		header {
 			position: relative;
-		 width: 100%;
-		 height: 100vh;
-		background-image: url(Images/inschrijvingen1.png);
-		/* background-position: center; */
-
-		   
+			width: 100%;
+			height: 100vh;
+			background-image: url(Images/inschrijvingen1.png);
+			/* background-position: center; */
 		}
-	   
 	}
 	#wegwijzers {
 		margin-left: 10%;
@@ -532,7 +531,7 @@
 		margin-top: 7%;
 		height: 500px;
 	}
-	 
+
 	.inschrijvingen-alinea1 {
 		display: flex;
 		flex-direction: row;
@@ -556,15 +555,15 @@
 	.inschrijving-1ste h2 {
 		color: white;
 	}
-	 
+
 	.inschrijving-2detot6de-text h2 {
 		color: white;
 	}
 	.inschrijving-2detot6de-text {
-		margin-bottom: 20%;
+		margin-bottom: 10%;
 		margin-right: auto;
 		margin-top: -500px;
-	 
+
 		padding-top: 15%;
 		padding-bottom: 15%;
 		padding-left: 10%;
@@ -572,7 +571,6 @@
 		background-size: 80%;
 		background-position: left;
 		z-index: 3;
-	 
 	}
 	.inschrijving-2detot6de-text li {
 		font-weight: 400;
@@ -581,16 +579,16 @@
 	.inschrijving-2detot6de-text a {
 		color: #000000;
 	}
-	 
+
 	.inschrijving-2tot6de img {
 		height: 200px;
 	}
 	#asset20-inschrijvingen {
 		display: flex;
 		align-items: flex-end;
-	 
+
 		transform: scaleX(-1);
-	 
+
 		margin-left: auto;
 		transform: rotate(-80deg);
 	}
@@ -599,7 +597,7 @@
 		padding-bottom: 400px;
 		margin-left: 10%;
 	}
-	 
+
 	#asset13-inschrijvingen {
 		margin-left: 10%;
 		margin-top: -400px;
@@ -722,6 +720,9 @@
 	#infrastructuur-wrapper-bib {
 		margin-top: -15%;
 	}
+<<<<<<< HEAD
+	.info-leerlingbegeleiding-outer-wrapper {
+=======
 	.Basic-pillars-outer-wrapper {
 		display: flex;
 		flex-wrap: wrap;
@@ -800,11 +801,12 @@
 		margin-top: -15%;
 	}
 	.info-leerlingbegeleiding-outer-wrapper{
+>>>>>>> fdb4db5a8dcfba59d80861e343d9a228078c2fe6
 		background-image: url("Images/Asset\ 27.png");
 		background-position: 80% 0%;
 		background-size: 15%;
 	}
-	.info-leerlingbegeleiding{
+	.info-leerlingbegeleiding {
 		background-image: url("SVG/Asset\ 26.svg");
 		background-position: top left;
 		background-size: 850px;
@@ -813,50 +815,50 @@
 
 		margin-top: 100px;
 	}
-	.info-leerlingbegeleiding-text{
+	.info-leerlingbegeleiding-text {
 		display: flex;
 		align-items: center;
 		width: 50%;
 		height: 500px;
 	}
-	.info-leerlingbegeleiding p{
+	.info-leerlingbegeleiding p {
 		color: #fff;
 		width: 65%;
-		margin-left: 5%;		
+		margin-left: 5%;
 	}
-	.info-leerlingbegeleiding-wrapper{
+	.info-leerlingbegeleiding-wrapper {
 		display: flex;
 		justify-content: space-around;
 	}
-	.info-kader{
+	.info-kader {
 		width: 40%;
 		transform: rotate(-6deg);
 		margin-left: 10%;
 	}
-	.info-kader img{
+	.info-kader img {
 		transform: rotate(6deg);
 		margin-bottom: -10%;
 		margin-left: 75%;
 		width: 25%;
 	}
-	.info-kader-text{
+	.info-kader-text {
 		background-color: #cacaca;
 		padding: 70px 15px;
 		border-radius: 75px;
 		width: 90%;
 	}
-	.info-kader-text ul li{
-		font-family: 'Ariel', sans-serif;
+	.info-kader-text ul li {
+		font-family: "Ariel", sans-serif;
 		font-weight: 400;
 	}
-	.info-kader-text H4{
+	.info-kader-text H4 {
 		font-size: 16pt;
-		font-family: 'Ariel', sans-serif;
+		font-family: "Ariel", sans-serif;
 		font-weight: 400;
 		text-align: center;
 	}
 
-	.info-leerlingbegeleiding-2{
+	.info-leerlingbegeleiding-2 {
 		background-image: url("SVG/Asset-28.svg");
 		background-position: top right;
 		background-size: 800px;
@@ -867,18 +869,18 @@
 		align-items: center;
 		justify-content: flex-end;
 	}
-	.info-leerlingbegeleiding-2 p{
+	.info-leerlingbegeleiding-2 p {
 		color: #fff;
 		width: 48%;
 		margin-right: 5%;
 	}
-	.background2{
+	.background2 {
 		background-image: url("SVG/Asset\ 16.svg");
 		background-size: 20%;
 		background-position: center left;
 		height: 500px;
 	}
-	.wrapper-maximumfactuur{
+	.wrapper-maximumfactuur {
 		position: relative;
 		margin-top: -400px;
 	}
@@ -887,8 +889,8 @@
 		margin-right: 5%;
 		padding-left: 7%;
 		padding-right: 10%;
-		margin-top: 300px;
-		padding-top: 200px;
+		margin-top: 400px;
+		padding-top: 100px;
 		padding-bottom: 300px;
 		background-image: url("Images/Asset\ 18.png");
 		background-size: 50%;
@@ -897,7 +899,7 @@
 	.kostenoverzichten {
 		margin-left: 50%;
 		margin-top: -40%;
-		margin-bottom: 15%;
+
 		padding-left: 5%;
 		padding-right: 0%;
 		margin-right: 10%;
@@ -906,6 +908,12 @@
 		background-image: url("Images/Asset\ 19.png");
 		background-size: 80%;
 		background-position: center;
+	}
+	.asset8-maximumfactuur {
+		margin-left: 40%;
+		height: 200px;
+		width: auto;
+		margin-top: -2000vh;
 	}
 	#kosten1 {
 		height: 800px;
@@ -934,12 +942,11 @@
 	.kostenoverzichten {
 		padding-left: 10%;
 	}
-	.facebook-page-outer-wrapper{
+	.facebook-page-outer-wrapper {
 		background-image: url("Images/Asset\ 21.png");
 		background-position: 95% 55%;
-	
 	}
-	.facebook-page-wrapper{
+	.facebook-page-wrapper {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -951,16 +958,20 @@
 		height: 1200px;
 		width: 55%;
 	}
+<<<<<<< HEAD
+	.schoolregelement {
+=======
 	.instagram-post-outer-wrapper{
 		display: flex;
 		justify-content: space-around;
 	}
 
 	.schoolregelement{
+>>>>>>> fdb4db5a8dcfba59d80861e343d9a228078c2fe6
 		display: flex;
 		justify-content: space-between;
 	}
-	.schoolregelement-wrapper{
+	.schoolregelement-wrapper {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -972,11 +983,11 @@
 		height: 1200px;
 		width: 55%;
 	}
-	.schoolregelement-wrapper p{
+	.schoolregelement-wrapper p {
 		width: 70%;
 		color: #ffffff;
 	}
-	.schoolregelement-link-wrapper{
+	.schoolregelement-link-wrapper {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -986,17 +997,50 @@
 		background-size: 100%;
 		background-position: top right;
 
-
 		width: 35%;
 		height: 500px;
 
 		margin-top: 20%;
 		margin-right: 3%;
 	}
-	.schoolregelement-link-wrapper h2{
+	.schoolregelement-link-wrapper h2 {
 		width: 80%;
 		text-align: center;
 		color: #ffffff;
 	}
 }
 
+<<<<<<< HEAD
+	table {
+		border-collapse: collapse;
+		min-width: 400px;
+	}
+	thead th {
+		background-color: #ea008937;
+		font-weight: Bold;
+		width: 80px;
+		color: #000000;
+	}
+	th,
+	td {
+		padding: 12px 15px;
+		text-align: center;
+	}
+
+	tbody tr td {
+		border: 1pt solid #fbb0ff;
+	}
+	td {
+		font-weight: 400;
+		background-color: #ea008915;
+	}
+	#top-table-head th {
+		color: #fff;
+	}
+	td#vak {
+		width: 350px;
+		border-left: none;
+	}
+}
+=======
+>>>>>>> fdb4db5a8dcfba59d80861e343d9a228078c2fe6
