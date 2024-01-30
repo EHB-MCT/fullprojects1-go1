@@ -44,6 +44,9 @@
 		margin: 0;
 		font-size: 36pt;
 	}
+	h2{
+		margin: 10px 0;
+	}
 
 	a,
 	p {
@@ -51,6 +54,9 @@
 		font-weight: 400;
 		margin: 0;
 	}
+	/* 	.button-top{
+		width: 125px;
+	} */
 	.button-top a {
 		padding: 20px 40px;
 		background-color: #e174ac;
@@ -69,7 +75,54 @@
 	.button-top a:hover {
 		background-color: #d13389;
 	}
-
+	#close_pop_up {
+		float: right;
+		font-size: 12pt;
+		cursor: pointer;
+		transition: all 0.3s ease-in-out;
+	}
+	#pop_up {
+		z-index: 10;
+		width: 400px;
+		padding: 25px;
+		background-color: #e174ac;
+		border-radius: 35px;
+		color: #eff3e8;
+		position: absolute;
+		width: 400px;
+		padding: 25px;
+		height: 150px;
+		bottom: 2%;
+		right: 2%;
+		color: #eff3e8;
+		font-family: "pragmatica", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 14pt;
+		transition: all 0.3s ease-in-out;
+	}
+	.row p {
+		padding: 10px 0;
+	}
+	#pop_up img {
+		width: 25px;
+	}
+	#close_pop_up:hover {
+		transform: scale(1.5);
+	}
+	.pop_up-inside {
+		display: flex;
+	}
+	.pop_up-text {
+		width: 200px;
+	}
+	.pop_up-asset {
+		width: 100px;
+		padding-top: 15px;
+	}
+	img#pop_up_asset {
+		width: 100px;
+	}
 	.header-title {
 		display: flex;
 		justify-content: flex-end;
@@ -90,6 +143,10 @@
 	}
 	#contact-button {
 		padding: 10px 25px;
+
+	#contact-button{
+		padding: 15px 40px;
+
 		background-color: #e174ac;
 		border-radius: 35px;
 		transition: all 0.3s ease-in-out;
@@ -403,6 +460,50 @@
 	#rooster-2degraad {
 		background-position: 5% 80%;
 	}
+	table{
+		border-collapse: collapse;
+		min-width: 400px;		
+		border-radius: 75px;
+		overflow: hidden;
+		font-size: .95rem;
+	}
+	thead th{
+		background-color: #ea008937;
+		width: 50px;
+		color: #000000;
+	}
+	th,
+	td{
+		padding: 12px 15px;
+		text-align: center;
+		font-weight: 400;
+		height: 30px;
+	}
+
+	tbody tr td{
+		border: 1pt solid #fbb0ff;
+		border-right: none;
+	}
+	td{
+		font-weight: 400;
+		background-color: #ea008915;
+	}
+	#top-table-head th{
+		font-weight: Bold;
+		color: #fff;
+		font-size: 1.25rem;
+	}
+	td#vak{
+		width: 250px;
+		border: none;
+		background-color: #ea00892b;
+	}
+	#last-tablerow td{
+		border-bottom: none;
+	}
+	#Dubbele-Finaliteit{
+		margin-top: 64px;
+	}
 
 	.rooster {
 		display: flex;
@@ -522,8 +623,8 @@
 		padding-bottom: 100px;
 		transition: all 0.3s ease-in-out;
 	}
-	.leefregels-wrapper img:hover {
-		width: 75%;
+	.leefregels-wrapper img:hover{
+		transform:scale(1.5);
 	}
 	.image-row-1 {
 		width: 50%;
@@ -617,7 +718,88 @@
 	#infrastructuur-wrapper-bib {
 		margin-top: -15%;
 	}
+
 	.info-leerlingbegeleiding-outer-wrapper {
+
+	.Basic-pillars-outer-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		background-image: url("Images/Asset\ 21.png");
+		background-position: 85% 35%;
+	}
+	.Basic-pillars-outer-wrapper-right {
+		display: flex;
+		flex-wrap: wrap;
+		background-image: url("Images/Asset\ 21.png");
+		background-position: 15% 15%;
+	}
+	.Basic-pillars-wrapper {
+		background-image: url("Images/Asset-inschrijving2_2.svg");
+		background-position: top left;
+		background-size: 50%;
+
+		height: 1000px;
+		width: 100%;
+	}
+	.Basic-pillars-wrapper-right {
+		background-image: url("Images/Asset-Inschrijving-2.3.svg");
+		background-position: top right;
+		background-size: 50%;
+		width: 100%;
+		height: 1000px;
+	}
+	.Basic-pillars {
+		padding-top: 10%;
+		margin-left: 5%;
+	}
+	.Basic-pillars img {
+		width: 35%;
+		margin-top: 2rem;
+		border-radius: 35px;
+	}
+	.Basic-pillars p {
+		color: #fff;
+		width: 35%;
+	}
+	.Basic-pillars h3 {
+		color: #fff;
+		width: 35%;
+		padding-bottom: 50px;
+	}
+	.Basic-pillars-right {
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+		padding-top: 0%;
+	}
+	.Basic-pillars-right img {
+		width: 35%;
+		margin-top: 2rem;
+		border-radius: 35px;
+		margin-right: 5%;
+	}
+	.Basic-pillars-right p {
+		color: #fff;
+		width: 35%;
+		padding-left: 60%;
+		margin-right: 5%;
+	}
+	.Basic-pillars-right h3 {
+		width: 40%;
+		padding-left: 60%;
+		margin-right: 10%;
+		color: #fff;
+		width: 100%;
+		padding-bottom: 50px;
+	}
+	#Basic-pillars-wrapper-speelplaats {
+		margin-top: -15%;
+	}
+	#Basic-pillars-wrapper-bib {
+		margin-top: -15%;
+	}
+	.info-leerlingbegeleiding-outer-wrapper{
+
 		background-image: url("Images/Asset\ 27.png");
 		background-position: 80% 0%;
 		background-size: 15%;
@@ -779,7 +961,15 @@
 		height: 1200px;
 		width: 55%;
 	}
-	.schoolregelement {
+
+
+	.instagram-post-outer-wrapper{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.schoolregelement{
+
 		display: flex;
 		justify-content: space-between;
 	}
@@ -820,6 +1010,7 @@
 		text-align: center;
 		color: #ffffff;
 	}
+}
 
 	table {
 		border-collapse: collapse;
@@ -852,3 +1043,4 @@
 		border-left: none;
 	}
 }
+
