@@ -44,9 +44,6 @@
 		margin: 0;
 		font-size: 36pt;
 	}
-	h2{
-		margin: 10px 0;
-	}
 
 	a,
 	p {
@@ -54,11 +51,8 @@
 		font-weight: 400;
 		margin: 0;
 	}
-/* 	.button-top{
-		width: 125px;
-	} */
 	.button-top a {
-		padding: 15px 25px;
+		padding: 20px 40px;
 		background-color: #e174ac;
 		border-radius: 60px;
 
@@ -66,7 +60,6 @@
 		position: fixed;
 		bottom: 2%;
 		right: 2%;
-		width: 45px;
 		font-family: "pragmatica", sans-serif;
 		text-decoration: none;
 		color: #eff3e8;
@@ -76,107 +69,12 @@
 	.button-top a:hover {
 		background-color: #d13389;
 	}
-	/* .open-button {
-		padding: 20px 40px;
-		background-color: #e174ac;
-		border-radius: 60px;
-		color: #eff3e8;
-		font-family: "pragmatica", sans-serif;
-		font-weight: 400;
-		font-style: normal;
-		font-size: 14pt;
-	
-		z-index: 3;
-		position: fixed;
-		bottom: 14%;
-		right: 2%;
-		width: 125px;
-		text-align: center;
-		border: none;
-		transition: all 0.3s ease-in-out;
-		
-	}
-	.open-button img{
-		width: 25px ;
-	} */
-	/* .info-popup {
-		display: none;
-		position: fixed;
-		bottom: 2%;
-		right: 2%;
-		border: none;
-		z-index: 9;
-	} 
-	.infodag {
-		width: 400px;
-		padding: 25px;
-		background-color: #e174ac;
-		border-radius: 35px;
-		color: #eff3e8;
-	}
-	.infodag p{
-		padding-bottom: 16px;
-	}
-	.btn {
-		color: #e174ac;
-		padding: 16px 20px;
-		border: 1pt solid #e174ac;
-		width: 100%;
-		margin-bottom:10px;
-		border-radius: 45px;
-		transition: all 0.3s ease-in-out;
-	}
-	.cancel {
-		background-color: #eff3e8;
-	}
-	.btn:hover{
-		background-color: #e174ac;
-		color: #eff3e8;
-		border: 1pt solid #eff3e8;
-	}
-	.open-button:hover {
-		background-color: #d13389;
-	} */
-	#close_pop_up{
-		float: right;
-		font-size: 12pt;
-		cursor: pointer;
-		transition: all 0.3s ease-in-out;
-	}
-	#pop_up{
-		z-index: 10;
-		width: 400px;
-		padding: 25px;
-		background-color: #e174ac;
-		border-radius: 35px;
-		color: #eff3e8;
-		position: absolute;
-		width: 400px;
-		padding: 25px;
-		height: 120px;
-		bottom: 2%;
-		right: 2%;
-		color: #eff3e8;
-		font-family: "pragmatica", sans-serif;
-		font-weight: 400;
-		font-style: normal;
-		font-size: 14pt;		
-		transition: all 0.3s ease-in-out;
-	}
-	#pop_up p{
-		padding: 5px 0;
-	}
-	#pop_up img{
-		width: 25px;
-	}
-	#close_pop_up:hover{
-		transform:scale(1.5);
-	}
+
 	.header-title {
 		display: flex;
 		justify-content: flex-end;
 		align-items: flex-end;
-		margin-top: 25vh;
+		margin-top: 30vh;
 		position: absolute;
 		top: 0;
 		right: 0;
@@ -190,20 +88,15 @@
 		margin: 0;
 		padding-right: 10%;
 	}
-<<<<<<< HEAD
 	#contact-button {
 		padding: 10px 25px;
-=======
-	#contact-button{
-		padding: 15px 40px;
->>>>>>> fdb4db5a8dcfba59d80861e343d9a228078c2fe6
 		background-color: #e174ac;
 		border-radius: 35px;
 		transition: all 0.3s ease-in-out;
 	}
 	#contact-button:hover {
 		background-color: #d13389;
-		padding: 15px 45px;
+		padding: 10px 35px;
 	}
 	.info-wrapper {
 		background-image: url("SVG/Pink-side-wave-final.svg");
@@ -483,7 +376,7 @@
 
 	.jaar1 {
 		padding-left: 5%;
-		padding-top: 51%;
+		padding-top: 55%;
 	}
 	.jaar2-wrapper {
 		background-image: url("SVG/Asset\ 15.svg");
@@ -510,69 +403,16 @@
 	#rooster-2degraad {
 		background-position: 5% 80%;
 	}
-	table{
-		border-collapse: collapse;
-		min-width: 400px;		
-		border-radius: 75px;
-		overflow: hidden;
-		font-size: .95rem;
-	}
-	thead th{
-		background-color: #ea008937;
-		width: 50px;
-		color: #000000;
-	}
-	th,
-	td{
-		padding: 12px 15px;
-		text-align: center;
-		font-weight: 400;
-		height: 30px;
-	}
-
-	tbody tr td{
-		border: 1pt solid #fbb0ff;
-		border-right: none;
-	}
-	td{
-		font-weight: 400;
-		background-color: #ea008915;
-	}
-	#top-table-head th{
-		font-weight: Bold;
-		color: #fff;
-		font-size: 1.25rem;
-	}
-	td#vak{
-		width: 250px;
-		border: none;
-		background-color: #ea00892b;
-	}
-	#last-tablerow td{
-		border-bottom: none;
-	}
-	#Dubbele-Finaliteit{
-		margin-top: 64px;
-	}
 
 	.rooster {
 		display: flex;
-		align-items: center;
-		flex-direction: column;
+		justify-content: center;
 		margin-top: -400px;
 	}
 	.rooster img {
 		width: 45%;
 	}
-	.header-wrapper-inschrijvingen {
-		header {
-			position: relative;
-			width: 100%;
-			height: 100vh;
-			background-image: url(Images/inschrijvingen1.png);
-			/* background-position: center; */
-		}
-	}
+
 	#wegwijzers {
 		margin-left: 10%;
 		margin-right: 5%;
@@ -647,10 +487,21 @@
 	}
 
 	#asset13-inschrijvingen {
-		margin-left: 10%;
-		margin-top: -400px;
+		margin-left: 20%;
+		margin-top: -10%;
+	}
+	.header-wrapper-inschrijvingen {
+		header {
+			position: relative;
+			width: 100%;
+			height: 100vh;
+			background-image: url(Images/inschrijvingen1.png);
+		}
 	}
 
+	#footer-inschrijvingen {
+		margin-top: -45%;
+	}
 	.leefregels-wrapper {
 		padding: 150px;
 		margin-bottom: 100px;
@@ -667,14 +518,12 @@
 		padding-top: 100px;
 	}
 	.leefregels-wrapper img {
-		width: 250px;
-		height: 353px;
-		margin-bottom: 100px;
-		box-shadow: 12px 12px 2px 1px #e174ac;
-		transition: all 0.5s ease-in-out;
+		width: 70%;
+		padding-bottom: 100px;
+		transition: all 0.3s ease-in-out;
 	}
-	.leefregels-wrapper img:hover{
-		transform:scale(1.5);
+	.leefregels-wrapper img:hover {
+		width: 75%;
 	}
 	.image-row-1 {
 		width: 50%;
@@ -768,88 +617,7 @@
 	#infrastructuur-wrapper-bib {
 		margin-top: -15%;
 	}
-<<<<<<< HEAD
 	.info-leerlingbegeleiding-outer-wrapper {
-=======
-	.Basic-pillars-outer-wrapper {
-		display: flex;
-		flex-wrap: wrap;
-		background-image: url("Images/Asset\ 21.png");
-		background-position: 85% 35%;
-	}
-	.Basic-pillars-outer-wrapper-right {
-		display: flex;
-		flex-wrap: wrap;
-		background-image: url("Images/Asset\ 21.png");
-		background-position: 15% 15%;
-	}
-	.Basic-pillars-wrapper {
-		background-image: url("Images/Asset-inschrijving2_2.svg");
-		background-position: top left;
-		background-size: 50%;
-
-		height: 1000px;
-		width: 100%;
-	}
-	.Basic-pillars-wrapper-right {
-		background-image: url("Images/Asset-Inschrijving-2.3.svg");
-		background-position: top right;
-		background-size: 50%;
-		width: 100%;
-		height: 1000px;
-	}
-	.Basic-pillars {
-		padding-top: 10%;
-		margin-left: 5%;
-	}
-	.Basic-pillars img {
-		width: 35%;
-		margin-top: 2rem;
-		border-radius: 35px;
-	}
-	.Basic-pillars p {
-		color: #fff;
-		width: 35%;
-	}
-	.Basic-pillars h3 {
-		color: #fff;
-		width: 35%;
-		padding-bottom: 50px;
-	}
-	.Basic-pillars-right {
-		display: flex;
-		justify-content: flex-end;
-		flex-wrap: wrap;
-		padding-top: 0%;
-	}
-	.Basic-pillars-right img {
-		width: 35%;
-		margin-top: 2rem;
-		border-radius: 35px;
-		margin-right: 5%;
-	}
-	.Basic-pillars-right p {
-		color: #fff;
-		width: 35%;
-		padding-left: 60%;
-		margin-right: 5%;
-	}
-	.Basic-pillars-right h3 {
-		width: 40%;
-		padding-left: 60%;
-		margin-right: 10%;
-		color: #fff;
-		width: 100%;
-		padding-bottom: 50px;
-	}
-	#Basic-pillars-wrapper-speelplaats {
-		margin-top: -15%;
-	}
-	#Basic-pillars-wrapper-bib {
-		margin-top: -15%;
-	}
-	.info-leerlingbegeleiding-outer-wrapper{
->>>>>>> fdb4db5a8dcfba59d80861e343d9a228078c2fe6
 		background-image: url("Images/Asset\ 27.png");
 		background-position: 80% 0%;
 		background-size: 15%;
@@ -990,6 +758,11 @@
 	.kostenoverzichten {
 		padding-left: 10%;
 	}
+	.logo3 {
+		width: 100%;
+		height: auto;
+		margin-top: -50px;
+	}
 	.facebook-page-outer-wrapper {
 		background-image: url("Images/Asset\ 21.png");
 		background-position: 95% 55%;
@@ -1006,16 +779,7 @@
 		height: 1200px;
 		width: 55%;
 	}
-<<<<<<< HEAD
 	.schoolregelement {
-=======
-	.instagram-post-outer-wrapper{
-		display: flex;
-		justify-content: space-around;
-	}
-
-	.schoolregelement{
->>>>>>> fdb4db5a8dcfba59d80861e343d9a228078c2fe6
 		display: flex;
 		justify-content: space-between;
 	}
@@ -1048,7 +812,7 @@
 		width: 35%;
 		height: 500px;
 
-		margin-top: 20%;
+		margin-top: 30%;
 		margin-right: 3%;
 	}
 	.schoolregelement-link-wrapper h2 {
@@ -1056,9 +820,7 @@
 		text-align: center;
 		color: #ffffff;
 	}
-}
 
-<<<<<<< HEAD
 	table {
 		border-collapse: collapse;
 		min-width: 400px;
@@ -1090,5 +852,3 @@
 		border-left: none;
 	}
 }
-=======
->>>>>>> fdb4db5a8dcfba59d80861e343d9a228078c2fe6
