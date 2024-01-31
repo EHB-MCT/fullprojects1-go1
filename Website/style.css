@@ -8,12 +8,7 @@ body {
 	font-size: 14pt;
 	overflow-x: hidden; /* deactiveerd horizontaal scrollen */
 }
-p {
-	font-size: 14pt;
-}
-h4 {
-	font-size: 18pt;
-}
+
 li {
 	list-style: disk outside url("SVG/List-item.svg");
 	font-family: "Arial", sans-serif;
@@ -38,7 +33,7 @@ header h1 {
 	position: absolute;
 	top: 30%;
 	left: 15%;
-	font-size: 3rem;
+	font-size: 4rem;
 	line-height: 1.4;
 	color: #fff;
 	width: 80%;
@@ -58,39 +53,7 @@ header .wave {
 	/* background-position: center; */
 }
 
-p {
-	font-size: 14pt;
-}
-h4 {
-	font-size: 18pt;
-}
-li {
-	list-style: disk outside url("SVG/List-item.svg");
-	font-family: "Arial", sans-serif;
-	font-weight: 400;
-	font-size: 14pt;
-}
-hr {
-	color: #eff3e8;
-	border-top: 1pt solid;
-}
-html {
-	scroll-behavior: smooth;
-}
-header {
-	position: relative;
-	width: 100%;
-	height: 115vh;
-	background-image: url("Images/Header-Homepage.png");
-	background-position: center;
-}
-div {
-	background-repeat: no-repeat;
-}
-header .wave {
-	position: absolute;
-	bottom: 0;
-}
+
 span {
 	font-size: 16pt;
 	text-align: center;
