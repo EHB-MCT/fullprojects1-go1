@@ -22,38 +22,12 @@ hr {
 html {
 	scroll-behavior: smooth;
 }
-header {
-	position: relative;
-	width: 100%;
-	height: 100vh;
-	background-image: url("Images/school.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
-header h1 {
-	position: absolute;
-	top: 30%;
-	left: 15%;
-	font-size: 4rem;
-	line-height: 1.4;
-	color: #fff;
-	width: 80%;
-}
+
 div {
 	background-repeat: no-repeat;
 }
-header .wave {
-	position: absolute;
-	bottom: 0;
-}
-.header-wrapper-inschrijvingen header {
-	position: relative;
-	width: 100%;
-	height: 100vh;
-	background-image: url(Images/inschrijvingen1.png);
-	/* background-position: center; */
-}
+
+
 
 span {
 	font-size: 16pt;
@@ -77,17 +51,15 @@ p {
 	font-weight: 400;
 	margin: 0;
 }
-/* 	.button-top{
-		width: 125px;
-	} */
+
 .button-top a {
-	padding: 15px 25px;
+	padding: 25px 25px;
 	background-color: #e174ac;
-	border-radius: 60px;
+	border-radius: 3rem;
 
 	z-index: 2;
 	position: fixed;
-	bottom: 2%;
+	bottom: 4%;
 	right: 2%;
 	width: 45px;
 	font-family: "pragmatica", sans-serif;
@@ -116,7 +88,7 @@ p {
 	width: 400px;
 	padding: 25px;
 	height: 150px;
-	bottom: 2%;
+	bottom: 4%;
 	right: 2%;
 	color: #eff3e8;
 	font-family: "pragmatica", sans-serif;
@@ -167,48 +139,37 @@ img#pop_up_asset {
 	flex-direction: column;
 	position: relative;
 	margin-top: -200px;
+	margin-bottom: -200px;
 }
+
 .info {
-	margin-left: 28%;
+	margin-top: 300px;
+	margin-bottom: 200px;
+	margin-left: 30%;
 }
 .info-list {
 	display: flex;
 	align-items: center;
-	padding-bottom: 46px;
+	margin-bottom: 46px;
 }
-.info-image {
-	display: flex;
-	align-items: center;
-	padding-left: 60px;
+.info-list:nth-child(3) {
+	margin-bottom: 0;
 }
-.info-text {
-	padding: 0 10% 0 0px;
-	margin-left: -20%;
+.info-list .info-text {
+	margin-left: 2rem;
 }
-.info-image h2 {
-	width: 300px;
-	margin-left: -47%;
-	margin-bottom: -25%;
-	color: #fff;
-}
+
 #info-list-studieaanbod {
-	padding-left: 75px;
+	margin-left: 6rem;
 }
-#info-list-onze-school {
-	padding-top: 25%;
-}
-#info-list-inschrijving {
-	padding-bottom: 100px;
-}
-#info-list-studieaanbod .info-text {
-	padding-right: 10%;
-}
+
+
 .quote-outer-wrapper {
 	position: relative;
 	margin-left: -2%;
 }
 .quote-image {
-	margin-top: -50px;
+	top: -50px;
 }
 .quote-image img {
 	width: 100%;
@@ -216,23 +177,23 @@ img#pop_up_asset {
 #quote-image-text {
 	position: absolute;
 	z-index: 1;
-	margin-top: 30%;
-	margin-left: 10%;
-	font-size: 56pt;
+	top: 50%;
+	left: 15%;
+	font-size: 4rem;
 	line-height: 1;
 	color: #ffffff;
 }
 .pijlers-wrapper {
 	background-image: url("Images/Shapes2-3.svg");
-	background-size: 25%;
-	background-position: 45% 35%;
-	padding-top: 64px;
+	background-size: 20%;
+	background-position: 47% 35%;
+	margin-top: 64px;
 }
 .pijlers-list {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	padding-bottom: 32px;
+	margin-bottom: 32px;
 }
 .pijlers p {
 	color: #000000;
@@ -263,23 +224,23 @@ img#pop_up_asset {
 }
 #pijlers-list-taal {
 	transform: rotate(3deg);
-	padding-left: 35%;
+	margin-left: 35%;
 }
 #pijlers-list-OLB {
 	transform: rotate(-3deg);
-	padding-right: 35%;
+	margin-right: 35%;
 	margin-top: -130px;
 }
 #pijlers-list-welzijn {
 	transform: rotate(3deg);
-	padding-left: 35%;
+	margin-left: 35%;
 	margin-top: -130px;
 }
 #pijlers-list-header-welzijn {
 	margin-left: 8%;
 }
 .background-bollen {
-	padding-left: 15%;
+	margin-left: 15%;
 	margin-top: -100px;
 }
 .background-bollen img {
@@ -287,45 +248,11 @@ img#pop_up_asset {
 	width: 21%;
 	height: auto;
 }
-.footer-wrapper {
-	z-index: 3;
-	background-image: url("images/Footer_2.svg");
-	background-position: bottom 0px right 0px;
-	background-size: 100%;
-	height: 160vh;
-	width: 100%;
-	display: flex;
-	align-items: flex-end;
-	justify-content: space-evenly;
-}
-.footer-list,
-.footer-logo {
-	padding-bottom: 3%;
-}
-.footer-list a {
-	display: block;
-	text-decoration: underline transparent 1pt;
-	transition: text-decoration 0.3s ease;
-	color: #ffffff;
-}
+
 .flex.row a:hover {
 	text-decoration-color: #fff;
 }
-.footer-list p {
-	text-align: center;
-	color: #ffffff;
-}
-.footer-logo img {
-	width: 400px;
-}
-.footer-list img {
-	width: 25px;
-	padding-right: 10px;
-}
-.footer-item {
-	display: flex;
-	align-self: center;
-}
+
 
 .flex {
 	display: flex;
@@ -336,42 +263,10 @@ img#pop_up_asset {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-end;
-	padding: 15px 0;
+	margin: 10px 0;
 }
 
-#footer-homepage {
-	margin-top: -50%;
-}
-#footer-studieaanbod {
-	margin-top: -45%;
-}
-#footer-leefregels {
-	margin-top: -45%;
-}
-#footer-contact {
-	margin-top: -35%;
-}
-#footer-leerlingbegeleiding {
-	margin-top: -55%;
-}
-#footer-schoolregelement {
-	margin-top: -55%;
-}
-#footer-infrastructuur {
-	margin-top: -50%;
-}
-#footer-max-factuur {
-	margin-top: -60%;
-}
-#footer-hospiteerlessen {
-	margin-top: -55%;
-}
-#footer-basispijlers {
-	margin-top: -55%;
-}
-#footer-humaniora {
-	margin-top: -55%;
-}
+
 .leefregels {
 	width: 90%;
 }
@@ -538,13 +433,7 @@ td#vak {
 .rooster img {
 	width: 45%;
 }
-.header-wrapper-inschrijvingen header {
-	position: relative;
-	width: 100%;
-	height: 100vh;
-	background-image: url(Images/inschrijvingen1.png);
-	/* background-position: center; */
-}
+
 
 #wegwijzers {
 	margin-left: 10%;
@@ -1134,25 +1023,7 @@ p {
 	margin: 0;
 }
 
-.button-top a {
-	padding: 15px 25px;
-	background-color: #e174ac;
-	border-radius: 60px;
 
-	z-index: 2;
-	position: fixed;
-	bottom: 2%;
-	right: 2%;
-	width: 45px;
-	font-family: "pragmatica", sans-serif;
-	text-decoration: none;
-	color: #eff3e8;
-	text-align: center;
-	transition: all 0.3s ease-in-out;
-}
-.button-top a:hover {
-	background-color: #d13389;
-}
 #close_pop_up {
 	float: right;
 	font-size: 12pt;
@@ -1222,206 +1093,38 @@ img#pop_up_asset {
 	position: relative;
 	margin-top: -200px;
 }
-.info {
-	margin-left: 28%;
-}
-.info-list {
-	display: flex;
-	align-items: center;
-	padding-bottom: 46px;
-}
+
+
 .info-image {
-	display: flex;
-	align-items: center;
-	padding-left: 60px;
-}
-.info-text {
-	padding: 0 10% 0 0px;
-	margin-left: -20%;
-}
-.info-image h2 {
-	width: 300px;
-	margin-left: -47%;
-	margin-bottom: -25%;
-}
-#info-list-studieaanbod {
-	padding-left: 75px;
-}
-#info-list-onze-school {
-	padding-top: 25%;
-}
-#info-list-inschrijving {
-	padding-bottom: 100px;
-}
-#info-list-studieaanbod .info-text {
-	padding-right: 10%;
-}
-.quote-outer-wrapper {
 	position: relative;
-	margin-left: -2%;
-}
-.quote-image {
-	margin-top: -50px;
-}
-.quote-image img {
-	width: 100%;
-}
-#quote-image-text {
-	position: absolute;
-	z-index: 1;
-	margin-top: 30%;
-	margin-left: 10%;
-	font-size: 56pt;
-	line-height: 1;
-	color: #ffffff;
-}
-.pijlers-wrapper {
-	background-image: url("Images/Shapes2-3.svg");
-	background-size: 25%;
-	background-position: 45% 35%;
-	padding-top: 64px;
-}
-.pijlers-list {
 	display: flex;
 	align-items: center;
-	flex-direction: column;
-	padding-bottom: 32px;
+	width: auto;
 }
-.pijlers p {
-	color: #000000;
 
-	background-color: #cacaca;
-	padding: 100px 50px;
-	border-radius: 75px;
 
+.info-image h2 {
+	position: absolute;
 	width: 300px;
-	font-size: 12pt;
+	bottom: 1rem;
+	left: 2rem;
 }
-.pijlers img,
-.pijlers h3 {
-	margin-bottom: -30px;
-	padding-right: 60px;
-	z-index: 1;
-}
-.pijlers img {
-	width: 100px;
-	height: 100px;
-	margin-bottom: -50px;
-}
-.pijlers-list-header {
-	display: flex;
-	justify-content: space-between;
-	width: 400px;
-	align-items: flex-end;
-}
-#pijlers-list-taal {
-	transform: rotate(3deg);
-	padding-left: 35%;
-}
-#pijlers-list-OLB {
-	transform: rotate(-3deg);
-	padding-right: 35%;
-	margin-top: -130px;
-}
-#pijlers-list-welzijn {
-	transform: rotate(3deg);
-	padding-left: 35%;
-	margin-top: -130px;
-}
-#pijlers-list-header-welzijn {
-	margin-left: 8%;
-}
-.background-bollen {
-	padding-left: 15%;
-	margin-top: -100px;
-}
-.background-bollen img {
-	transform: rotate(-80deg);
-	width: 21%;
-	height: auto;
-}
-.footer-wrapper {
-	z-index: 3;
-	background-image: url("images/Footer_2.svg");
-	background-position: bottom 0px right 0px;
-	background-size: 100%;
-	height: 160vh;
-	width: 100%;
-	display: flex;
-	align-items: flex-end;
-	justify-content: space-evenly;
-}
-.footer-list,
-.footer-logo {
-	padding-bottom: 3%;
-}
-.footer-list a {
-	display: block;
-	text-decoration: underline transparent 1pt;
-	transition: text-decoration 0.3s ease;
-	color: #ffffff;
-}
+
+
+
 .flex.row a:hover {
 	text-decoration-color: #fff;
 }
-.footer-list p {
-	text-align: center;
-	color: #ffffff;
-}
-.footer-logo img {
-	width: 400px;
-}
-.footer-list img {
-	width: 25px;
-	padding-right: 10px;
-}
-.footer-item {
-	display: flex;
-	align-self: center;
-}
+
 
 .flex {
 	display: flex;
 	flex-direction: column;
 }
 
-.flex.row {
-	display: flex;
-	flex-direction: row;
-	align-items: flex-end;
-	padding: 15px 0;
-}
 
-#footer-homepage {
-	margin-top: -50%;
-}
-#footer-studieaanbod {
-	margin-top: -45%;
-}
-#footer-leefregels {
-	margin-top: -45%;
-}
-#footer-contact {
-	margin-top: -35%;
-}
-#footer-leerlingbegeleiding {
-	margin-top: -55%;
-}
-#footer-schoolregelement {
-	margin-top: -55%;
-}
-#footer-infrastructuur {
-	margin-top: -50%;
-}
-#footer-max-factuur {
-	margin-top: -60%;
-}
-#footer-hospiteerlessen {
-	margin-top: -55%;
-}
-#footer-basispijlers {
-	margin-top: -55%;
-}
+
+
 
 .leefregels {
 	width: 90%;
