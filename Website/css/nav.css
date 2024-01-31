@@ -11,7 +11,7 @@
 	z-index: 98;
 }
 
-.sidebar.active {
+.sidebar.showMenu {
 	right: 0;
 }
 
@@ -44,7 +44,7 @@
 
 /* nav */
 nav {
-	width: 90%;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	padding: 3rem 3rem;
@@ -87,6 +87,7 @@ nav {
 }
 .ham-menu.active {
 	position: fixed;
+	z-index: 99;
 }
 .ham-menu span {
 	height: 5px;

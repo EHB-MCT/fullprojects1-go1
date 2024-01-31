@@ -1,17 +1,7 @@
 @media (max-width: 1024px) {
     /* For mobile phones ----------- */
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: "pragmatica", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-        font-size: 12pt;
-        overflow-x: hidden; /* deactiveerd horizontaal scrollen */
-    }
-    img{
-        width: 100%;
-    }
+    
+    
     .ham-menu {
         visibility: visible;
         width: 40px;

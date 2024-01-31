@@ -1,44 +1,25 @@
 @media (max-width: 1024px) {
-    /* For mobile phones ----------- */
-    .ham-menu {
-        visibility: visible;
-    }
-    .dropdown{
-        visibility: hidden;
-    }
-    ul{
-        list-style-type: none;
-    }
-    body {
-        font-size: 12pt;
-        overflow-x: hidden; /* deactiveerd horizontaal scrollen */
-    }
-    header {
-        position: relative;
-        width: 100%;
-        height: 50vh;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    header h1 {
-        position: absolute;
-        top: 30%;
-        left: 15%;
-        font-size: 2rem;
-        line-height: 1.25;
-        color: #fff;
-    }
-    .info-wrapper {
-        margin-top: -30px;
-        position:relative;
-        background-repeat: no-repeat;
-        background-size: 20%;
-    }
-
-    .info-list {
-        display: flex;
-        align-items: center;
-        padding-bottom: 1rem;
-        width: 100%;
-    }
+	/* For mobile phones ----------- */
+	.ham-menu {
+		visibility: visible;
+	}
+	.dropdown {
+		visibility: hidden;
+	}
+	img {
+		width: 100%;
+	}
+	ul {
+		list-style-type: none;
+	}
+	body {
+		font-size: 12pt;
+	}
+	header {
+		height: 50vh;
+	}
+	header h1 {
+		font-size: 2rem;
+		line-height: 1.25;
+	}
 }
