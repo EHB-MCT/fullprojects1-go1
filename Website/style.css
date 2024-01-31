@@ -1148,78 +1148,7 @@ td#vak {
 	margin-top: -400px;
 }
 
-.info-leerlingbegeleiding-outer-wrapper {
-	background-image: url("Images/Asset\ 27.png");
-	background-position: 80% 0%;
-	background-size: 15%;
-}
-.info-leerlingbegeleiding {
-	background-image: url("SVG/Asset\ 26.svg");
-	background-position: top left;
-	background-size: 850px;
 
-	height: 500px;
-
-	margin-top: 100px;
-}
-.info-leerlingbegeleiding-text {
-	display: flex;
-	align-items: center;
-	width: 50%;
-	height: 500px;
-}
-.info-leerlingbegeleiding p {
-	color: #fff;
-	width: 65%;
-	margin-left: 5%;
-}
-.info-leerlingbegeleiding-wrapper {
-	display: flex;
-	justify-content: space-around;
-}
-.info-kader {
-	width: 40%;
-	transform: rotate(-6deg);
-	margin-left: 10%;
-}
-.info-kader img {
-	transform: rotate(6deg);
-	margin-bottom: -10%;
-	margin-left: 75%;
-	width: 25%;
-}
-.info-kader-text {
-	background-color: #cacaca;
-	padding: 70px 15px;
-	border-radius: 75px;
-	width: 90%;
-}
-.info-kader-text ul li {
-	font-family: "Ariel", sans-serif;
-	font-weight: 400;
-}
-.info-kader-text H4 {
-	font-size: 16pt;
-	font-family: "Ariel", sans-serif;
-	font-weight: 400;
-	text-align: center;
-}
-.info-leerlingbegeleiding-2 {
-	background-image: url("SVG/Asset-28.svg");
-	background-position: top right;
-	background-size: 800px;
-
-	height: 800px;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-}
-.info-leerlingbegeleiding-2 p {
-	color: #fff;
-	width: 48%;
-	margin-right: 5%;
-}
 .background2 {
 	background-image: url("SVG/Asset\ 16.svg");
 	background-size: 20%;
