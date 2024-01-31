@@ -503,11 +503,6 @@ td#vak {
 	margin-top: 7%;
 	height: 500px;
 }
-#info-open-class-days {
-	margin-left: 5%;
-	margin-right: 7.5%;
-	height: 800px;
-}
 
 .inschrijvingen-alinea1 {
 	display: flex;
@@ -579,6 +574,7 @@ td#vak {
 	margin-left: 10%;
 	margin-top: -400px;
 }
+
 #info-open-class-days {
 	margin-left: 5%;
 	margin-right: 7.5%;
@@ -1259,6 +1255,7 @@ img#pop_up_asset {
 	margin-left: 10%;
 	margin-top: -400px;
 }
+>>>>>>> 0b21c5243c29982e33cd1a0c1b3a5bf04c871ae5
 .info-leerlingbegeleiding-outer-wrapper {
 	background-image: url("Images/Asset\ 27.png");
 	background-position: 80% 0%;
@@ -1315,7 +1312,6 @@ img#pop_up_asset {
 	font-weight: 400;
 	text-align: center;
 }
-
 .info-leerlingbegeleiding-2 {
 	background-image: url("SVG/Asset-28.svg");
 	background-position: top right;
@@ -1373,6 +1369,11 @@ img#pop_up_asset {
 	width: auto;
 	margin-top: -2000vh;
 }
+/* .asset21-maximumfactuur {
+		margin-top: 35%;
+		margin-right: 20%;
+		
+	} */
 #kosten1 {
 	height: 800px;
 	width: 100%;
@@ -1398,7 +1399,12 @@ img#pop_up_asset {
 	width: 100%;
 }
 .kostenoverzichten {
-	padding-left: 10%;
+	text-align: center;
+}
+
+.logo3 {
+	height: 150%;
+	margin-top: -35px;
 }
 .facebook-page-outer-wrapper {
 	background-image: url("Images/Asset\ 21.png");
@@ -1418,16 +1424,12 @@ img#pop_up_asset {
 }
 .instagram-post-outer-wrapper {
 	display: flex;
-	padding: 0 5%;
-	justify-content: space-evenly;
-	background-image: url("SVG/Asset-socials_3.svg");
-	background-position: 50%;
-	background-size: 45%;
+	justify-content: space-around;
 }
+
 .schoolregelement {
 	display: flex;
 	justify-content: space-between;
-	margin-top: -100px;
 }
 .schoolregelement-wrapper {
 	display: flex;
@@ -1465,6 +1467,8 @@ img#pop_up_asset {
 	width: 80%;
 	text-align: center;
 }
+<<<<<<< HEAD
+=======
 
 /* table {
 	border-collapse: collapse;
@@ -1496,3 +1500,4 @@ td#vak {
 	width: 350px;
 	border-left: none;
 } */
+>>>>>>> 0b21c5243c29982e33cd1a0c1b3a5bf04c871ae5
