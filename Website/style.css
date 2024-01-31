@@ -7,7 +7,6 @@ body {
 	font-style: normal;
 	font-size: 14pt;
 	overflow-x: hidden; /* deactiveerd horizontaal scrollen */
-	
 }
 
 li {
@@ -84,12 +83,9 @@ p {
 	border-radius: 35px;
 	color: #eff3e8;
 	position: absolute;
-	width: 400px;
-	padding: 25px;
 	height: 150px;
 	bottom: 4%;
 	right: 2%;
-	color: #eff3e8;
 	font-family: "pragmatica", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -194,11 +190,9 @@ img#pop_up_asset {
 }
 .pijlers p {
 	color: #000000;
-
 	background-color: #cacaca;
 	padding: 100px 50px;
 	border-radius: 75px;
-
 	width: 300px;
 	font-size: 12pt;
 }
@@ -225,7 +219,7 @@ img#pop_up_asset {
 }
 .pijlers-list:nth-child(even) {
 	transform: rotate(-3deg);
-	margin-right: 35%;	
+	margin-right: 35%;
 }
 
 #pijlers-list-header-welzijn {
@@ -240,27 +234,24 @@ img#pop_up_asset {
 	width: 21%;
 	height: auto;
 }
-
 .flex.row a:hover {
 	text-decoration-color: #fff;
 }
-
 .flex {
 	display: flex;
 	flex-direction: column;
 }
-
 .flex.row {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-end;
 	margin: 10px 0;
 }
-.contact{
+.contact {
 	display: flex;
 	justify-content: space-between;
 }
-.contact-right-wrapper{
+.contact-right-wrapper {
 	background-image: url("SVG/Asset\ 15.svg");
 	background-repeat: no-repeat;
 	background-size: 500px;
@@ -268,7 +259,7 @@ img#pop_up_asset {
 	width: 30%;
 	position: relative;
 }
-.contact-right{
+.contact-right {
 	margin-left: 35%;
 	margin-top: 25%;
 }
@@ -287,35 +278,34 @@ img#pop_up_asset {
 	width: 25px;
 	padding-right: 10px;
 }
-.contact-form{
-    width: 70%;
+.contact-form {
+	width: 70%;
 	margin: 0 auto;
 	margin-top: 4rem;
 	margin-bottom: 1rem;
 }
-.maps{
+.maps {
 	display: flex;
 	justify-content: center;
 }
-input{
+input {
 	width: 100%;
 	height: 50px;
-	border: none;
-	border: 1pt solid #d13389 ;
+	border: 1pt solid #d13389;
 	border-radius: 25px;
 	color: #000;
 	margin-bottom: 1rem;
 }
-textarea{
+textarea {
 	width: 100%;
 	height: 125px;
-	border: none;
-	border: 1pt solid #d13389 ;
+
+	border: 1pt solid #d13389;
 	border-radius: 15px;
 	color: #000;
 	margin-bottom: 1rem;
 }
-button{
+button {
 	color: #eff3e8;
 	background-color: #d13389;
 	font-family: "pragmatica", sans-serif;
@@ -324,12 +314,11 @@ button{
 	border-radius: 25px;
 	border: none;
 }
-.send-button{
+.send-button {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 5rem;
 }
-
 .leefregels {
 	width: 90%;
 }
@@ -337,7 +326,6 @@ button{
 	display: flex;
 	justify-content: flex-end;
 	margin: 64px 0;
-
 }
 .quick-navigate-buttons {
 	width: 100%;
@@ -349,15 +337,12 @@ button{
 	margin: 0px 10px;
 	background-color: #e174ac;
 	border-radius: 25px;
-
 	font-family: "pragmatica", sans-serif;
 	font-weight: 900;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-
 	width: 120px;
-
 	transition: all 0.3s ease-in-out;
 }
 .quick-navigate-buttons a:hover {
@@ -371,7 +356,6 @@ button{
 .graad h4 {
 	color: #fff;
 }
-
 .title-graad {
 	margin-bottom: 64px;
 	margin-left: 29%;
@@ -396,11 +380,8 @@ button{
 	background-image: url("SVG/Asset\ 11_1.svg");
 	background-position: top left;
 	background-size: 400px;
-
 	width: 40%;
-
 	position: relative;
-
 	margin-top: -275px;
 }
 
@@ -412,20 +393,16 @@ button{
 	background-image: url("SVG/Asset\ 15.svg");
 	background-position: top right;
 	background-size: 475px;
-
 	width: 35%;
 	height: 900px;
-
 	display: flex;
 	justify-content: flex-end;
-
 	position: relative;
 }
 .jaar2 {
 	margin-right: 15%;
 	margin-top: 22%;
 }
-
 .rooster-wrapper {
 	background-image: url("Images/Asset\ 21.png");
 	background-position: 95% 80%;
@@ -445,7 +422,6 @@ thead th {
 	width: 50px;
 	color: #000000;
 }
-
 td {
 	padding: 12px 15px;
 	text-align: center;
@@ -486,7 +462,6 @@ td#vak {
 #Dubbele-Finaliteit {
 	margin-top: 64px;
 }
-
 .rooster {
 	display: flex;
 	align-items: center;
@@ -496,14 +471,12 @@ td#vak {
 .rooster img {
 	width: 45%;
 }
-
 #wegwijzers {
 	margin-left: 10%;
 	margin-right: 5%;
 	margin-top: 7%;
 	height: 500px;
 }
-
 .inschrijvingen-alinea1 {
 	display: flex;
 	flex-direction: row;
@@ -535,7 +508,6 @@ td#vak {
 	margin-bottom: 10%;
 	margin-right: auto;
 	margin-top: -500px;
-
 	padding-top: 15%;
 	padding-bottom: 15%;
 	padding-left: 10%;
@@ -551,36 +523,29 @@ td#vak {
 .inschrijving-2detot6de-text a {
 	color: #000000;
 }
-
 .inschrijving-2tot6de img {
 	height: 200px;
 }
 #asset20-inschrijvingen {
 	display: flex;
 	align-items: flex-end;
-
 	transform: scaleX(-1);
-
 	margin-left: auto;
-	transform: rotate(-80deg);
 }
 #asset21-inschrijvingen {
 	margin-top: -700px;
 	padding-bottom: 400px;
 	margin-left: 10%;
 }
-
 #asset13-inschrijvingen {
 	margin-left: 10%;
 	margin-top: -400px;
 }
-
 #info-open-class-days {
 	margin-left: 5%;
 	margin-right: 7.5%;
 	height: 800px;
 }
-
 .info-school-wrapper {
 	display: flex;
 	flex-direction: row;
@@ -604,7 +569,6 @@ td#vak {
 .info-school h2 {
 	color: white;
 }
-
 .info-school-two-text h2 {
 	color: white;
 	width: 80%;
@@ -613,9 +577,7 @@ td#vak {
 	margin-bottom: 10%;
 	margin-right: auto;
 	margin-top: -750px;
-
 	width: 40%;
-
 	padding-top: 16%;
 	padding-bottom: 16%;
 	padding-left: 7.5%;
@@ -640,11 +602,8 @@ td#vak {
 #asset20-info-school {
 	display: flex;
 	align-items: flex-end;
-
 	transform: scaleX(-1);
-
 	margin-left: auto;
-	transform: rotate(-80deg);
 }
 #asset21-info-school {
 	margin-top: -700px;
@@ -765,7 +724,7 @@ td#vak {
 	margin-left: 60%;
 	margin-right: 10%;
 	color: #fff;
-	width: 100%;
+
 	margin-bottom: 50px;
 }
 #infrastructuur-wrapper-speelplaats {
@@ -842,7 +801,6 @@ td#vak {
 	margin-left: 60%;
 	margin-right: 10%;
 	color: #fff;
-	width: 100%;
 	margin-bottom: 50px;
 }
 #Basic-pillars-wrapper-speelplaats {
@@ -1059,73 +1017,9 @@ td#vak {
 	color: #ffffff;
 }
 
-span {
-	font-size: 16pt;
-	text-align: center;
-	text-decoration: none;
-	color: #eff3e8;
-}
 
-h3 {
-	margin: 0;
-	font-size: 36pt;
-}
-a,
-p {
-	font-family: "Arial", sans-serif;
-	font-weight: 400;
-	margin: 0;
-}
 
-#close_pop_up {
-	float: right;
-	font-size: 12pt;
-	cursor: pointer;
-	transition: all 0.3s ease-in-out;
-}
-#pop_up {
-	z-index: 10;
-	width: 400px;
-	padding: 25px;
-	background-color: #e174ac;
-	border-radius: 35px;
-	color: #eff3e8;
-	position: absolute;
-	width: 400px;
-	padding: 25px;
-	height: 150px;
-	bottom: 2%;
-	right: 2%;
-	color: #eff3e8;
-	font-family: "pragmatica", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 14pt;
-	transition: all 0.3s ease-in-out;
-}
-.row p {
-	padding: 10px 0;
-}
-#pop_up img {
-	width: 25px;
-}
-#close_pop_up:hover {
-	transform: scale(1.5);
-}
-.pop_up-inside {
-	display: flex;
-}
-.pop_up-text {
-	width: 200px;
-}
-.pop_up-asset {
-	width: 100px;
-	padding-top: 15px;
-}
-img#pop_up_asset {
-	width: 100px;
-	padding-left: 50%;
-}
+
 
 #contact-button {
 	padding: 15px 40px;
@@ -1137,7 +1031,6 @@ img#pop_up_asset {
 	background-color: #d13389;
 	padding: 15px 45px;
 }
-
 
 .info-image {
 	position: relative;
@@ -1243,7 +1136,6 @@ img#pop_up_asset {
 	transform: scaleX(-1);
 
 	margin-left: auto;
-	transform: rotate(-80deg);
 }
 #asset21-inschrijvingen {
 	margin-top: -700px;
@@ -1255,79 +1147,8 @@ img#pop_up_asset {
 	margin-left: 10%;
 	margin-top: -400px;
 }
->>>>>>> 0b21c5243c29982e33cd1a0c1b3a5bf04c871ae5
-.info-leerlingbegeleiding-outer-wrapper {
-	background-image: url("Images/Asset\ 27.png");
-	background-position: 80% 0%;
-	background-size: 15%;
-}
-.info-leerlingbegeleiding {
-	background-image: url("SVG/Asset\ 26.svg");
-	background-position: top left;
-	background-size: 850px;
 
-	height: 500px;
 
-	margin-top: 100px;
-}
-.info-leerlingbegeleiding-text {
-	display: flex;
-	align-items: center;
-	width: 50%;
-	height: 500px;
-}
-.info-leerlingbegeleiding p {
-	color: #fff;
-	width: 65%;
-	margin-left: 5%;
-}
-.info-leerlingbegeleiding-wrapper {
-	display: flex;
-	justify-content: space-around;
-}
-.info-kader {
-	width: 40%;
-	transform: rotate(-6deg);
-	margin-left: 10%;
-}
-.info-kader img {
-	transform: rotate(6deg);
-	margin-bottom: -10%;
-	margin-left: 75%;
-	width: 25%;
-}
-.info-kader-text {
-	background-color: #cacaca;
-	padding: 70px 15px;
-	border-radius: 75px;
-	width: 90%;
-}
-.info-kader-text ul li {
-	font-family: "Ariel", sans-serif;
-	font-weight: 400;
-}
-.info-kader-text H4 {
-	font-size: 16pt;
-	font-family: "Ariel", sans-serif;
-	font-weight: 400;
-	text-align: center;
-}
-.info-leerlingbegeleiding-2 {
-	background-image: url("SVG/Asset-28.svg");
-	background-position: top right;
-	background-size: 800px;
-
-	height: 800px;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-}
-.info-leerlingbegeleiding-2 p {
-	color: #fff;
-	width: 48%;
-	margin-right: 5%;
-}
 .background2 {
 	background-image: url("SVG/Asset\ 16.svg");
 	background-size: 20%;
@@ -1467,37 +1288,3 @@ img#pop_up_asset {
 	width: 80%;
 	text-align: center;
 }
-<<<<<<< HEAD
-=======
-
-/* table {
-	border-collapse: collapse;
-	min-width: 400px;
-}
-thead th {
-	background-color: #ea008937;
-	font-weight: Bold;
-	width: 80px;
-	color: #000000;
-}
-th,
-td {
-	padding: 12px 15px;
-	text-align: center;
-}
-
-tbody tr td {
-	border: 1pt solid #fbb0ff;
-}
-td {
-	font-weight: 400;
-	background-color: #ea008915;
-}
-#top-table-head th {
-	color: #fff;
-}
-td#vak {
-	width: 350px;
-	border-left: none;
-} */
->>>>>>> 0b21c5243c29982e33cd1a0c1b3a5bf04c871ae5
