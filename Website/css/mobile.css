@@ -15,6 +15,9 @@
 	body {
 		font-size: 12pt;
 	}
+	h3{
+		font-size: 2rem;
+	}
 	header {
 		height: 50vh;
 		background-position: top;
@@ -23,6 +26,9 @@
 	header h1 {
 		font-size: 2rem;
 		line-height: 1.25;
+	}
+	.button-top {
+		visibility: hidden;
 	}
 	#pop_up{
 		width: 300px;
@@ -63,7 +69,12 @@
 	}
 	.pijlers-list {
 		margin: 0,0,200px,0;
-		
+	}
+	.pijlers-list-header{
+		width: 60%;
+	}
+	.pijlers p{
+		width: 55%;
 	}
 	.pijlers-list:nth-child(odd) {
 		
@@ -75,6 +86,10 @@
 	}
 	.pijlers-wrapper {
 		background-image: none;
+	}
+	.pijlers img{
+		width: 75px;
+		height: 75px;
 	}
 	#footer-navigarion {
 		visibility: hidden;
@@ -100,4 +115,51 @@
 	#footer-navigation{
 		visibility: hidden;
 	}
+	.studierichtingen{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		background-image: none;
+	}
+	.graad{
+		height: auto;
+	}
+	.graad ul li, .graad h4{
+		color: #eff3e8;
+	}
+	.title-graad{
+		margin-left: 5%;
+		width: 95%;
+	}
+	.info-graad{
+		margin:0 5%;
+		width: 90%;
+	}
+	.jaar1-wrapper{
+		margin-top: 0;
+		background-size: 55%;
+		width: 100%;
+		background-image: none;
+	}
+	.jaar2-wrapper{
+		margin-top: 0;
+		background-size: 55%;
+		width: 100%;
+		height: 100%;
+		background-image: none;
+		justify-content: flex-start;
+	}
+	.jaar1,
+	.jaar2{
+		margin: 32px 5% 0 5%;
+		padding: 10px 15px;
+		margin-right: 0;
+		width: 80%;
+		background-color: #e174ac;
+		border-radius: 1.5rem;
+	}
+	.rooster-wrapper{
+		visibility: hidden;
+	}
+
 }

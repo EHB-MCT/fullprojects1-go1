@@ -221,8 +221,7 @@ img#pop_up_asset {
 	transform: rotate(-3deg);
 	margin-right: 35%;
 }
-
-#pijlers-list-header-welzijn {
+#pijlers-list-header-OLB {
 	margin-left: 8%;
 }
 .background-bollen {
@@ -350,7 +349,7 @@ button {
 	background-color: #d13389;
 }
 .graad {
-	padding-bottom: 124px;
+	margin-bottom: 124px;
 }
 .graad ul li,
 .graad h4 {
@@ -977,7 +976,6 @@ td#vak {
 .schoolregelement {
 	display: flex;
 	justify-content: space-between;
-	margin-top: -100px;
 }
 .schoolregelement-wrapper {
 	display: flex;
@@ -1015,6 +1013,14 @@ td#vak {
 	width: 80%;
 	text-align: center;
 	color: #ffffff;
+	transition: all .3s ease-in-out;
+}
+.schoolregelement-link-wrapper a:hover{
+	transform: scale(1.1);
+}
+.schoolregelement-link-wrapper img{
+	margin-top: 24px;
+	width: 100px;
 }
 
 
@@ -1058,14 +1064,6 @@ td#vak {
 .leefregels {
 	width: 90%;
 }
-.graad {
-	padding-bottom: 124px;
-}
-.graad ul li,
-.graad h4 {
-	color: #fff;
-}
-
 #info-open-class-days {
 	margin-left: 5%;
 	margin-right: 7.5%;
