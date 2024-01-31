@@ -26,8 +26,10 @@ header {
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background-image: url("Images/Header-Homepage.png");
+	background-image: url("Images/school.jpg");
 	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 header h1 {
 	position: absolute;
@@ -66,6 +68,7 @@ h3 {
 }
 h2 {
 	margin: 10px 0;
+	color: #eff3e8;
 }
 
 a,
@@ -484,19 +487,28 @@ thead th {
 	width: 50px;
 	color: #000000;
 }
-th,
+
 td {
 	padding: 12px 15px;
 	text-align: center;
 	font-weight: 400;
 	height: 30px;
 }
-
+th{
+	padding: 12px 15px;
+	text-align: left;
+	font-weight: 400;
+	height: 30px;
+}
+#Vakken-rooster{
+	text-align: center;
+}
 tbody tr td {
 	border: 1pt solid #fbb0ff;
 	border-right: none;
 }
 td {
+	font-family: 'Ariel', sans-serif;
 	font-weight: 400;
 	background-color: #ea008915;
 }
@@ -586,19 +598,6 @@ td#vak {
 	background-position: left;
 	z-index: 3;
 }
-.info-open-class-day-text {
-	margin-bottom: 10%;
-	margin-right: auto;
-	margin-top: -500px;
-
-	padding-top: 16%;
-	padding-bottom: 16%;
-	padding-left: 10%;
-	background-image: url("Images/Asset\ 13_2.png");
-	background-size: 60%;
-	background-position: left;
-	z-index: 3;
-}
 .inschrijving-2detot6de-text li {
 	font-weight: 400;
 	font-family: "Arial";
@@ -635,11 +634,11 @@ td#vak {
 	height: 800px;
 }
 
-.info-humaniora-wrapper {
+.info-school-wrapper {
 	display: flex;
 	flex-direction: row;
 }
-.info-humaniora {
+.info-school {
 	margin-top: -100px;
 	margin-left: auto;
 	z-index: 1;
@@ -651,19 +650,19 @@ td#vak {
 	background-size: 120%;
 	background-position: left;
 }
-.info-humaniora-two {
+.info-school-two {
 	margin-left: 10%;
 	margin-top: 20%;
 }
-.info-humaniora h2 {
+.info-school h2 {
 	color: white;
 }
 
-.info-humaniora-two-text h2 {
+.info-school-two-text h2 {
 	color: white;
 	width: 80%;
 }
-.info-humaniora-two-text {
+.info-school-two-text {
 	margin-bottom: 10%;
 	margin-right: auto;
 	margin-top: -750px;
@@ -680,18 +679,18 @@ td#vak {
 	display: flex;
 	flex-direction: column;
 }
-.info-humaniora-two-text li {
+.info-school-two-text li {
 	font-weight: 400;
 	font-family: "Arial";
 	width: 80%;
 }
-.info-humaniora-two-text a {
+.info-school-two-text a {
 	color: #000000;
 }
-.info-humaniora-two img {
+.info-school-two img {
 	height: 200px;
 }
-#asset20-info-humaniora {
+#asset20-info-school {
 	display: flex;
 	align-items: flex-end;
 
@@ -700,17 +699,17 @@ td#vak {
 	margin-left: auto;
 	transform: rotate(-80deg);
 }
-#asset21-info-humaniora {
+#asset21-info-school {
 	margin-top: -700px;
 	padding-bottom: 400px;
 	margin-left: 10%;
 }
 
-#asset13-info-humaniora {
+#asset13-info-school {
 	margin-left: 10%;
 	margin-top: -200px;
 }
-#info-humaniora-image {
+#info-school-image {
 	margin-left: 5%;
 	margin-right: 7.5%;
 	height: 800px;
@@ -1128,10 +1127,6 @@ h3 {
 	margin: 0;
 	font-size: 36pt;
 }
-h2 {
-	margin: 0 0;
-}
-
 a,
 p {
 	font-family: "Arial", sans-serif;
@@ -1248,7 +1243,6 @@ img#pop_up_asset {
 	width: 300px;
 	margin-left: -47%;
 	margin-bottom: -25%;
-	color: #fff;
 }
 #info-list-studieaanbod {
 	padding-left: 75px;
@@ -1544,15 +1538,15 @@ thead th {
 	width: 50px;
 	color: #000000;
 }
-th,
+/* th,
 td {
 	padding: 12px 15px;
 	text-align: center;
 	font-weight: 400;
 	height: 30px;
-}
+} */
 
-tbody tr td {
+/* tbody tr td {
 	border: 1pt solid #fbb0ff;
 	border-right: none;
 }
@@ -1572,7 +1566,7 @@ td#vak {
 }
 #last-tablerow td {
 	border-bottom: none;
-}
+} */
 #Dubbele-Finaliteit {
 	margin-top: 64px;
 }
@@ -1585,13 +1579,6 @@ td#vak {
 }
 .rooster img {
 	width: 45%;
-}
-
-#wegwijzers {
-	margin-left: 10%;
-	margin-right: 5%;
-	margin-top: 7%;
-	height: 500px;
 }
 #info-open-class-days {
 	margin-left: 5%;
@@ -1618,13 +1605,6 @@ td#vak {
 .inschrijving-2tot6de {
 	margin-left: 10%;
 	margin-top: 20%;
-}
-.inschrijving-1ste h2 {
-	color: white;
-}
-
-.inschrijving-2detot6de-text h2 {
-	color: white;
 }
 .inschrijving-2detot6de-text {
 	margin-bottom: 10%;
@@ -1682,83 +1662,6 @@ td#vak {
 	margin-left: 10%;
 	margin-top: -400px;
 }
-#info-open-class-days {
-	margin-left: 5%;
-	margin-right: 7.5%;
-	height: 800px;
-}
-
-.info-open-class-days-wrapper {
-	display: flex;
-	flex-direction: row;
-}
-.info-open-class-days {
-	margin-top: -300px;
-	margin-left: auto;
-	z-index: 1;
-	padding-top: 20%;
-	padding-left: 200px;
-	padding-right: 10%;
-	padding-bottom: 20%;
-	background-image: url("Images/Asset\ inschrijving2_1.png");
-	background-size: 120%;
-	background-position: left;
-}
-.info-open-class-days-two {
-	margin-left: 10%;
-	margin-top: 20%;
-}
-.info-open-class-days h2 {
-	color: white;
-}
-
-.info-open-class-day-text h2 {
-	color: white;
-}
-.info-open-class-day-text {
-	margin-bottom: 10%;
-	margin-right: auto;
-	margin-top: -750px;
-
-	padding-top: 16%;
-	padding-bottom: 16%;
-	padding-left: 10%;
-	background-image: url("Images/Asset\ 13_2.png");
-	background-size: 60%;
-	background-position: left;
-	z-index: 3;
-}
-.info-open-class-day-text li {
-	font-weight: 400;
-	font-family: "Arial";
-}
-.info-open-class-day-text a {
-	color: #000000;
-}
-
-.info-open-class-days-two img {
-	height: 200px;
-}
-#asset20-info-open-class-days {
-	display: flex;
-	align-items: flex-end;
-
-	transform: scaleX(-1);
-
-	margin-left: auto;
-	transform: rotate(-80deg);
-}
-#asset21-info-open-class-days {
-	margin-top: -700px;
-	padding-bottom: 400px;
-	margin-left: 10%;
-}
-
-#asset13-info-open-class-days {
-	margin-left: 10%;
-	margin-top: -200px;
-}
-
 .leefregels-wrapper {
 	padding: 150px;
 	margin-bottom: 100px;
@@ -2158,10 +2061,9 @@ td#vak {
 .schoolregelement-link-wrapper h2 {
 	width: 80%;
 	text-align: center;
-	color: #ffffff;
 }
 
-table {
+/* table {
 	border-collapse: collapse;
 	min-width: 400px;
 }
@@ -2190,4 +2092,4 @@ td {
 td#vak {
 	width: 350px;
 	border-left: none;
-}
+} */
