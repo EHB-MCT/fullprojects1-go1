@@ -1141,6 +1141,9 @@ td#vak {
 .wrapper-whoIsWho h2 {
 	color: #000000;
 }
+#footer-who-is-who {
+	margin-top: -40%;
+}
 .principal {
 	margin-left: 50%;
 	background-image: url("Images/Asset\ 19.png");
