@@ -122,6 +122,7 @@
 	}
 	.graad{
 		height: 65vh;
+		background-image: none;
 	}
 	.graad ul li, .graad h4{
 		color: #eff3e8;
@@ -156,6 +157,9 @@
 		width: 80%;
 		background-color: #e174ac;
 		border-radius: 1.5rem;
+	}
+	.rooster-wrapper{
+		background-image: none;
 	}
 	.rooster{
 		visibility: hidden;
