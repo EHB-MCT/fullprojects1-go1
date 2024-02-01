@@ -42,9 +42,9 @@
         <div class="header-wrapper">
             <header>
                 <nav>
-                    <div class="logo-header">
-                        <a href="index.html"><img src="Images/Logo-school.png" class="logo"/></a>
-                    </div>
+                    <a href="index.html"
+                        ><img src="Images/Logo-school.png" class="logo"
+                    /></a>
                     <div class="dropdown">
                         <span>Wie zijn we?</span>
                         <div class="dropdown-content">
@@ -61,7 +61,7 @@
                         <span>Waarom Hiel?</span>
                         <div class="dropdown-content">
                             <a href="basispijlers.html">De 3 basispijlers</a>
-                            <a href="maximumfactuur.html">Maximum factuur</a>
+                            <a href="maximumfactuur.html">Maximumfactuur</a>
                             <a href="infrastructuur.html">Infrastructuur</a>
                             <a href="leerlingbegeleiding.html">Leerlingbegeleiding</a>
                         </div>
@@ -79,7 +79,6 @@
                             <a href="Inschrijvingen.html">Inschrijvingen</a>
                             <a href="studieaanbod.html">Studieaanbod</a>
                             <a href="hospiteerlessen.html">Hospiteerlessen</a>
-                            
                         </div>
                     </div>
                     <div class="dropdown">
@@ -90,18 +89,56 @@
                         <span></span>
                         <span></span>
                     </div>
-                    <div class="off-screen-menu">
-                        
+                    <div class="sidebar">
+                        <ul class="nav-links">
+                            <li>
+                                <div class="iocn-link">
+                                    <a href="#"><span class="link_name">Waarom Hiel?</span></a>
+                                    <i class="bx bxs-chevron-down arrow"></i>
+                                </div>
+                                <ul class="sub-menu">
+                                    <li><a href="basispijlers.html">De 3 basispijlers</a></li>
+                                    <li><a href="maximumfactuur.html">Maximum factuur</a></li>
+                                    <li><a href="infrastructuur.html">Infrastructuur</a></li>
+                                    <li>
+                                        <a href="leerlingbegeleiding.html">Leerlingbegeleiding</a>
+                                    </li>
+                                    <li><a href="hospiteerlessen.html">Hospiteerlessen</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="iocn-link">
+                                    <a href="#"
+                                        ><span class="link_name">Met Hiel op pad</span></a
+                                    >
+                                    <i class="bx bxs-chevron-down arrow"></i>
+                                </div>
+                                <ul class="sub-menu">
+                                    <li><a href="activiteiten.html">Activiteiten</a></li>
+                                    <li><a href="humaniora.html">Humaniora</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
+                    <script>
+                        let arrow = document.querySelectorAll(".arrow");
+                        for (var i = 0; i < arrow.length; i++) {
+                            arrow[i].addEventListener("click", (e) => {
+                                let arrowParent = e.target.parentElement.parentElement; //selecting main parent of arrow
+                                arrowParent.classList.toggle("showMenu");
+                            });
+                        }
+                    </script>
                 </nav>
+
                 <script src="script.js"></script>
-                <div class="header-title">
-                    <h1>
-                        Humaniora
-                    </h1>
-                </div>
-                
-                <img src="SVG/Header-wave-homepage.svg" alt=""  class="wave"/>
+
+                <h1>
+                    Welkom bij GO! <br />
+                    Atheneum Emanuel Hiel
+                </h1>
+
+                <img src="SVG/Header-wave-homepage.svg" alt="" class="wave" />
             </header>
         </div>
         <div class="wrapper">
@@ -156,7 +193,6 @@
             <div class="footer-logo">
                 <img src="images/GO!_VLA_Logo_2regels_WIT.png" alt="" />
             </div>
-            <!-- <div class="nogeendiv"> -->
             <div class="footer-list flex">
                 <div class="flex row">
                     <img src="Icons/Facebook_f_logo_(2019).svg" />
@@ -195,11 +231,13 @@
                 <div class="flex row">
                     <p><strong>Menu</strong></p>
                 </div>
-                <div class="flex row"><a href="#">Wie zijn we?</a></div>
                 <div class="flex row">
-                    <a href="waarom-hiel.html">Waarom Hiel?</a>
+                    <a href="studieaanbod.html">Studieaanbod</a>
                 </div>
-                <div class="flex row"><a href="#">Met Hiel op pad</a></div>
+                <div class="flex row">
+                    <a href="basispijlers.html">3 Basispijlers</a>
+                </div>
+                <div class="flex row"><a href="humaniora.html">Humaniora</a></div>
                 <div class="flex row">
                     <a href="Inschrijvingen.html">Inschrijvingen</a>
                 </div>

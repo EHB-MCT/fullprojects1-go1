@@ -65,32 +65,32 @@
 		top: 35%;
 		font-size: 2rem;
 	}
-	.pijlers {
+	.pillars {
 		width: 100%;
 		padding: 5%, 5%, 5%, 5%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 	}
-	.pijlers-list {
+	.pillars-list {
 		margin: 0, 0, 200px, 0;
 	}
-	.pijlers-list-header {
+	.pillars-list-header {
 		width: 60%;
 	}
-	.pijlers p {
+	.pillars p {
 		width: 55%;
 	}
-	.pijlers-list:nth-child(odd) {
+	.pillars-list:nth-child(odd) {
 		margin-left: 0;
 	}
-	.pijlers-list:nth-child(even) {
+	.pillars-list:nth-child(even) {
 		margin-right: 0;
 	}
-	.pijlers-wrapper {
+	.pillars-wrapper {
 		background-image: none;
 	}
-	.pijlers img {
+	.pillars img {
 		width: 75px;
 		height: 75px;
 	}

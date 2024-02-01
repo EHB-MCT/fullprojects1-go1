@@ -19,11 +19,9 @@
 			<div class="header-wrapper">
 				<header>
 					<nav>
-						<div class="logo-header">
-							<a href="index.html"
-								><img src="Images/Logo-school.png" class="logo"
-							/></a>
-						</div>
+						<a href="index.html"
+							><img src="Images/Logo-school.png" class="logo"
+						/></a>
 						<div class="dropdown">
 							<span>Wie zijn we?</span>
 							<div class="dropdown-content">
@@ -68,11 +66,54 @@
 							<span></span>
 							<span></span>
 						</div>
-						<div class="sidebar"></div>
+						<div class="sidebar">
+							<ul class="nav-links">
+								<li>
+									<div class="iocn-link">
+										<a href="#"><span class="link_name">Waarom Hiel?</span></a>
+										<i class="bx bxs-chevron-down arrow"></i>
+									</div>
+									<ul class="sub-menu">
+										<li><a href="basispijlers.html">De 3 basispijlers</a></li>
+										<li><a href="maximumfactuur.html">Maximum factuur</a></li>
+										<li><a href="infrastructuur.html">Infrastructuur</a></li>
+										<li>
+											<a href="leerlingbegeleiding.html">Leerlingbegeleiding</a>
+										</li>
+										<li><a href="hospiteerlessen.html">Hospiteerlessen</a></li>
+									</ul>
+								</li>
+								<li>
+									<div class="iocn-link">
+										<a href="#"
+											><span class="link_name">Met Hiel op pad</span></a
+										>
+										<i class="bx bxs-chevron-down arrow"></i>
+									</div>
+									<ul class="sub-menu">
+										<li><a href="activiteiten.html">Activiteiten</a></li>
+										<li><a href="humaniora.html">Humaniora</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<script>
+							let arrow = document.querySelectorAll(".arrow");
+							for (var i = 0; i < arrow.length; i++) {
+								arrow[i].addEventListener("click", (e) => {
+									let arrowParent = e.target.parentElement.parentElement; //selecting main parent of arrow
+									arrowParent.classList.toggle("showMenu");
+								});
+							}
+						</script>
 					</nav>
+
 					<script src="script.js"></script>
 
-					<h1>Basispijlers</h1>
+					<h1>
+						Welkom bij GO! <br />
+						Atheneum Emanuel Hiel
+					</h1>
 
 					<img src="SVG/Header-wave-homepage.svg" alt="" class="wave" />
 				</header>
@@ -173,16 +214,19 @@
 						<a href="mailto:info@kahiel.be">info@kahiel.be</a>
 					</div>
 				</div>
+				<!-- </div> -->
 
 				<div class="footer-list flex" id="footer-navigation">
 					<div class="flex row">
 						<p><strong>Menu</strong></p>
 					</div>
-					<div class="flex row"><a href="#">Wie zijn we?</a></div>
 					<div class="flex row">
-						<a href="waarom-hiel.html">Waarom Hiel?</a>
+						<a href="studieaanbod.html">Studieaanbod</a>
 					</div>
-					<div class="flex row"><a href="#">Met Hiel op pad</a></div>
+					<div class="flex row">
+						<a href="basispijlers.html">3 Basispijlers</a>
+					</div>
+					<div class="flex row"><a href="humaniora.html">Humaniora</a></div>
 					<div class="flex row">
 						<a href="Inschrijvingen.html">Inschrijvingen</a>
 					</div>
