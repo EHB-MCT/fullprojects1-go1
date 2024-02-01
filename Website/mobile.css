@@ -1,0 +1,303 @@
+@media (max-width: 1024px) {
+	
+	/* For mobile phones ----------- */
+	.ham-menu {
+		visibility: visible;
+	}
+	.dropdown {
+		visibility: hidden;
+	}
+	img {
+		width: 100%;
+	}
+	ul {
+		list-style-type: none;
+	}
+	body {
+		font-size: 12pt;
+		margin: 0;
+	}
+	h3 {
+		font-size: 2rem;
+	}
+	header {
+		height: 50vh;
+		background-position: top;
+		background-size: auto;
+	}
+	header h1 {
+		font-size: 2rem;
+		line-height: 1.25;
+		position: absolute;
+		top: 40%;
+		right: 0%;
+		width: 100%;
+		text-align: center;
+	}
+	.button-top {
+		visibility: hidden;
+	}
+	#pop_up {
+		width: 300px;
+	}
+	.info-wrapper {
+		background-image: none;
+	}
+	.info {
+		margin-left: 0;
+		margin-bottom: 250px;
+	}
+	.info-list {
+		flex-direction: column;
+		margin-left: 30px;
+		margin-right: 30px;
+		background-color: #e174ac;
+		padding: 30px;
+		border-radius: 50px;
+	}
+	.info-text {
+		margin-left: 0;
+		color: #eff3e8;
+	}
+	.info-list:nth-child(2) {
+		margin-left: 30px;
+	}
+	#quote-image-text {
+		top: 35%;
+		font-size: 2rem;
+	}
+	.pillars {
+		width: 100%;
+		padding: 5%, 5%, 5%, 5%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.pillars-list {
+		margin: 0, 0, 200px, 0;
+	}
+	.pillars-list-header {
+		width: 60%;
+	}
+	.pillars p {
+		width: 55%;
+	}
+	.pillars-list:nth-child(odd) {
+		margin-left: 0;
+	}
+	.pillars-list:nth-child(even) {
+		margin-right: 0;
+	}
+	.pillars-wrapper {
+		background-image: none;
+	}
+	.pillars img {
+		width: 75px;
+		height: 75px;
+	}
+	#footer-navigarion {
+		visibility: hidden;
+	}
+	.footer-wrapper {
+		background-image: url(../Images/Footer-mobile-4.png);
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: end;
+	}
+	.footer-list img {
+		width: 20px;
+	}
+	.flex {
+		justify-content: center;
+	}
+	.flex.row {
+		margin: 15px 0;
+	}
+	.footer-logo img {
+		width: 200px;
+	}
+	#footer-navigation {
+		visibility: hidden;
+	}
+	nav{
+		width: 73%;
+	}
+	.studiedirections {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.degree {
+		height: 65vh;
+		background-image: none;
+	}
+	.degree ul li,
+	.degree h4 {
+		color: #eff3e8;
+	}
+	.title-degree {
+		margin-left: 5%;
+		width: 95%;
+	}
+	.info-degree {
+		margin: 0 5%;
+		width: 90%;
+	}
+	.jear1-wrapper {
+		margin-top: 0;
+		background-size: 55%;
+		width: 100%;
+		background-image: none;
+	}
+	.jear2-wrapper {
+		margin-top: 0;
+		background-size: 55%;
+		width: 100%;
+		height: 100%;
+		background-image: none;
+		justify-content: flex-start;
+	}
+	.jear1,
+	.jear2 {
+		margin: 16px 5% 0 5%;
+		padding: 10px 15px;
+		margin-right: 0;
+		width: 80%;
+		background-color: #e174ac;
+		border-radius: 1.5rem;
+	}
+	.schedule-wrapper {
+		background-image: none;
+	}
+	.schedule {
+		visibility: hidden;
+	}
+	.schedule-pdf {
+		visibility: visible;
+		width: 80%;
+		margin: 16px 9% 0 9%;
+	}
+	.schoolrules {
+		color: black;
+		flex-direction: column;
+	}
+	.schoolrules-wrapper {
+		width: 100%;
+		background-image: none;
+		height: auto;
+	}
+	.schoolrules-wrapper p {
+		background-color: #e174ac;
+		padding: 30px;
+		border-radius: 50px;
+		margin: 32px 0;
+	}
+	.schoolrules-link-wrapper {
+		width: 100%;
+		background-position: center;
+		margin-top: 0;
+	}
+	.Basic-pillars-wrapper {
+		background-size: 100%;
+		height: 500px;
+	}
+	.Basic-pillars h3 {
+		width: 80%;
+		padding-bottom: 1rem;
+	}
+	.Basic-pillars p {
+		width: 90%;
+	}
+	.Basic-pillars-wrapper-right {
+		background-size: 100%;
+		height: 500px;
+	}
+	.Basic-pillars-right h3 {
+		width: 80%;
+		padding-left: 20%;
+		padding-bottom: 20px;
+	}
+	.Basic-pillars-right p {
+		width: 80%;
+		padding-left: 20%;
+	}
+	#footer-basispijlers {
+		height: 100vh;
+	}
+
+	.asset21-maximumbill {
+		height: 100px;
+		width: auto;
+	}
+	.maximumbill-alinea1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+	}
+	.costoverviews {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 15%;
+		margin-right: 0;
+	}
+	.asset8-maximumbill {
+		height: 100px;
+		width: auto;
+	}
+	.contact{
+		flex-direction: column;
+	}
+
+	.form-contact{
+		width: 100%;
+	}
+	.contact-form-wrapper{
+		width: 100%;
+	}
+	.contact-right-wrapper{
+		width: 85%;
+		background-image: none;
+		padding: 30px;
+		background-color: #e174ac;
+		border-radius: 50px;
+		margin-bottom: 32px;
+	}
+	.contact-right{
+		padding: 0;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.maps iframe{
+		width: 90%;
+	}
+	.liferules-outer-wrapper{
+		background-image: none;
+	}
+	.liferules-wrapper img {
+		width: 80%;
+		margin-bottom: 100px;
+	}
+	.liferules-wrapper{
+		flex-direction: column;
+		padding: 0;
+		width: 80%;
+		margin-top: 50px;
+	}
+	.image-row-1
+	{
+		justify-content: center;
+		margin: 0 auto;
+	}
+	.image-row-2{
+		width: 80%;
+		justify-content: center;
+		margin: 0 auto;
+	}
+	.image-row-1,
+	.image-row-2 img{
+		width: 80%;
+	}
+
+}

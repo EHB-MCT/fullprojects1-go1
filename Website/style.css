@@ -91,6 +91,9 @@ p {
 	font-size: 14pt;
 	transition: all 0.3s ease-in-out;
 }
+.flex.row.pop-up{
+	align-items: center;
+}
 .row p {
 	padding: 10px 0;
 }
@@ -173,7 +176,7 @@ img#pop_up_asset {
 	left: 15%;
 	font-size: 4rem;
 	line-height: 1.2;
-	color: #ffffff;
+	color: efefeffff;
 }
 .pillars-wrapper {
 	background-image: url("Images/Shapes2-3.svg");
@@ -233,7 +236,7 @@ img#pop_up_asset {
 	height: auto;
 }
 .flex.row a:hover {
-	text-decoration-color: #fff;
+	text-decoration-color: efefef;
 }
 .flex {
 	display: flex;
@@ -265,7 +268,7 @@ img#pop_up_asset {
 	border-radius: 25px;
 	font-family: "pragmatica", sans-serif;
 	font-weight: 900;
-	color: #fff;
+	color: efefef;
 	text-decoration: none;
 	text-align: center;
 	width: 120px;
@@ -280,7 +283,7 @@ img#pop_up_asset {
 }
 .degree ul li,
 .degree h4 {
-	color: #fff;
+	color: efefef;
 }
 .title-degree {
 	margin-bottom: 64px;
@@ -377,7 +380,7 @@ td {
 }
 #top-table-head th {
 	font-weight: Bold;
-	color: #fff;
+	color: efefef;
 	font-size: 1.25rem;
 }
 td#vak {
@@ -407,11 +410,11 @@ td#vak {
 	height: 500px;
 	border-radius: 45px;
 }
-.inschrijvingen-alinea1 {
+.registrations-alinea1 {
 	display: flex;
 	flex-direction: row;
 }
-.inschrijving-1ste {
+.registration-1ste {
 	margin-top: -300px;
 	margin-left: auto;
 	z-index: 1;
@@ -423,18 +426,18 @@ td#vak {
 	background-size: 120%;
 	background-position: left;
 }
-.inschrijving-2tot6de {
+.registration-2tot6de {
 	margin-left: 10%;
 	margin-top: 20%;
 }
-.inschrijving-1ste h2 {
+.registration-1ste h2 {
 	color: white;
 }
 
-.inschrijving-2detot6de-text h2 {
+.registration-2detot6de-text h2 {
 	color: white;
 }
-.inschrijving-2detot6de-text {
+.registration-2detot6de-text {
 	margin-bottom: 10%;
 	margin-right: auto;
 	margin-top: -500px;
@@ -446,14 +449,14 @@ td#vak {
 	background-position: left;
 	z-index: 3;
 }
-.inschrijving-2detot6de-text li {
+.registration-2detot6de-text li {
 	font-weight: 400;
 	font-family: "Arial";
 }
-.inschrijving-2detot6de-text a {
+.registration-2detot6de-text a {
 	color: #000000;
 }
-.inschrijving-2tot6de img {
+.registration-2tot6de img {
 	height: 200px;
 }
 #asset20-inschrijvingen {
@@ -469,6 +472,7 @@ td#vak {
 }
 #asset13-inschrijvingen {
 	margin-left: 10%;
+	
 }
 .liferules-wrapper {
 	padding: 150px;
@@ -509,19 +513,19 @@ td#vak {
 	justify-content: center;
 	flex-wrap: wrap;
 }
-.infrastructuur-outer-wrapper {
+.infrastructure-outer-wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	background-image: url("Images/Asset\ 21.png");
 	background-position: 85% 35%;
 }
-.infrastructuur-outer-wrapper-right {
+.infrastructure-outer-wrapper-right {
 	display: flex;
 	flex-wrap: wrap;
 	background-image: url("Images/Asset\ 21.png");
 	background-position: 15% 15%;
 }
-.infrastructuur-wrapper {
+.infrastructure-wrapper {
 	background-image: url("Images/Asset-inschrijving2_2.svg");
 	background-position: top left;
 	background-size: 50%;
@@ -529,54 +533,54 @@ td#vak {
 	height: 1000px;
 	width: 100%;
 }
-.infrastructuur-wrapper-right {
+.infrastructure-wrapper-right {
 	background-image: url("Images/Asset-Inschrijving-2.3.svg");
 	background-position: top right;
 	background-size: 50%;
 	width: 100%;
 	height: 1000px;
 }
-.infrastructuur {
+.infrastructure {
 	padding-top: 10%;
 	margin-left: 5%;
 }
-.infrastructuur img {
+.infrastructure img {
 	width: 35%;
 	margin-top: 2rem;
 	border-radius: 35px;
 }
-.infrastructuur p {
-	color: #fff;
+.infrastructure p {
+	color: efefef;
 	width: 35%;
 }
-.infrastructuur h3 {
-	color: #fff;
+.infrastructure h3 {
+	color: efefef;
 	width: 35%;
 	padding-bottom: 50px;
 }
-.infrastructuur-right {
+.infrastructure-right {
 	display: flex;
 	justify-content: flex-end;
 	flex-wrap: wrap;
 	padding-top: 10%;
 }
-.infrastructuur-right img {
+.infrastructure-right img {
 	width: 35%;
 	margin-top: 2rem;
 	border-radius: 35px;
 	margin-right: 5%;
 }
-.infrastructuur-right p {
-	color: #fff;
+.infrastructure-right p {
+	color: efefef;
 	width: 35%;
 	padding-left: 60%;
 	margin-right: 5%;
 }
-.infrastructuur-right h3 {
+.infrastructure-right h3 {
 	width: 40%;
 	padding-left: 60%;
 	margin-right: 10%;
-	color: #fff;
+	color: efefef;
 
 	padding-bottom: 50px;
 }
@@ -619,7 +623,7 @@ td#vak {
 	border-radius: 35px;
 }
 .Basic-pillars * {
-	color: #fff;
+	color: efefef;
 	width: 35%;
 }
 .Basic-pillars h3 {
@@ -638,7 +642,7 @@ td#vak {
 	margin-right: 5%;
 }
 .Basic-pillars-right p {
-	color: #fff;
+	color: efefef;
 	width: 35%;
 	padding-left: 60%;
 	margin-right: 5%;
@@ -647,7 +651,7 @@ td#vak {
 	width: 40%;
 	padding-left: 60%;
 	margin-right: 10%;
-	color: #fff;
+	color: efefef;
 
 	padding-bottom: 50px;
 }
@@ -675,7 +679,7 @@ td#vak {
 	height: 500px;
 }
 .info-leerlingbegeleiding p {
-	color: #fff;
+	color: efefef;
 	width: 65%;
 	margin-left: 5%;
 }
@@ -723,7 +727,7 @@ td#vak {
 	justify-content: flex-end;
 }
 .info-leerlingbegeleiding-2 p {
-	color: #fff;
+	color: efefef;
 	width: 48%;
 	margin-right: 5%;
 }
@@ -733,11 +737,11 @@ td#vak {
 	background-position: center left;
 	height: 500px;
 }
-.wrapper-maximumfactuur {
+.wrapper-maximumbill {
 	position: relative;
 	margin-top: -400px;
 }
-.kostenoverzichten {
+.costoverviews {
 	margin-left: 50%;
 	margin-top: -40%;
 
@@ -750,7 +754,7 @@ td#vak {
 	background-size: 80%;
 	background-position: center;
 }
-.asset8-maximumfactuur {
+.asset8-maximumbill {
 	margin-left: 40%;
 	height: 200px;
 	width: auto;
@@ -777,7 +781,7 @@ td#vak {
 	height: 800px;
 	width: 100%;
 }
-.kostenoverzichten {
+.costoverviews {
 	padding-left: 10%;
 }
 .facebook-page-outer-wrapper {
@@ -823,7 +827,7 @@ td#vak {
 }
 .schoolrules-wrapper p {
 	width: 70%;
-	color: #ffffff;
+	color: efefeffff;
 }
 .schoolrules-link-wrapper {
 	display: flex;
@@ -840,11 +844,13 @@ td#vak {
 
 	margin-top: 20%;
 	margin-right: 3%;
+	padding-top: 3%;
+	padding-bottom: 2%;
 }
 .schoolrules-link-wrapper h2 {
 	width: 80%;
 	text-align: center;
-	color: #ffffff;
+	color: efefeffff;
 	transition: all 0.3s ease-in-out;
 }
 .schoolrules-link-wrapper a:hover {
@@ -881,7 +887,7 @@ td#vak {
 }
 
 .flex.row a:hover {
-	text-decoration-color: #fff;
+	text-decoration-color: efefef;
 }
 
 .flex {
@@ -898,11 +904,11 @@ td#vak {
 	height: 800px;
 }
 
-.inschrijvingen-alinea1 {
+.registrations-alinea1 {
 	display: flex;
 	flex-direction: row;
 }
-.inschrijving-1ste {
+.registration-1ste {
 	margin-top: -300px;
 	margin-left: auto;
 	z-index: 1;
@@ -914,17 +920,17 @@ td#vak {
 	background-size: 120%;
 	background-position: left;
 }
-.inschrijving-2tot6de {
+.registration-2tot6de {
 	margin-left: 10%;
 	margin-top: 20%;
 }
-.inschrijving-2detot6de-text {
+.registration-2detot6de-text {
 	margin-bottom: 10%;
 	margin-right: auto;
-	margin-top: -500px;
+	margin-top: -800px;
 
-	padding-top: 15%;
-	padding-bottom: 15%;
+	padding-top: 20%;
+	padding-bottom: 20%;
 	padding-left: 10%;
 	background-image: url("Images/Asset\ 13_2.png");
 	background-size: 80%;
@@ -944,15 +950,15 @@ td#vak {
 	background-position: left;
 	z-index: 3;
 }
-.inschrijving-2detot6de-text li {
+.registration-2detot6de-text li {
 	font-weight: 400;
 	font-family: "Arial";
 }
-.inschrijving-2detot6de-text a {
+.registration-2detot6de-text a {
 	color: #000000;
 }
 
-.inschrijving-2tot6de img {
+.registration-2tot6de img {
 	height: 200px;
 }
 #asset20-inschrijvingen {
@@ -971,7 +977,7 @@ td#vak {
 
 #asset13-inschrijvingen {
 	margin-left: 10%;
-	margin-top: -00px;
+	margin-top: -300px;
 }
 
 .background2 {
@@ -980,11 +986,11 @@ td#vak {
 	background-position: center left;
 	height: 500px;
 }
-.wrapper-maximumfactuur {
+.wrapper-maximumbill {
 	position: relative;
 	margin-top: -400px;
 }
-.maximumfactuur-alinea1 {
+.maximumbill-alinea1 {
 	margin-left: 5%;
 	margin-right: 5%;
 	padding-left: 7%;
@@ -997,7 +1003,7 @@ td#vak {
 	z-index: 1;
 }
 
-.kostenoverzichten {
+.costoverviews {
 	margin-left: 50%;
 	margin-top: -40%;
 
@@ -1011,15 +1017,16 @@ td#vak {
 	background-position: center;
 	text-align: left;
 	padding-left: 12%;
+	color: #eff3e8;
 }
-.asset8-maximumfactuur {
+.asset8-maximumbill {
 	margin-left: 0%;
 	height: 200px;
 	width: 125px;
 	margin-top: 5%;
 	transform: scaleX(-2);
 }
-.asset21-maximumfactuur {
+.asset21-maximumbill {
 	margin-top: 35%;
 	margin-right: 20%;
 	margin-top: 30%;
@@ -1095,7 +1102,7 @@ td#vak {
 }
 .schoolregelement-wrapper p {
 	width: 70%;
-	color: #ffffff;
+	color: #efefef;
 }
 .schoolregelement-link-wrapper {
 	display: flex;
@@ -1125,21 +1132,15 @@ td#vak {
 .wrapper-whoIsWho h2 {
 	color: #000000;
 }
-.wrapper-whoIsWho h4{
+.wrapper-whoIsWho h4,
+.wrapper-whoIsWho p{
 	color: #eff3e8;
 }
-#footer-who-is-who {
-	margin-top: -40%;
-}
-#footer-inschrijvingen {
-	margin-top: -60%;
-}
-
 .principal {
 	margin-left: 50%;
 	background-image: url("Images/Asset\ 19.png");
 	padding-top: 4%;
-	padding-bottom: 5%;
+	padding-bottom: 8%;
 	padding-left: 5%;
 	background-size: 50%;
 	margin-top: -15%;
@@ -1150,8 +1151,8 @@ td#vak {
 	background-image: url("Images/Asset\ 19.png");
 	background-size: 30%;
 	padding-left: 5%;
-	padding-top: 6%;
-	padding-bottom: 8%;
+	padding-top: 7%;
+	padding-bottom: 8.1%;
 }
 .coaches {
 	margin-left: 50%;
@@ -1165,7 +1166,7 @@ td#vak {
 	margin-left: 5%;
 	padding-top: 8%;
 	padding-left: 5%;
-	padding-bottom: 5%;
+	padding-bottom: 6%;
 
 	background-image: url("Images/Asset\ 26.png");
 	background-size: 40%;
@@ -1173,7 +1174,7 @@ td#vak {
 .secretariat {
 	margin-left: 50%;
 	padding-top: 8%;
-	padding-bottom: 10%;
+	padding-bottom: 15%;
 	padding-left: 10%;
 
 	background-image: url("Images/Asset\ inschrijving2_1.png");
@@ -1291,12 +1292,12 @@ td#vak {
 .contact-right a {
 	display: block;
 	text-decoration: none;
-	color: #ffffff;
+	color: efefeffff;
 	padding-top: 15px;
 }
 .contact-right p {
 	text-align: center;
-	color: #ffffff;
+	color: efefeffff;
 }
 .contact-right img {
 	padding-top: 10px;
