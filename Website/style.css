@@ -337,7 +337,7 @@ img#pop_up_asset {
 #rooster-2degraad {
 	background-position: 5% 80%;
 }
-.rooster-pdf{
+.rooster-pdf {
 	visibility: hidden;
 }
 table {
@@ -406,6 +406,7 @@ td#vak {
 	margin-right: 5%;
 	margin-top: 7%;
 	height: 500px;
+	border-radius: 45px;
 }
 .inschrijvingen-alinea1 {
 	display: flex;
@@ -469,7 +470,6 @@ td#vak {
 }
 #asset13-inschrijvingen {
 	margin-left: 10%;
-	margin-top: -400px;
 }
 .leefregels-wrapper {
 	padding: 150px;
@@ -864,19 +864,15 @@ td#vak {
 	width: 80%;
 	text-align: center;
 	color: #ffffff;
-	transition: all .3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
-.schoolregelement-link-wrapper a:hover{
+.schoolregelement-link-wrapper a:hover {
 	transform: scale(1.1);
 }
-.schoolregelement-link-wrapper img{
+.schoolregelement-link-wrapper img {
 	margin-top: 24px;
 	width: 100px;
 }
-
-
-
-
 
 #contact-button {
 	padding: 15px 40px;
@@ -997,7 +993,6 @@ td#vak {
 	margin-top: -400px;
 }
 
-
 .background2 {
 	background-image: url("SVG/Asset\ 16.svg");
 	background-size: 20%;
@@ -1013,13 +1008,14 @@ td#vak {
 	margin-right: 5%;
 	padding-left: 7%;
 	padding-right: 10%;
-	margin-top: 400px;
+	margin-top: -25%;
 	padding-top: 100px;
 	padding-bottom: 300px;
 	background-image: url("Images/Asset\ 18.png");
 	background-size: 50%;
 	z-index: 1;
 }
+
 .kostenoverzichten {
 	margin-left: 50%;
 	margin-top: -40%;
@@ -1034,16 +1030,21 @@ td#vak {
 	background-position: center;
 }
 .asset8-maximumfactuur {
-	margin-left: 40%;
+	margin-left: 0%;
 	height: 200px;
-	width: auto;
-	margin-top: -2000vh;
+	width: 125px;
+	margin-top: 5%;
+	transform: scaleX(-2);
 }
-/* .asset21-maximumfactuur {
-		margin-top: 35%;
-		margin-right: 20%;
-		
-	} */
+.asset21-maximumfactuur {
+	margin-top: 35%;
+	margin-right: 20%;
+	margin-top: 30%;
+	margin-left: 65%;
+}
+#footer-maximumfactuur {
+	margin-top: -55%;
+}
 #kosten1 {
 	height: 800px;
 	width: 100%;

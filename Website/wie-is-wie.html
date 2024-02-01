@@ -43,34 +43,29 @@
 							<span>Waarom Hiel?</span>
 							<div class="dropdown-content">
 								<a href="basispijlers.html">De 3 basispijlers</a>
-								<a href="#">Maximum factuur</a>
+								<a href="maximumfactuur.html">Maximumfactuur</a>
 								<a href="infrastructuur.html">Infrastructuur</a>
-								<a href="#">Humaniora</a>
+								<a href="leerlingbegeleiding.html">leerlingbegeleiding</a>
+								<a href="hospiteerlessen.html">Hospiteerlessen</a>
 							</div>
 						</div>
 						<div class="dropdown">
 							<span>Met Hiel op pad</span>
 							<div class="dropdown-content">
-								<a href="#">Activiteiten</a>
-								<a href="#">Maximum factuur</a>
+								<a href="activiteiten.html">Activiteiten</a>
+								<a href="#">Humaniora</a>
 							</div>
 						</div>
 						<div class="dropdown">
 							<span>Inschrijvingen</span>
 							<div class="dropdown-content">
 								<a href="Inschrijvingen.html">Inschrijvingen</a>
-								<a href="#">Hoe? Wanneer?</a>
 								<a href="studieaanbod.html">Studieaanbod</a>
-								<a href="#">Hospiteerlessen</a>
+								<a href="hospiteerlessen.html">Hospiteerlessen</a>
 							</div>
 						</div>
 						<div class="dropdown">
-							<span>Contact</span>
-							<div class="dropdown-content">
-								<a href="#">Socials</a>
-								<a href="#">E-mail</a>
-								<a href="#">Telefoon</a>
-							</div>
+							<a href="contact.html" id="contact-button">Contact</a>
 						</div>
 						<div class="ham-menu">
 							<span></span>
@@ -78,19 +73,45 @@
 							<span></span>
 						</div>
 						<div class="sidebar">
-							<ul>
-								<li><a href="#">Wie zijn we</a></li>
-								<ul class="sub-menu">
-									<li>
-										<a href="wie_zijn_we.html#professioneel">Professioneel</a>
-									</li>
-									<li><a href="wie_zijn_we.html#samen"></a></li>
-								</ul>
-
-								<li><a href="#">about</a></li>
-								<li><a href="#">contact</a></li>
+							<ul class="nav-links">
+								<li>
+									<div class="iocn-link">
+										<a href="#"><span class="link_name">Waarom Hiel?</span></a>
+										<i class="bx bxs-chevron-down arrow"></i>
+									</div>
+									<ul class="sub-menu">
+										<li><a href="basispijlers.html">De 3 basispijlers</a></li>
+										<li><a href="maximumfactuur.html">Maximum factuur</a></li>
+										<li><a href="infrastructuur.html">Infrastructuur</a></li>
+										<li>
+											<a href="leerlingbegeleiding.html">Leerlingbegeleiding</a>
+										</li>
+										<li><a href="#">Hospiteerlessen</a></li>
+									</ul>
+								</li>
+								<li>
+									<div class="iocn-link">
+										<a href="#"
+											><span class="link_name">Met Hiel op pad</span></a
+										>
+										<i class="bx bxs-chevron-down arrow"></i>
+									</div>
+									<ul class="sub-menu">
+										<li><a href="activiteiten.html">Activiteiten</a></li>
+										<li><a href="#">Humaniora</a></li>
+									</ul>
+								</li>
 							</ul>
 						</div>
+						<script>
+							let arrow = document.querySelectorAll(".arrow");
+							for (var i = 0; i < arrow.length; i++) {
+								arrow[i].addEventListener("click", (e) => {
+									let arrowParent = e.target.parentElement.parentElement; //selecting main parent of arrow
+									arrowParent.classList.toggle("showMenu");
+								});
+							}
+						</script>
 					</nav>
 					<script src="script.js"></script>
 
