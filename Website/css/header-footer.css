@@ -21,7 +21,7 @@ header .wave {
 	bottom: -1px;
 }
 .header-wrapper-inschrijvingen header {
-	background-image: url(Images/inschrijvingen1.png);
+	background-image: url("Images/inschrijvingen1.png");
 	/* background-position: center; */
 }
 
