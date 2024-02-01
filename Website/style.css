@@ -300,13 +300,7 @@ img#pop_up_asset {
 	margin-left: 30%;
 	text-align: left;
 }
-.studiedirections {
-	background-image: url("Images/Shapes3-2.svg");
-	background-size: 50%;
-	background-position: 48% 10%;
-	display: flex;
-	justify-content: space-between;
-}
+
 .jear1-wrapper {
 	background-image: url("SVG/Asset\ 11_1.svg");
 	background-position: top left;
@@ -1150,6 +1144,14 @@ td#vak {
 	padding-left: 5%;
 	background-size: 50%;
 	margin-top: -15%;
+}
+.studiedirections {
+	background-image: url("Images/Shapes3-2.svg");
+	background-size: 50%;
+	background-position: 48% 10%;
+	display: flex;
+	justify-content: space-between;
+	color:#eff3e8;
 }
 .accompaniment {
 	margin-left: 10%;
