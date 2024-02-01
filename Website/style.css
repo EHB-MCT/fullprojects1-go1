@@ -49,7 +49,6 @@ p {
 	font-weight: 400;
 	margin: 0;
 }
-
 .button-top a {
 	padding: 25px 25px;
 	background-color: #e174ac;
@@ -158,7 +157,10 @@ img#pop_up_asset {
 .info-list:nth-child(2) {
 	margin-left: 6rem;
 }
-
+.info-image :hover img {
+	transition: all 0.3s ease-in-out;
+	transform: scale(0.98);
+}
 .quote-outer-wrapper {
 	position: relative;
 	margin-left: -2%;
@@ -176,19 +178,19 @@ img#pop_up_asset {
 	line-height: 1.2;
 	color: #ffffff;
 }
-.pijlers-wrapper {
+.pillars-wrapper {
 	background-image: url("Images/Shapes2-3.svg");
 	background-size: 20%;
 	background-position: 47% 35%;
 	margin-top: 64px;
 }
-.pijlers-list {
+.pillars-list {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	margin-bottom: 32px;
 }
-.pijlers p {
+.pillars p {
 	color: #000000;
 	background-color: #cacaca;
 	padding: 100px 50px;
@@ -196,28 +198,28 @@ img#pop_up_asset {
 	width: 300px;
 	font-size: 12pt;
 }
-.pijlers img,
-.pijlers h3 {
+.pillars img,
+.pillars h3 {
 	margin-bottom: -30px;
 	padding-right: 60px;
 	z-index: 1;
 }
-.pijlers img {
+.pillars img {
 	width: 100px;
 	height: 100px;
 	margin-bottom: -50px;
 }
-.pijlers-list-header {
+.pillars-list-header {
 	display: flex;
 	justify-content: space-between;
 	width: 400px;
 	align-items: flex-end;
 }
-.pijlers-list:nth-child(odd) {
+.pillars-list:nth-child(odd) {
 	transform: rotate(3deg);
 	margin-left: 35%;
 }
-.pijlers-list:nth-child(even) {
+.pillars-list:nth-child(even) {
 	transform: rotate(-3deg);
 	margin-right: 35%;
 }
@@ -487,8 +489,8 @@ td#vak {
 	padding-top: 100px;
 }
 .leefregels-wrapper img {
-	width: 250px;
-	height: 353px;
+	width: auto;
+	height: 600px;
 	margin-bottom: 100px;
 	box-shadow: 12px 12px 2px 1px #e174ac;
 	transition: all 0.5s ease-in-out;
@@ -498,7 +500,7 @@ td#vak {
 }
 .image-row-1 {
 	width: 50%;
-	height: 1500px;
+	height: auto;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -506,7 +508,7 @@ td#vak {
 .image-row-2 {
 	margin-top: 15%;
 	width: 50%;
-	height: 1500px;
+	height: auto;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -818,27 +820,29 @@ td#vak {
 	background-position: 50%;
 	background-size: 45%;
 }
-.schoolregelement {
+.schoolrules {
 	display: flex;
 	justify-content: space-between;
 }
-.schoolregelement-wrapper {
+.schoolrules-wrapper {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: -50%;
 
 	background-image: url("Images/Asset-inschrijving2_2.svg");
 	background-size: 100%;
 	background-position: left;
-
+	
 	height: 1200px;
 	width: 55%;
 }
-.schoolregelement-wrapper p {
+.schoolrules-wrapper p {
 	width: 70%;
 	color: #ffffff;
 }
-.schoolregelement-link-wrapper {
+.schoolrules-link-wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -851,21 +855,26 @@ td#vak {
 	width: 35%;
 	height: 500px;
 
-	margin-top: 20%;
+	margin-top: 25%;
 	margin-right: 3%;
 }
-.schoolregelement-link-wrapper h2 {
+.schoolrules-link-wrapper h2 {
 	width: 80%;
 	text-align: center;
 	color: #ffffff;
 	transition: all 0.3s ease-in-out;
 }
-.schoolregelement-link-wrapper a:hover {
+.schoolrules-link-wrapper a:hover {
 	transform: scale(1.1);
 }
-.schoolregelement-link-wrapper img {
+.schoolrules-link-wrapper img {
 	margin-top: 24px;
 	width: 100px;
+}
+.asset20-schoolreglement {
+	transform: rotate(30deg);
+	margin-left: 70%;
+	width: 30%;
 }
 
 #contact-button {
@@ -984,7 +993,7 @@ td#vak {
 
 #asset13-inschrijvingen {
 	margin-left: 10%;
-	margin-top: -400px;
+	margin-top: -00px;
 }
 
 .background2 {
@@ -1132,12 +1141,24 @@ td#vak {
 	width: 80%;
 	text-align: center;
 }
+.wrapper-whoIsWho {
+	background-image: url("Images/asset-wie.svg");
+	background-position: 40% 20%;
+	background-size: 60%;
+}
 .wrapper-whoIsWho h2 {
 	color: #000000;
+}
+.wrapper-whoIsWho h4 {
+	color: #eff3e8;
 }
 #footer-who-is-who {
 	margin-top: -40%;
 }
+#footer-inschrijvingen {
+	margin-top: -60%;
+}
+
 .principal {
 	margin-left: 50%;
 	background-image: url("Images/Asset\ 19.png");
@@ -1153,14 +1174,14 @@ td#vak {
 	background-image: url("Images/Asset\ 19.png");
 	background-size: 30%;
 	padding-left: 5%;
-	padding-top: 5%;
+	padding-top: 6%;
 	padding-bottom: 8%;
 }
 .coaches {
 	margin-left: 50%;
 	margin-top: -10%;
 	padding-left: 5%;
-	padding-top: 7%;
+	padding-top: 6%;
 	padding-bottom: 7%;
 	background-image: url("Images/Asset\ 26.png");
 }
@@ -1176,7 +1197,7 @@ td#vak {
 .secretariat {
 	margin-left: 50%;
 	padding-top: 8%;
-	padding-bottom: 5%;
+	padding-bottom: 10%;
 	padding-left: 10%;
 
 	background-image: url("Images/Asset\ inschrijving2_1.png");
@@ -1187,7 +1208,7 @@ td#vak {
 
 	background-image: url("Images/Asset\ 28.png");
 	background-size: 40%;
-	padding-top: 2%;
+	padding-top: 4%;
 	padding-bottom: 10%;
 	padding-left: 7%;
 }
@@ -1203,7 +1224,7 @@ td#vak {
 	margin-left: 10%;
 	z-index: 1;
 }
-#info-school-image{
+#info-school-image {
 	margin-left: 5%;
 	margin-right: 7.5%;
 	height: 800px;
@@ -1222,7 +1243,7 @@ td#vak {
 	background-size: 105%;
 	background-position: left;
 }
-.info-school-two  {
+.info-school-two {
 	margin-left: 10%;
 	margin-top: 20%;
 }
@@ -1242,7 +1263,6 @@ td#vak {
 	background-size: 55%;
 	background-position: left;
 	z-index: 3;
-
 }
 .info-school-two-text li {
 	font-weight: 400;
@@ -1273,4 +1293,82 @@ td#vak {
 #asset13-info-school {
 	margin-left: 10%;
 	margin-top: -200px;
+}
+@import url("https://use.typekit.net/kxh3iir.css");
+.contact{
+	display: flex;
+	justify-content: space-between;
+}
+.contact-right-wrapper{
+	background-image: url("SVG/Asset\ 15.svg");
+	background-repeat: no-repeat;
+	background-size: 500px;
+
+	width: 30%;
+	position: relative;
+	margin-right: -5%;
+}
+.contact-right{
+	padding-left: 25%;
+	padding-top: 25%;
+}
+.contact-right a {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	padding-top: 15px;
+}
+.contact-right p {
+	text-align: center;
+	color: #ffffff;
+}
+.contact-right img {
+	padding-top: 10px;
+	width: 25px;
+	padding-right: 10px;
+}
+.contact-form-wrapper{
+	width: 70%;
+}
+.contact-form{
+    width: 70%;
+	margin: 0 auto;
+	padding-top: 4rem;
+	padding-bottom: 1rem;
+}
+.maps{
+	display: flex;
+	justify-content: center;
+}
+input{
+	width: 100%;
+	height: 50px;
+	border: none;
+	border: 1pt solid #d13389 ;
+	border-radius: 25px;
+	color: #000;
+	margin-bottom: 1rem;
+}
+textarea{
+	width: 100%;
+	height: 125px;
+	border: none;
+	border: 1pt solid #d13389 ;
+	border-radius: 15px;
+	color: #000;
+	margin-bottom: 1rem;
+}
+button{
+	color: #eff3e8;
+	background-color: #d13389;
+	font-family: "pragmatica", sans-serif;
+	font-weight: 900;
+	padding: 15px 35px;
+	border-radius: 25px;
+	border: none;
+}
+.send-button{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5rem;
 }
