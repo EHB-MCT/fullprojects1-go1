@@ -26,6 +26,11 @@
 	header h1 {
 		font-size: 2rem;
 		line-height: 1.25;
+		position: absolute;
+		top: 40%;
+		right: 0%;
+		width: 100%;
+		text-align: center;
 	}
 	.button-top {
 		visibility: hidden;
@@ -170,21 +175,36 @@
 		margin: 16px 9% 0 9%;
 	}
 	.schoolregelement{
-		color: black ;
 		flex-direction: column;
-	}
-	.schoolregelement h2{
-		color: black ;
-	}
-	.schoolregelement p{
-		color: black ;
 	}
 	.schoolregelement-wrapper{
 		width: 100%;
-		background-position: top;
+		background-image: none;
+		height: auto;
+	}
+	.schoolregelement-wrapper p{
+		background-color: #e174ac;
+		padding: 30px;
+		border-radius: 50px;
+		margin: 32px 0;
 	}
 	.schoolregelement-link-wrapper{
 		width: 100%;
 		background-position: center;
+		margin-top: 0;
+	}
+	.info-school-wrapper{
+		flex-direction: column;
+	}
+	.info-school{
+		margin-top: 0;
+		width: 100%;
+		padding-left: 0;
+	}
+	.info-school-wrapper img{
+		width: 150px;
+	}
+	#info-open-class-days{
+		height: auto;
 	}
 }

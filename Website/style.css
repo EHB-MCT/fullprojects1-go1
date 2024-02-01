@@ -49,7 +49,6 @@ p {
 	font-weight: 400;
 	margin: 0;
 }
-
 .button-top a {
 	padding: 25px 25px;
 	background-color: #e174ac;
@@ -830,6 +829,7 @@ td#vak {
 }
 .schoolregelement-wrapper {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 
