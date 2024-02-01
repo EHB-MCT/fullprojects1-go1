@@ -337,7 +337,7 @@ img#pop_up_asset {
 #rooster-2degraad {
 	background-position: 5% 80%;
 }
-.rooster-pdf{
+.rooster-pdf {
 	visibility: hidden;
 }
 table {
@@ -579,7 +579,7 @@ td#vak {
 	padding-left: 60%;
 	margin-right: 10%;
 	color: #fff;
-	width: 100%;
+
 	padding-bottom: 50px;
 }
 #infrastructuur-wrapper-speelplaats {
@@ -589,15 +589,11 @@ td#vak {
 	margin-top: -15%;
 }
 .Basic-pillars-outer-wrapper {
-	display: flex;
-	flex-wrap: wrap;
-	background-image: url("Images/Asset\ 21.png");
+	background-image: url("Images/Asset/21.png");
 	background-position: 85% 35%;
 }
 .Basic-pillars-outer-wrapper-right {
-	display: flex;
-	flex-wrap: wrap;
-	background-image: url("Images/Asset\ 21.png");
+	background-image: url("Images/Asset/21.png");
 	background-position: 15% 15%;
 }
 .Basic-pillars-wrapper {
@@ -617,20 +613,18 @@ td#vak {
 }
 .Basic-pillars {
 	padding-top: 10%;
-	margin-left: 5%;
+	padding-left: 5%;
 }
 .Basic-pillars img {
 	width: 35%;
 	margin-top: 2rem;
 	border-radius: 35px;
 }
-.Basic-pillars p {
+.Basic-pillars * {
 	color: #fff;
 	width: 35%;
 }
 .Basic-pillars h3 {
-	color: #fff;
-	width: 35%;
 	padding-bottom: 50px;
 }
 .Basic-pillars-right {
@@ -656,7 +650,7 @@ td#vak {
 	padding-left: 60%;
 	margin-right: 10%;
 	color: #fff;
-	width: 100%;
+
 	padding-bottom: 50px;
 }
 #Basic-pillars-wrapper-speelplaats {
@@ -864,19 +858,15 @@ td#vak {
 	width: 80%;
 	text-align: center;
 	color: #ffffff;
-	transition: all .3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
-.schoolregelement-link-wrapper a:hover{
+.schoolregelement-link-wrapper a:hover {
 	transform: scale(1.1);
 }
-.schoolregelement-link-wrapper img{
+.schoolregelement-link-wrapper img {
 	margin-top: 24px;
 	width: 100px;
 }
-
-
-
-
 
 #contact-button {
 	padding: 15px 40px;
@@ -996,7 +986,6 @@ td#vak {
 	margin-left: 10%;
 	margin-top: -400px;
 }
-
 
 .background2 {
 	background-image: url("SVG/Asset\ 16.svg");
@@ -1203,6 +1192,5 @@ td#vak {
 	width: 600px;
 	border-radius: 40px;
 	margin-left: 10%;
-
 	z-index: 1;
 }
