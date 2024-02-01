@@ -157,7 +157,10 @@ img#pop_up_asset {
 .info-list:nth-child(2) {
 	margin-left: 6rem;
 }
-
+.info-image :hover img {
+	transition: all 0.3s ease-in-out;
+	transform: scale(0.98);
+}
 .quote-outer-wrapper {
 	position: relative;
 	margin-left: -2%;
@@ -175,19 +178,19 @@ img#pop_up_asset {
 	line-height: 1.2;
 	color: #ffffff;
 }
-.pijlers-wrapper {
+.pillars-wrapper {
 	background-image: url("Images/Shapes2-3.svg");
 	background-size: 20%;
 	background-position: 47% 35%;
 	margin-top: 64px;
 }
-.pijlers-list {
+.pillars-list {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	margin-bottom: 32px;
 }
-.pijlers p {
+.pillars p {
 	color: #000000;
 	background-color: #cacaca;
 	padding: 100px 50px;
@@ -195,28 +198,28 @@ img#pop_up_asset {
 	width: 300px;
 	font-size: 12pt;
 }
-.pijlers img,
-.pijlers h3 {
+.pillars img,
+.pillars h3 {
 	margin-bottom: -30px;
 	padding-right: 60px;
 	z-index: 1;
 }
-.pijlers img {
+.pillars img {
 	width: 100px;
 	height: 100px;
 	margin-bottom: -50px;
 }
-.pijlers-list-header {
+.pillars-list-header {
 	display: flex;
 	justify-content: space-between;
 	width: 400px;
 	align-items: flex-end;
 }
-.pijlers-list:nth-child(odd) {
+.pillars-list:nth-child(odd) {
 	transform: rotate(3deg);
 	margin-left: 35%;
 }
-.pijlers-list:nth-child(even) {
+.pillars-list:nth-child(even) {
 	transform: rotate(-3deg);
 	margin-right: 35%;
 }
@@ -486,8 +489,8 @@ td#vak {
 	padding-top: 100px;
 }
 .leefregels-wrapper img {
-	width: 250px;
-	height: 353px;
+	width: auto;
+	height: 600px;
 	margin-bottom: 100px;
 	box-shadow: 12px 12px 2px 1px #e174ac;
 	transition: all 0.5s ease-in-out;
@@ -817,28 +820,29 @@ td#vak {
 	background-position: 50%;
 	background-size: 45%;
 }
-.schoolregelement {
+.schoolrules {
 	display: flex;
 	justify-content: space-between;
 }
-.schoolregelement-wrapper {
+.schoolrules-wrapper {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: -50%;
 
 	background-image: url("Images/Asset-inschrijving2_2.svg");
 	background-size: 100%;
 	background-position: left;
-
+	
 	height: 1200px;
 	width: 55%;
 }
-.schoolregelement-wrapper p {
+.schoolrules-wrapper p {
 	width: 70%;
 	color: #ffffff;
 }
-.schoolregelement-link-wrapper {
+.schoolrules-link-wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -851,21 +855,26 @@ td#vak {
 	width: 35%;
 	height: 500px;
 
-	margin-top: 20%;
+	margin-top: 25%;
 	margin-right: 3%;
 }
-.schoolregelement-link-wrapper h2 {
+.schoolrules-link-wrapper h2 {
 	width: 80%;
 	text-align: center;
 	color: #ffffff;
 	transition: all 0.3s ease-in-out;
 }
-.schoolregelement-link-wrapper a:hover {
+.schoolrules-link-wrapper a:hover {
 	transform: scale(1.1);
 }
-.schoolregelement-link-wrapper img {
+.schoolrules-link-wrapper img {
 	margin-top: 24px;
 	width: 100px;
+}
+.asset20-schoolreglement {
+	transform: rotate(30deg);
+	margin-left: 70%;
+	width: 30%;
 }
 
 #contact-button {
@@ -1132,7 +1141,7 @@ td#vak {
 	width: 80%;
 	text-align: center;
 }
-.wrapper-whoIsWho{
+.wrapper-whoIsWho {
 	background-image: url("Images/asset-wie.svg");
 	background-position: 40% 20%;
 	background-size: 60%;
@@ -1140,7 +1149,7 @@ td#vak {
 .wrapper-whoIsWho h2 {
 	color: #000000;
 }
-.wrapper-whoIsWho h4{
+.wrapper-whoIsWho h4 {
 	color: #eff3e8;
 }
 #footer-who-is-who {
