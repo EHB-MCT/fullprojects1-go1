@@ -118,6 +118,9 @@
 	#footer-navigation {
 		visibility: hidden;
 	}
+	nav{
+		width: 73%;
+	}
 	.studierichtingen {
 		display: flex;
 		flex-direction: column;
@@ -177,12 +180,6 @@
 		color: black;
 		flex-direction: column;
 	}
-	.schoolregelement h2 {
-		color: black;
-	}
-	.schoolregelement p {
-		color: black;
-	}
 	.schoolregelement-wrapper {
 		width: 100%;
 		background-image: none;
@@ -198,20 +195,6 @@
 		width: 100%;
 		background-position: center;
 		margin-top: 0;
-	}
-	.info-school-wrapper {
-		flex-direction: column;
-	}
-	.info-school {
-		margin-top: 0;
-		width: 100%;
-		padding-left: 0;
-	}
-	.info-school-wrapper img {
-		width: 150px;
-	}
-	#info-open-class-days {
-		height: auto;
 	}
 	.Basic-pillars-wrapper {
 		background-size: 100%;
@@ -261,5 +244,48 @@
 	.asset8-maximumfactuur {
 		height: 100px;
 		width: auto;
+	}
+	.contact{
+		flex-direction: column;
+	}
+
+	.form-contact{
+		width: 100%;
+	}
+	.contact-form-wrapper{
+		width: 100%;
+	}
+	.contact-right-wrapper{
+		width: 85%;
+		background-image: none;
+		padding: 30px;
+		background-color: #e174ac;
+		border-radius: 50px;
+		margin-bottom: 32px;
+	}
+	.contact-right{
+		padding: 0;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.maps iframe{
+		width: 90%;
+	}
+	.leefregels-outer-wrapper{
+		background-image: none;
+	}
+	.leefregels-wrapper{
+		flex-direction: column;
+		padding: 0;
+	}
+	.image-row-1,
+	.image-row-2
+	{
+		justify-content: start;
+		margin: 0 5%;
+	}
+	.image-row-1,
+	.image-row-2 img{
+		width: 80%;
 	}
 }
