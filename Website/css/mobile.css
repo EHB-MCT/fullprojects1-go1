@@ -14,8 +14,9 @@
 	}
 	body {
 		font-size: 12pt;
+		margin: 0;
 	}
-	h3{
+	h3 {
 		font-size: 2rem;
 	}
 	header {
@@ -35,12 +36,11 @@
 	.button-top {
 		visibility: hidden;
 	}
-	#pop_up{
+	#pop_up {
 		width: 300px;
 	}
 	.info-wrapper {
 		background-image: none;
-		
 	}
 	.info {
 		margin-left: 0;
@@ -58,41 +58,39 @@
 		margin-left: 0;
 		color: #eff3e8;
 	}
-	.info-list:nth-child(2){
+	.info-list:nth-child(2) {
 		margin-left: 30px;
 	}
 	#quote-image-text {
-		top: 35%;		
-		font-size: 2rem;		
+		top: 35%;
+		font-size: 2rem;
 	}
 	.pijlers {
 		width: 100%;
-		padding: 5%,5%,5%,5%;
+		padding: 5%, 5%, 5%, 5%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 	}
 	.pijlers-list {
-		margin: 0,0,200px,0;
+		margin: 0, 0, 200px, 0;
 	}
-	.pijlers-list-header{
+	.pijlers-list-header {
 		width: 60%;
 	}
-	.pijlers p{
+	.pijlers p {
 		width: 55%;
 	}
 	.pijlers-list:nth-child(odd) {
-		
 		margin-left: 0;
 	}
 	.pijlers-list:nth-child(even) {
-		
-		margin-right: 0;	
+		margin-right: 0;
 	}
 	.pijlers-wrapper {
 		background-image: none;
 	}
-	.pijlers img{
+	.pijlers img {
 		width: 75px;
 		height: 75px;
 	}
@@ -105,48 +103,49 @@
 		align-items: center;
 		justify-content: end;
 	}
-	.footer-list img{
+	.footer-list img {
 		width: 20px;
 	}
 	.flex {
 		justify-content: center;
 	}
-	.flex.row{
+	.flex.row {
 		margin: 15px 0;
 	}
-	.footer-logo img{
+	.footer-logo img {
 		width: 200px;
 	}
-	#footer-navigation{
+	#footer-navigation {
 		visibility: hidden;
 	}
-	.studierichtingen{
+	.studierichtingen {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 	}
-	.graad{
+	.graad {
 		height: 65vh;
 		background-image: none;
 	}
-	.graad ul li, .graad h4{
+	.graad ul li,
+	.graad h4 {
 		color: #eff3e8;
 	}
-	.title-graad{
+	.title-graad {
 		margin-left: 5%;
 		width: 95%;
 	}
-	.info-graad{
-		margin:0 5%;
+	.info-graad {
+		margin: 0 5%;
 		width: 90%;
 	}
-	.jaar1-wrapper{
+	.jaar1-wrapper {
 		margin-top: 0;
 		background-size: 55%;
 		width: 100%;
 		background-image: none;
 	}
-	.jaar2-wrapper{
+	.jaar2-wrapper {
 		margin-top: 0;
 		background-size: 55%;
 		width: 100%;
@@ -155,7 +154,7 @@
 		justify-content: flex-start;
 	}
 	.jaar1,
-	.jaar2{
+	.jaar2 {
 		margin: 16px 5% 0 5%;
 		padding: 10px 15px;
 		margin-right: 0;
@@ -163,48 +162,55 @@
 		background-color: #e174ac;
 		border-radius: 1.5rem;
 	}
-	.rooster-wrapper{
+	.rooster-wrapper {
 		background-image: none;
 	}
-	.rooster{
+	.rooster {
 		visibility: hidden;
 	}
-	.rooster-pdf{
+	.rooster-pdf {
 		visibility: visible;
 		width: 80%;
 		margin: 16px 9% 0 9%;
 	}
-	.schoolregelement{
+	.schoolregelement {
+		color: black;
 		flex-direction: column;
 	}
-	.schoolregelement-wrapper{
+	.schoolregelement h2 {
+		color: black;
+	}
+	.schoolregelement p {
+		color: black;
+	}
+	.schoolregelement-wrapper {
 		width: 100%;
 		background-image: none;
 		height: auto;
 	}
-	.schoolregelement-wrapper p{
+	.schoolregelement-wrapper p {
 		background-color: #e174ac;
 		padding: 30px;
 		border-radius: 50px;
 		margin: 32px 0;
 	}
-	.schoolregelement-link-wrapper{
+	.schoolregelement-link-wrapper {
 		width: 100%;
 		background-position: center;
 		margin-top: 0;
 	}
-	.info-school-wrapper{
+	.info-school-wrapper {
 		flex-direction: column;
 	}
-	.info-school{
+	.info-school {
 		margin-top: 0;
 		width: 100%;
 		padding-left: 0;
 	}
-	.info-school-wrapper img{
+	.info-school-wrapper img {
 		width: 150px;
 	}
-	#info-open-class-days{
+	#info-open-class-days {
 		height: auto;
 	}
 	.Basic-pillars-wrapper {
@@ -233,5 +239,27 @@
 	}
 	#footer-basispijlers {
 		height: 100vh;
+	}
+
+	.asset21-maximumfactuur {
+		height: 100px;
+		width: auto;
+	}
+	.maximumfactuur-alinea1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+	}
+	.kostenoverzichten {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 15%;
+		margin-right: 0;
+	}
+	.asset8-maximumfactuur {
+		height: 100px;
+		width: auto;
 	}
 }

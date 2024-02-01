@@ -1212,7 +1212,7 @@ td#vak {
 	margin-left: 10%;
 	z-index: 1;
 }
-#info-school-image{
+#info-school-image {
 	margin-left: 5%;
 	margin-right: 7.5%;
 	height: 800px;
@@ -1231,7 +1231,7 @@ td#vak {
 	background-size: 105%;
 	background-position: left;
 }
-.info-school-two  {
+.info-school-two {
 	margin-left: 10%;
 	margin-top: 20%;
 }
@@ -1251,7 +1251,6 @@ td#vak {
 	background-size: 55%;
 	background-position: left;
 	z-index: 3;
-
 }
 .info-school-two-text li {
 	font-weight: 400;
