@@ -42,7 +42,6 @@
 	transform: translateY(100%); /* Slides the sub-menu from 0 to 100% */
 }
 
-
 /* nav */
 nav {
 	width: 90%;
@@ -54,14 +53,12 @@ nav {
 	z-index: 4;
 }
 
-
-
 .logo {
 	width: auto;
 	height: 75px;
-	transition: all .3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
-.logo:hover{
+.logo:hover {
 	transform: scale(1.1);
 }
 
