@@ -157,7 +157,10 @@ img#pop_up_asset {
 .info-list:nth-child(2) {
 	margin-left: 6rem;
 }
-
+.info-image :hover img {
+	transition: all 0.3s ease-in-out;
+	transform: scale(0.98);
+}
 .quote-outer-wrapper {
 	position: relative;
 	margin-left: -2%;
@@ -826,6 +829,7 @@ td#vak {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: -50%;
 
 	background-image: url("Images/Asset-inschrijving2_2.svg");
 	background-size: 100%;
@@ -866,6 +870,11 @@ td#vak {
 .schoolrules-link-wrapper img {
 	margin-top: 24px;
 	width: 100px;
+}
+.asset20-schoolreglement {
+	transform: rotate(30deg);
+	margin-left: 70%;
+	width: 30%;
 }
 
 #contact-button {
@@ -1132,7 +1141,7 @@ td#vak {
 	width: 80%;
 	text-align: center;
 }
-.wrapper-whoIsWho{
+.wrapper-whoIsWho {
 	background-image: url("Images/asset-wie.svg");
 	background-position: 40% 20%;
 	background-size: 60%;
@@ -1140,7 +1149,7 @@ td#vak {
 .wrapper-whoIsWho h2 {
 	color: #000000;
 }
-.wrapper-whoIsWho h4{
+.wrapper-whoIsWho h4 {
 	color: #eff3e8;
 }
 #footer-who-is-who {
