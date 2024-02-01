@@ -7,9 +7,9 @@
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="shortcut icon" type="x-icon" href="Images/GO-Logo.png" />
-		<link rel="stylesheet" href="css/header-footer.css">
+		<link rel="stylesheet" href="css/header-footer.css" />
 		<!-- <link rel="stylesheet" href="css/mobile-2.css" /> -->
-		<link rel="stylesheet" href="css/mobile.css">
+		<link rel="stylesheet" href="css/mobile.css" />
 		<link
 			href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
 			rel="stylesheet"
@@ -30,9 +30,7 @@
 							<img src="Icons/calendar.svg" alt="Calendar icon" />&nbsp; 8 mei
 							2024
 						</p>
-						<p>
-							<img src="Icons/clock.svg" alt="Clock icon" />&nbsp; 18 uur
-						</p>
+						<p><img src="Icons/clock.svg" alt="Clock icon" />&nbsp; 18 uur</p>
 					</div>
 					<div class="pop_up-asset">
 						<img id="pop_up_asset" src="Images/Asset 21.png" alt="asset" />
@@ -42,11 +40,9 @@
 			<div class="header-wrapper">
 				<header>
 					<nav>
-						<div class="logo-header">
-							<a href="index.html"
-								><img src="Images/Logo-school.png" class="logo3"
-							/></a>
-						</div>
+						<a href="index.html"
+							><img src="Images/Logo-school.png" class="logo"
+						/></a>
 						<div class="dropdown">
 							<span>Wie zijn we?</span>
 							<div class="dropdown-content">
@@ -63,16 +59,17 @@
 							<span>Waarom Hiel?</span>
 							<div class="dropdown-content">
 								<a href="basispijlers.html">De 3 basispijlers</a>
-								<a href="maximumfactuur.html">Maximum factuur</a>
+								<a href="maximumfactuur.html">Maximumfactuur</a>
 								<a href="infrastructuur.html">Infrastructuur</a>
 								<a href="leerlingbegeleiding.html">leerlingbegeleiding</a>
+								<a href="hospiteerlessen.html">Hospiteerlessen</a>
 							</div>
 						</div>
 						<div class="dropdown">
 							<span>Met Hiel op pad</span>
 							<div class="dropdown-content">
-								<a href="#">Activiteiten</a>
-								<a href="maximumfactuur.html">Maximum factuur</a>
+								<a href="activiteiten.html">Activiteiten</a>
+								<a href="#">Humaniora</a>
 							</div>
 						</div>
 						<div class="dropdown">
@@ -80,7 +77,7 @@
 							<div class="dropdown-content">
 								<a href="Inschrijvingen.html">Inschrijvingen</a>
 								<a href="studieaanbod.html">Studieaanbod</a>
-								<a href="#">Hospiteerlessen</a>
+								<a href="hospiteerlessen.html">Hospiteerlessen</a>
 							</div>
 						</div>
 						<div class="dropdown">
@@ -91,7 +88,46 @@
 							<span></span>
 							<span></span>
 						</div>
-						<div class="sidebar"></div>
+						<div class="sidebar">
+							<ul class="nav-links">
+								<li>
+									<div class="iocn-link">
+										<a href="#"><span class="link_name">Waarom Hiel?</span></a>
+										<i class="bx bxs-chevron-down arrow"></i>
+									</div>
+									<ul class="sub-menu">
+										<li><a href="basispijlers.html">De 3 basispijlers</a></li>
+										<li><a href="maximumfactuur.html">Maximum factuur</a></li>
+										<li><a href="infrastructuur.html">Infrastructuur</a></li>
+										<li>
+											<a href="leerlingbegeleiding.html">Leerlingbegeleiding</a>
+										</li>
+										<li><a href="#">Hospiteerlessen</a></li>
+									</ul>
+								</li>
+								<li>
+									<div class="iocn-link">
+										<a href="#"
+											><span class="link_name">Met Hiel op pad</span></a
+										>
+										<i class="bx bxs-chevron-down arrow"></i>
+									</div>
+									<ul class="sub-menu">
+										<li><a href="activiteiten.html">Activiteiten</a></li>
+										<li><a href="#">Humaniora</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<script>
+							let arrow = document.querySelectorAll(".arrow");
+							for (var i = 0; i < arrow.length; i++) {
+								arrow[i].addEventListener("click", (e) => {
+									let arrowParent = e.target.parentElement.parentElement; //selecting main parent of arrow
+									arrowParent.classList.toggle("showMenu");
+								});
+							}
+						</script>
 					</nav>
 					<script src="script.js"></script>
 
