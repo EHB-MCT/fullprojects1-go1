@@ -49,7 +49,6 @@ p {
 	font-weight: 400;
 	margin: 0;
 }
-
 .button-top a {
 	padding: 25px 25px;
 	background-color: #e174ac;
@@ -498,7 +497,7 @@ td#vak {
 }
 .image-row-1 {
 	width: 50%;
-	height: 1500px;
+	height: auto;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -506,7 +505,7 @@ td#vak {
 .image-row-2 {
 	margin-top: 15%;
 	width: 50%;
-	height: 1500px;
+	height: auto;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -579,7 +578,7 @@ td#vak {
 	padding-left: 60%;
 	margin-right: 10%;
 	color: #fff;
-	width: 100%;
+
 	padding-bottom: 50px;
 }
 #infrastructuur-wrapper-speelplaats {
@@ -589,15 +588,11 @@ td#vak {
 	margin-top: -15%;
 }
 .Basic-pillars-outer-wrapper {
-	display: flex;
-	flex-wrap: wrap;
-	background-image: url("Images/Asset\ 21.png");
+	background-image: url("Images/Asset/21.png");
 	background-position: 85% 35%;
 }
 .Basic-pillars-outer-wrapper-right {
-	display: flex;
-	flex-wrap: wrap;
-	background-image: url("Images/Asset\ 21.png");
+	background-image: url("Images/Asset/21.png");
 	background-position: 15% 15%;
 }
 .Basic-pillars-wrapper {
@@ -617,20 +612,18 @@ td#vak {
 }
 .Basic-pillars {
 	padding-top: 10%;
-	margin-left: 5%;
+	padding-left: 5%;
 }
 .Basic-pillars img {
 	width: 35%;
 	margin-top: 2rem;
 	border-radius: 35px;
 }
-.Basic-pillars p {
+.Basic-pillars * {
 	color: #fff;
 	width: 35%;
 }
 .Basic-pillars h3 {
-	color: #fff;
-	width: 35%;
 	padding-bottom: 50px;
 }
 .Basic-pillars-right {
@@ -656,7 +649,7 @@ td#vak {
 	padding-left: 60%;
 	margin-right: 10%;
 	color: #fff;
-	width: 100%;
+
 	padding-bottom: 50px;
 }
 #Basic-pillars-wrapper-speelplaats {
@@ -830,6 +823,7 @@ td#vak {
 }
 .schoolregelement-wrapper {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 
@@ -990,7 +984,7 @@ td#vak {
 
 #asset13-inschrijvingen {
 	margin-left: 10%;
-	margin-top: -400px;
+	margin-top: -00px;
 }
 
 .background2 {
@@ -1138,12 +1132,21 @@ td#vak {
 	width: 80%;
 	text-align: center;
 }
+.wrapper-whoIsWho{
+	background-image: url("Images/asset-wie.svg");
+	background-position: 40% 20%;
+	background-size: 60%;
+}
 .wrapper-whoIsWho h2 {
 	color: #000000;
+}
+.wrapper-whoIsWho h4{
+	color: #eff3e8;
 }
 #footer-who-is-who {
 	margin-top: -40%;
 }
+
 .principal {
 	margin-left: 50%;
 	background-image: url("Images/Asset\ 19.png");
@@ -1159,14 +1162,14 @@ td#vak {
 	background-image: url("Images/Asset\ 19.png");
 	background-size: 30%;
 	padding-left: 5%;
-	padding-top: 5%;
+	padding-top: 6%;
 	padding-bottom: 8%;
 }
 .coaches {
 	margin-left: 50%;
 	margin-top: -10%;
 	padding-left: 5%;
-	padding-top: 7%;
+	padding-top: 6%;
 	padding-bottom: 7%;
 	background-image: url("Images/Asset\ 26.png");
 }
@@ -1182,7 +1185,7 @@ td#vak {
 .secretariat {
 	margin-left: 50%;
 	padding-top: 8%;
-	padding-bottom: 5%;
+	padding-bottom: 10%;
 	padding-left: 10%;
 
 	background-image: url("Images/Asset\ inschrijving2_1.png");
@@ -1193,7 +1196,7 @@ td#vak {
 
 	background-image: url("Images/Asset\ 28.png");
 	background-size: 40%;
-	padding-top: 2%;
+	padding-top: 4%;
 	padding-bottom: 10%;
 	padding-left: 7%;
 }
@@ -1207,10 +1210,9 @@ td#vak {
 	width: 600px;
 	border-radius: 40px;
 	margin-left: 10%;
-
 	z-index: 1;
 }
-#info-school-image{
+#info-school-image {
 	margin-left: 5%;
 	margin-right: 7.5%;
 	height: 800px;
@@ -1229,7 +1231,7 @@ td#vak {
 	background-size: 105%;
 	background-position: left;
 }
-.info-school-two  {
+.info-school-two {
 	margin-left: 10%;
 	margin-top: 20%;
 }
@@ -1249,7 +1251,6 @@ td#vak {
 	background-size: 55%;
 	background-position: left;
 	z-index: 3;
-
 }
 .info-school-two-text li {
 	font-weight: 400;
@@ -1280,4 +1281,82 @@ td#vak {
 #asset13-info-school {
 	margin-left: 10%;
 	margin-top: -200px;
+}
+@import url("https://use.typekit.net/kxh3iir.css");
+.contact{
+	display: flex;
+	justify-content: space-between;
+}
+.contact-right-wrapper{
+	background-image: url("SVG/Asset\ 15.svg");
+	background-repeat: no-repeat;
+	background-size: 500px;
+
+	width: 30%;
+	position: relative;
+	margin-right: -5%;
+}
+.contact-right{
+	padding-left: 25%;
+	padding-top: 25%;
+}
+.contact-right a {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	padding-top: 15px;
+}
+.contact-right p {
+	text-align: center;
+	color: #ffffff;
+}
+.contact-right img {
+	padding-top: 10px;
+	width: 25px;
+	padding-right: 10px;
+}
+.contact-form-wrapper{
+	width: 70%;
+}
+.contact-form{
+    width: 70%;
+	margin: 0 auto;
+	padding-top: 4rem;
+	padding-bottom: 1rem;
+}
+.maps{
+	display: flex;
+	justify-content: center;
+}
+input{
+	width: 100%;
+	height: 50px;
+	border: none;
+	border: 1pt solid #d13389 ;
+	border-radius: 25px;
+	color: #000;
+	margin-bottom: 1rem;
+}
+textarea{
+	width: 100%;
+	height: 125px;
+	border: none;
+	border: 1pt solid #d13389 ;
+	border-radius: 15px;
+	color: #000;
+	margin-bottom: 1rem;
+}
+button{
+	color: #eff3e8;
+	background-color: #d13389;
+	font-family: "pragmatica", sans-serif;
+	font-weight: 900;
+	padding: 15px 35px;
+	border-radius: 25px;
+	border: none;
+}
+.send-button{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5rem;
 }

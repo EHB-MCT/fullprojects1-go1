@@ -14,8 +14,9 @@
 	}
 	body {
 		font-size: 12pt;
+		margin: 0;
 	}
-	h3{
+	h3 {
 		font-size: 2rem;
 	}
 	header {
@@ -26,16 +27,20 @@
 	header h1 {
 		font-size: 2rem;
 		line-height: 1.25;
+		position: absolute;
+		top: 40%;
+		right: 0%;
+		width: 100%;
+		text-align: center;
 	}
 	.button-top {
 		visibility: hidden;
 	}
-	#pop_up{
+	#pop_up {
 		width: 300px;
 	}
 	.info-wrapper {
 		background-image: none;
-		
 	}
 	.info {
 		margin-left: 0;
@@ -53,41 +58,39 @@
 		margin-left: 0;
 		color: #eff3e8;
 	}
-	.info-list:nth-child(2){
+	.info-list:nth-child(2) {
 		margin-left: 30px;
 	}
 	#quote-image-text {
-		top: 35%;		
-		font-size: 2rem;		
+		top: 35%;
+		font-size: 2rem;
 	}
 	.pijlers {
 		width: 100%;
-		padding: 5%,5%,5%,5%;
+		padding: 5%, 5%, 5%, 5%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 	}
 	.pijlers-list {
-		margin: 0,0,200px,0;
+		margin: 0, 0, 200px, 0;
 	}
-	.pijlers-list-header{
+	.pijlers-list-header {
 		width: 60%;
 	}
-	.pijlers p{
+	.pijlers p {
 		width: 55%;
 	}
 	.pijlers-list:nth-child(odd) {
-		
 		margin-left: 0;
 	}
 	.pijlers-list:nth-child(even) {
-		
-		margin-right: 0;	
+		margin-right: 0;
 	}
 	.pijlers-wrapper {
 		background-image: none;
 	}
-	.pijlers img{
+	.pijlers img {
 		width: 75px;
 		height: 75px;
 	}
@@ -100,48 +103,52 @@
 		align-items: center;
 		justify-content: end;
 	}
-	.footer-list img{
+	.footer-list img {
 		width: 20px;
 	}
 	.flex {
 		justify-content: center;
 	}
-	.flex.row{
+	.flex.row {
 		margin: 15px 0;
 	}
-	.footer-logo img{
+	.footer-logo img {
 		width: 200px;
 	}
-	#footer-navigation{
+	#footer-navigation {
 		visibility: hidden;
 	}
-	.studierichtingen{
+	nav{
+		width: 73%;
+	}
+	.studierichtingen {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 	}
-	.graad{
+	.graad {
 		height: 65vh;
 		background-image: none;
 	}
-	.graad ul li, .graad h4{
+	.graad ul li,
+	.graad h4 {
 		color: #eff3e8;
 	}
-	.title-graad{
+	.title-graad {
 		margin-left: 5%;
 		width: 95%;
 	}
-	.info-graad{
-		margin:0 5%;
+	.info-graad {
+		margin: 0 5%;
 		width: 90%;
 	}
-	.jaar1-wrapper{
+	.jaar1-wrapper {
 		margin-top: 0;
 		background-size: 55%;
 		width: 100%;
 		background-image: none;
 	}
-	.jaar2-wrapper{
+	.jaar2-wrapper {
 		margin-top: 0;
 		background-size: 55%;
 		width: 100%;
@@ -150,7 +157,7 @@
 		justify-content: flex-start;
 	}
 	.jaar1,
-	.jaar2{
+	.jaar2 {
 		margin: 16px 5% 0 5%;
 		padding: 10px 15px;
 		margin-right: 0;
@@ -158,33 +165,127 @@
 		background-color: #e174ac;
 		border-radius: 1.5rem;
 	}
-	.rooster-wrapper{
+	.rooster-wrapper {
 		background-image: none;
 	}
-	.rooster{
+	.rooster {
 		visibility: hidden;
 	}
-	.rooster-pdf{
+	.rooster-pdf {
 		visibility: visible;
 		width: 80%;
 		margin: 16px 9% 0 9%;
 	}
-	.schoolregelement{
-		color: black ;
+	.schoolregelement {
+		color: black;
 		flex-direction: column;
 	}
-	.schoolregelement h2{
-		color: black ;
-	}
-	.schoolregelement p{
-		color: black ;
-	}
-	.schoolregelement-wrapper{
+	.schoolregelement-wrapper {
 		width: 100%;
-		background-position: top;
+		background-image: none;
+		height: auto;
 	}
-	.schoolregelement-link-wrapper{
+	.schoolregelement-wrapper p {
+		background-color: #e174ac;
+		padding: 30px;
+		border-radius: 50px;
+		margin: 32px 0;
+	}
+	.schoolregelement-link-wrapper {
 		width: 100%;
 		background-position: center;
+		margin-top: 0;
+	}
+	.Basic-pillars-wrapper {
+		background-size: 100%;
+		height: 500px;
+	}
+	.Basic-pillars h3 {
+		width: 80%;
+		padding-bottom: 20px;
+	}
+	.Basic-pillars p {
+		width: 80%;
+	}
+	.Basic-pillars-wrapper-right {
+		background-size: 100%;
+		height: 500px;
+	}
+	.Basic-pillars-right h3 {
+		width: 80%;
+		padding-left: 20%;
+		padding-bottom: 20px;
+	}
+	.Basic-pillars-right p {
+		width: 80%;
+		padding-left: 20%;
+	}
+	#footer-basispijlers {
+		height: 100vh;
+	}
+
+	.asset21-maximumfactuur {
+		height: 100px;
+		width: auto;
+	}
+	.maximumfactuur-alinea1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+	}
+	.kostenoverzichten {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 15%;
+		margin-right: 0;
+	}
+	.asset8-maximumfactuur {
+		height: 100px;
+		width: auto;
+	}
+	.contact{
+		flex-direction: column;
+	}
+
+	.form-contact{
+		width: 100%;
+	}
+	.contact-form-wrapper{
+		width: 100%;
+	}
+	.contact-right-wrapper{
+		width: 85%;
+		background-image: none;
+		padding: 30px;
+		background-color: #e174ac;
+		border-radius: 50px;
+		margin-bottom: 32px;
+	}
+	.contact-right{
+		padding: 0;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.maps iframe{
+		width: 90%;
+	}
+	.leefregels-outer-wrapper{
+		background-image: none;
+	}
+	.leefregels-wrapper{
+		flex-direction: column;
+		padding: 0;
+	}
+	.image-row-1,
+	.image-row-2
+	{
+		justify-content: start;
+		margin: 0 5%;
+	}
+	.image-row-1,
+	.image-row-2 img{
+		width: 80%;
 	}
 }
