@@ -176,22 +176,22 @@
 		width: 80%;
 		margin: 16px 9% 0 9%;
 	}
-	.schoolregelement {
+	.schoolrules {
 		color: black;
 		flex-direction: column;
 	}
-	.schoolregelement-wrapper {
+	.schoolrules-wrapper {
 		width: 100%;
 		background-image: none;
 		height: auto;
 	}
-	.schoolregelement-wrapper p {
+	.schoolrules-wrapper p {
 		background-color: #e174ac;
 		padding: 30px;
 		border-radius: 50px;
 		margin: 32px 0;
 	}
-	.schoolregelement-link-wrapper {
+	.schoolrules-link-wrapper {
 		width: 100%;
 		background-position: center;
 		margin-top: 0;
@@ -274,15 +274,25 @@
 	.leefregels-outer-wrapper{
 		background-image: none;
 	}
+	.leefregels-wrapper img {
+		width: 80%;
+		margin-bottom: 100px;
+	}
 	.leefregels-wrapper{
 		flex-direction: column;
 		padding: 0;
+		width: 80%;
+		margin-top: 50px;
 	}
-	.image-row-1,
-	.image-row-2
+	.image-row-1
 	{
-		justify-content: start;
-		margin: 0 5%;
+		justify-content: center;
+		margin: 0 auto;
+	}
+	.image-row-2{
+		width: 80%;
+		justify-content: center;
+		margin: 0 auto;
 	}
 	.image-row-1,
 	.image-row-2 img{
