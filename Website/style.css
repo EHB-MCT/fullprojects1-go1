@@ -153,11 +153,12 @@ img#pop_up_asset {
 .info-list:nth-child(3) {
 	margin-bottom: 0;
 }
-.info-list .info-text {
+.info-text {
 	margin-left: 2rem;
+	margin-right: 6rem;
 }
 
-#info-list-studieaanbod {
+.info-list:nth-child(2) {
 	margin-left: 6rem;
 }
 
@@ -168,16 +169,14 @@ img#pop_up_asset {
 .quote-image {
 	top: -50px;
 }
-.quote-image img {
-	width: 100%;
-}
+
 #quote-image-text {
 	position: absolute;
 	z-index: 1;
 	top: 50%;
 	left: 15%;
 	font-size: 4rem;
-	line-height: 1;
+	line-height: 1.2;
 	color: #ffffff;
 }
 .pijlers-wrapper {
@@ -219,20 +218,15 @@ img#pop_up_asset {
 	width: 400px;
 	align-items: flex-end;
 }
-#pijlers-list-taal {
+.pijlers-list:nth-child(odd) {
 	transform: rotate(3deg);
 	margin-left: 35%;
 }
-#pijlers-list-OLB {
+.pijlers-list:nth-child(even) {
 	transform: rotate(-3deg);
 	margin-right: 35%;
-	margin-top: -130px;
 }
-#pijlers-list-welzijn {
-	transform: rotate(3deg);
-	margin-left: 35%;
-	margin-top: -130px;
-}
+
 #pijlers-list-header-welzijn {
 	margin-left: 8%;
 }
@@ -268,7 +262,7 @@ img#pop_up_asset {
 .quick-navigate-buttons-wrapper {
 	display: flex;
 	justify-content: flex-end;
-	padding: 64px 0;
+	margin: 64px 0;
 }
 .quick-navigate-buttons {
 	width: 100%;
@@ -304,17 +298,16 @@ img#pop_up_asset {
 }
 
 .title-graad {
-	width: 30%;
-	padding-bottom: 64px;
+	margin-bottom: 64px;
+	margin-left: 29%;
 	width: 50%;
-	padding-left: 29%;
 }
 .title-graad h3 {
 	padding: 0;
 }
 .info-graad {
 	width: 35%;
-	padding-left: 30%;
+	margin-left: 30%;
 	text-align: left;
 }
 .studierichtingen {
@@ -337,8 +330,8 @@ img#pop_up_asset {
 }
 
 .jaar1 {
-	padding-left: 5%;
-	padding-top: 51%;
+	margin-left: 5%;
+	margin-top: 52%;
 }
 .jaar2-wrapper {
 	background-image: url("SVG/Asset\ 15.svg");
@@ -354,8 +347,8 @@ img#pop_up_asset {
 	position: relative;
 }
 .jaar2 {
-	padding-right: 15%;
-	padding-top: 22%;
+	margin-right: 15%;
+	margin-top: 22%;
 }
 
 .rooster-wrapper {
@@ -700,7 +693,8 @@ td#vak {
 #Basic-pillars-wrapper-bib {
 	margin-top: -15%;
 }
-.info-leerlingbegeleiding-outer-wrapper {
+>>>>>>>b56b36a84287512f4c27a7d66552a642f27d3d83
+	.info-leerlingbegeleiding-outer-wrapper {
 	background-image: url("Images/Asset\ 27.png");
 	background-position: 80% 0%;
 	background-size: 15%;
