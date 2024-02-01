@@ -169,4 +169,22 @@
 		width: 80%;
 		margin: 16px 9% 0 9%;
 	}
+	.schoolregelement{
+		color: black ;
+		flex-direction: column;
+	}
+	.schoolregelement h2{
+		color: black ;
+	}
+	.schoolregelement p{
+		color: black ;
+	}
+	.schoolregelement-wrapper{
+		width: 100%;
+		background-position: top;
+	}
+	.schoolregelement-link-wrapper{
+		width: 100%;
+		background-position: center;
+	}
 }

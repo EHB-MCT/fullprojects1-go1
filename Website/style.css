@@ -1210,3 +1210,74 @@ td#vak {
 
 	z-index: 1;
 }
+#info-school-image{
+	margin-left: 5%;
+	margin-right: 7.5%;
+	height: 800px;
+}
+
+.info-school-wrapper {
+	display: flex;
+	flex-direction: row;
+}
+.info-school {
+	margin-top: -300px;
+	margin-left: auto;
+	z-index: 1;
+	padding: 20% 10% 20% 200px;
+	background-image: url("Images/Asset\ inschrijving2_1.png");
+	background-size: 105%;
+	background-position: left;
+}
+.info-school-two  {
+	margin-left: 10%;
+	margin-top: 20%;
+}
+.info-school h2 {
+	color: white;
+}
+
+.info-school-two-text h2 {
+	color: white;
+}
+.info-school-two-text {
+	margin-bottom: 10%;
+	margin-right: auto;
+	margin-top: -750px;
+	padding: 18% 0 18% 8%;
+	background-image: url("Images/Asset\ 13_2.png");
+	background-size: 55%;
+	background-position: left;
+	z-index: 3;
+
+}
+.info-school-two-text li {
+	font-weight: 400;
+	font-family: "Arial";
+}
+.info-school-two-text a {
+	color: #000000;
+}
+
+.info-school-two img {
+	height: 200px;
+}
+#asset20-info-school {
+	display: flex;
+	align-items: flex-end;
+
+	transform: scaleX(-1);
+
+	margin-left: auto;
+	transform: rotate(-80deg);
+}
+#asset21-info-school {
+	margin-top: -700px;
+	padding-bottom: 400px;
+	margin-left: 10%;
+}
+
+#asset13-info-school {
+	margin-left: 10%;
+	margin-top: -200px;
+}
