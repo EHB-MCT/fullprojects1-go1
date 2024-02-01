@@ -79,7 +79,7 @@ header .wave {
 	margin-top: -55%;
 }
 #footer-schoolregelement {
-	margin-top: -55%;
+	margin-top: -45%;
 }
 #footer-infrastructuur {
 	margin-top: -50%;
@@ -95,4 +95,19 @@ header .wave {
 }
 #footer-humaniora {
 	margin-top: -55%;
+}
+
+@media (max-width: 1024px) {
+	#footer-leefregels{
+		margin-top: -230%;
+	}
+	#footer-homepage{
+		margin-top: -200%;
+	}
+	#footer-studieaanbod{
+		margin-top: -210%;
+	}
+	#footer-contact{
+		margin-top: -200%;
+	}
 }

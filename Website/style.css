@@ -245,7 +245,7 @@ img#pop_up_asset {
 	align-items: flex-end;
 	margin: 10px 0;
 }
-.leefregels {
+.liferules {
 	width: 90%;
 }
 .quick-navigate-buttons-wrapper {
@@ -275,34 +275,34 @@ img#pop_up_asset {
 	width: 140px;
 	background-color: #d13389;
 }
-.graad {
+.degree {
 	margin-bottom: 124px;
 }
-.graad ul li,
-.graad h4 {
+.degree ul li,
+.degree h4 {
 	color: #fff;
 }
-.title-graad {
+.title-degree {
 	margin-bottom: 64px;
 	margin-left: 29%;
 	width: 50%;
 }
-.title-graad h3 {
+.title-degree h3 {
 	padding: 0;
 }
-.info-graad {
+.info-degree {
 	width: 35%;
 	margin-left: 30%;
 	text-align: left;
 }
-.studierichtingen {
+.studiedirections {
 	background-image: url("Images/Shapes3-2.svg");
 	background-size: 50%;
 	background-position: 48% 10%;
 	display: flex;
 	justify-content: space-between;
 }
-.jaar1-wrapper {
+.jear1-wrapper {
 	background-image: url("SVG/Asset\ 11_1.svg");
 	background-position: top left;
 	background-size: 400px;
@@ -311,11 +311,11 @@ img#pop_up_asset {
 	margin-top: -275px;
 }
 
-.jaar1 {
+.jear1 {
 	margin-left: 5%;
 	margin-top: 52%;
 }
-.jaar2-wrapper {
+.jear2-wrapper {
 	background-image: url("SVG/Asset\ 15.svg");
 	background-position: top right;
 	background-size: 475px;
@@ -325,18 +325,18 @@ img#pop_up_asset {
 	justify-content: flex-end;
 	position: relative;
 }
-.jaar2 {
+.jear2 {
 	margin-right: 15%;
 	margin-top: 22%;
 }
-.rooster-wrapper {
+.schedule-wrapper {
 	background-image: url("Images/Asset\ 21.png");
 	background-position: 95% 80%;
 }
 #rooster-2degraad {
 	background-position: 5% 80%;
 }
-.rooster-pdf {
+.schedule-pdf {
 	visibility: hidden;
 }
 table {
@@ -391,13 +391,13 @@ td#vak {
 #Dubbele-Finaliteit {
 	margin-top: 64px;
 }
-.rooster {
+.schedule {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	margin-top: -400px;
 }
-.rooster img {
+.schedule img {
 	width: 45%;
 }
 #wegwijzers {
@@ -470,29 +470,28 @@ td#vak {
 #asset13-inschrijvingen {
 	margin-left: 10%;
 }
-.leefregels-wrapper {
+.liferules-wrapper {
 	padding: 150px;
 	margin-bottom: 100px;
 }
-.leefregels-outer-wrapper {
+.liferules-outer-wrapper {
 	background-image: url("Images/Asset23.svg");
 	background-position: center;
 }
-.leefregels-wrapper {
+.liferules-wrapper {
 	width: 1024px;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 	padding-top: 100px;
 }
-.leefregels-wrapper img {
-	width: auto;
-	height: 100%;
+.liferules-wrapper img {
+	width: 75%;
 	margin-bottom: 100px;
 	box-shadow: 12px 12px 2px 1px #e174ac;
 	transition: all 0.5s ease-in-out;
 }
-.leefregels-wrapper img:hover {
+.liferules-wrapper img:hover {
 	transform: scale(1.5);
 }
 .image-row-1 {
@@ -738,18 +737,6 @@ td#vak {
 	position: relative;
 	margin-top: -400px;
 }
-.maximumfactuur-alinea1 {
-	margin-left: 5%;
-	margin-right: 5%;
-	padding-left: 7%;
-	padding-right: 10%;
-	margin-top: 400px;
-	padding-top: 100px;
-	padding-bottom: 300px;
-	background-image: url("Images/Asset\ 18.png");
-	background-size: 50%;
-	z-index: 1;
-}
 .kostenoverzichten {
 	margin-left: 50%;
 	margin-top: -40%;
@@ -902,7 +889,7 @@ td#vak {
 	flex-direction: column;
 }
 
-.leefregels {
+.liferules {
 	width: 90%;
 }
 #info-open-class-days {
@@ -1003,7 +990,7 @@ td#vak {
 	padding-left: 7%;
 	padding-right: 10%;
 	margin-top: -25%;
-	padding-top: 100px;
+	padding-top: 200px;
 	padding-bottom: 300px;
 	background-image: url("Images/Asset\ 18.png");
 	background-size: 50%;
@@ -1022,6 +1009,8 @@ td#vak {
 	background-image: url("Images/Asset\ 19.png");
 	background-size: 80%;
 	background-position: center;
+	text-align: left;
+	padding-left: 12%;
 }
 .asset8-maximumfactuur {
 	margin-left: 0%;
@@ -1063,10 +1052,6 @@ td#vak {
 	height: 800px;
 	width: 100%;
 }
-.kostenoverzichten {
-	text-align: center;
-}
-
 .logo3 {
 	height: 150%;
 	margin-top: -35px;

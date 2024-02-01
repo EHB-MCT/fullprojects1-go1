@@ -121,34 +121,34 @@
 	nav{
 		width: 73%;
 	}
-	.studierichtingen {
+	.studiedirections {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 	}
-	.graad {
+	.degree {
 		height: 65vh;
 		background-image: none;
 	}
-	.graad ul li,
-	.graad h4 {
+	.degree ul li,
+	.degree h4 {
 		color: #eff3e8;
 	}
-	.title-graad {
+	.title-degree {
 		margin-left: 5%;
 		width: 95%;
 	}
-	.info-graad {
+	.info-degree {
 		margin: 0 5%;
 		width: 90%;
 	}
-	.jaar1-wrapper {
+	.jear1-wrapper {
 		margin-top: 0;
 		background-size: 55%;
 		width: 100%;
 		background-image: none;
 	}
-	.jaar2-wrapper {
+	.jear2-wrapper {
 		margin-top: 0;
 		background-size: 55%;
 		width: 100%;
@@ -156,8 +156,8 @@
 		background-image: none;
 		justify-content: flex-start;
 	}
-	.jaar1,
-	.jaar2 {
+	.jear1,
+	.jear2 {
 		margin: 16px 5% 0 5%;
 		padding: 10px 15px;
 		margin-right: 0;
@@ -165,13 +165,13 @@
 		background-color: #e174ac;
 		border-radius: 1.5rem;
 	}
-	.rooster-wrapper {
+	.schedule-wrapper {
 		background-image: none;
 	}
-	.rooster {
+	.schedule {
 		visibility: hidden;
 	}
-	.rooster-pdf {
+	.schedule-pdf {
 		visibility: visible;
 		width: 80%;
 		margin: 16px 9% 0 9%;
@@ -271,14 +271,14 @@
 	.maps iframe{
 		width: 90%;
 	}
-	.leefregels-outer-wrapper{
+	.liferules-outer-wrapper{
 		background-image: none;
 	}
-	.leefregels-wrapper img {
+	.liferules-wrapper img {
 		width: 80%;
 		margin-bottom: 100px;
 	}
-	.leefregels-wrapper{
+	.liferules-wrapper{
 		flex-direction: column;
 		padding: 0;
 		width: 80%;
@@ -298,4 +298,5 @@
 	.image-row-2 img{
 		width: 80%;
 	}
+
 }
