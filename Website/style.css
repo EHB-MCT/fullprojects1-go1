@@ -246,78 +246,6 @@ img#pop_up_asset {
 	align-items: flex-end;
 	margin: 10px 0;
 }
-.contact {
-	display: flex;
-	justify-content: space-between;
-}
-.contact-right-wrapper {
-	background-image: url("SVG/Asset\ 15.svg");
-	background-repeat: no-repeat;
-	background-size: 500px;
-	background-position: right;
-	width: 30%;
-	position: relative;
-}
-.contact-right {
-	margin-left: 35%;
-	margin-top: 25%;
-}
-.contact-right a {
-	display: block;
-	text-decoration: none;
-	color: #ffffff;
-	padding-top: 15px;
-}
-.contact-right p {
-	text-align: center;
-	color: #ffffff;
-}
-.contact-right img {
-	padding-top: 10px;
-	width: 25px;
-	padding-right: 10px;
-}
-.contact-form {
-	width: 70%;
-	margin: 0 auto;
-	margin-top: 4rem;
-	margin-bottom: 1rem;
-}
-.maps {
-	display: flex;
-	justify-content: center;
-}
-input {
-	width: 100%;
-	height: 50px;
-	border: 1pt solid #d13389;
-	border-radius: 25px;
-	color: #000;
-	margin-bottom: 1rem;
-}
-textarea {
-	width: 100%;
-	height: 125px;
-
-	border: 1pt solid #d13389;
-	border-radius: 15px;
-	color: #000;
-	margin-bottom: 1rem;
-}
-button {
-	color: #eff3e8;
-	background-color: #d13389;
-	font-family: "pragmatica", sans-serif;
-	font-weight: 900;
-	padding: 15px 35px;
-	border-radius: 25px;
-	border: none;
-}
-.send-button {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 5rem;
-}
 .leefregels {
 	width: 90%;
 }
@@ -408,6 +336,9 @@ button {
 }
 #rooster-2degraad {
 	background-position: 5% 80%;
+}
+.rooster-pdf{
+	visibility: hidden;
 }
 table {
 	border-collapse: collapse;
@@ -540,84 +471,9 @@ td#vak {
 	margin-left: 10%;
 	margin-top: -400px;
 }
-#info-open-class-days {
-	margin-left: 5%;
-	margin-right: 7.5%;
-	height: 800px;
-}
-.info-school-wrapper {
-	display: flex;
-	flex-direction: row;
-}
-.info-school {
-	margin-top: -200px;
-	margin-left: auto;
-	z-index: 1;
-	padding-top: 40%;
-	padding-left: 200px;
-	padding-right: 10%;
-	padding-bottom: 20%;
-	background-image: url("Images/Asset\ inschrijving2_1.png");
-	background-size: 120%;
-	background-position: left;
-}
-.info-school-two {
-	margin-left: 10%;
-	margin-top: 20%;
-}
-.info-school h2 {
-	color: white;
-}
-.info-school-two-text h2 {
-	color: white;
-	width: 80%;
-}
-.info-school-two-text {
-	margin-bottom: 10%;
-	margin-right: auto;
-	margin-top: -750px;
-	width: 40%;
-	padding-top: 16%;
-	padding-bottom: 16%;
-	padding-left: 7.5%;
-	background-image: url("Images/Asset\ 13_2.png");
-	background-size: 100%;
-	background-position: left;
-	z-index: 3;
-	display: flex;
-	flex-direction: column;
-}
-.info-school-two-text li {
-	font-weight: 400;
-	font-family: "Arial";
-	width: 80%;
-}
-.info-school-two-text a {
-	color: #000000;
-}
-.info-school-two img {
-	height: 200px;
-}
-#asset20-info-school {
-	display: flex;
-	align-items: flex-end;
-	transform: scaleX(-1);
-	margin-left: auto;
-}
-#asset21-info-school {
-	margin-top: -700px;
-	padding-bottom: 400px;
-	margin-left: 10%;
-}
-
-#asset13-info-school {
-	margin-left: 10%;
-	margin-top: -200px;
-}
-#info-school-image {
-	margin-left: 5%;
-	margin-right: 7.5%;
-	height: 800px;
+.leefregels-wrapper {
+	padding: 150px;
+	margin-bottom: 100px;
 }
 .leefregels-outer-wrapper {
 	background-image: url("Images/Asset23.svg");
@@ -628,7 +484,7 @@ td#vak {
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 100px;
+	padding-top: 100px;
 }
 .leefregels-wrapper img {
 	width: 250px;
@@ -683,7 +539,7 @@ td#vak {
 	height: 1000px;
 }
 .infrastructuur {
-	margin-top: 10%;
+	padding-top: 10%;
 	margin-left: 5%;
 }
 .infrastructuur img {
@@ -698,13 +554,13 @@ td#vak {
 .infrastructuur h3 {
 	color: #fff;
 	width: 35%;
-	margin-bottom: 50px;
+	padding-bottom: 50px;
 }
 .infrastructuur-right {
 	display: flex;
 	justify-content: flex-end;
 	flex-wrap: wrap;
-	margin-top: 10%;
+	padding-top: 10%;
 }
 .infrastructuur-right img {
 	width: 35%;
@@ -715,16 +571,16 @@ td#vak {
 .infrastructuur-right p {
 	color: #fff;
 	width: 35%;
-	margin-left: 60%;
+	padding-left: 60%;
 	margin-right: 5%;
 }
 .infrastructuur-right h3 {
 	width: 40%;
-	margin-left: 60%;
+	padding-left: 60%;
 	margin-right: 10%;
 	color: #fff;
-
-	margin-bottom: 50px;
+	width: 100%;
+	padding-bottom: 50px;
 }
 #infrastructuur-wrapper-speelplaats {
 	margin-top: -15%;
@@ -760,7 +616,7 @@ td#vak {
 	height: 1000px;
 }
 .Basic-pillars {
-	margin-top: 10%;
+	padding-top: 10%;
 	margin-left: 5%;
 }
 .Basic-pillars img {
@@ -775,13 +631,13 @@ td#vak {
 .Basic-pillars h3 {
 	color: #fff;
 	width: 35%;
-	margin-bottom: 50px;
+	padding-bottom: 50px;
 }
 .Basic-pillars-right {
 	display: flex;
 	justify-content: flex-end;
 	flex-wrap: wrap;
-	margin-top: 10%;
+	padding-top: 10%;
 }
 .Basic-pillars-right img {
 	width: 35%;
@@ -792,15 +648,16 @@ td#vak {
 .Basic-pillars-right p {
 	color: #fff;
 	width: 35%;
-	margin-left: 60%;
+	padding-left: 60%;
 	margin-right: 5%;
 }
 .Basic-pillars-right h3 {
 	width: 40%;
-	margin-left: 60%;
+	padding-left: 60%;
 	margin-right: 10%;
 	color: #fff;
-	margin-bottom: 50px;
+	width: 100%;
+	padding-bottom: 50px;
 }
 #Basic-pillars-wrapper-speelplaats {
 	margin-top: -15%;
@@ -808,6 +665,7 @@ td#vak {
 #Basic-pillars-wrapper-bib {
 	margin-top: -15%;
 }
+
 .info-leerlingbegeleiding-outer-wrapper {
 	background-image: url("Images/Asset\ 27.png");
 	background-position: 80% 0%;
@@ -817,10 +675,6 @@ td#vak {
 	background-image: url("SVG/Asset\ 26.svg");
 	background-position: top left;
 	background-size: 850px;
-
-	height: 500px;
-
-	margin-top: 100px;
 }
 .info-leerlingbegeleiding-text {
 	display: flex;
@@ -922,10 +776,7 @@ td#vak {
 	width: auto;
 	margin-top: -2000vh;
 }
-#kosten1 {
-	height: 800px;
-	width: 100%;
-}
+
 #kosten2 {
 	height: 800px;
 	width: 100%;
@@ -1285,4 +1136,73 @@ td#vak {
 .schoolregelement-link-wrapper h2 {
 	width: 80%;
 	text-align: center;
+}
+.wrapper-whoIsWho h2 {
+	color: #000000;
+}
+.principal {
+	margin-left: 50%;
+	background-image: url("Images/Asset\ 19.png");
+	padding-top: 4%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	background-size: 50%;
+	margin-top: -15%;
+}
+.accompaniment {
+	margin-left: 10%;
+	margin-top: 10%;
+	background-image: url("Images/Asset\ 19.png");
+	background-size: 30%;
+	padding-left: 5%;
+	padding-top: 5%;
+	padding-bottom: 8%;
+}
+.coaches {
+	margin-left: 50%;
+	margin-top: -10%;
+	padding-left: 5%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	background-image: url("Images/Asset\ 26.png");
+}
+.coördinator {
+	margin-left: 5%;
+	padding-top: 8%;
+	padding-left: 5%;
+	padding-bottom: 5%;
+
+	background-image: url("Images/Asset\ 26.png");
+	background-size: 40%;
+}
+.secretariat {
+	margin-left: 50%;
+	padding-top: 8%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+
+	background-image: url("Images/Asset\ inschrijving2_1.png");
+	background-size: 98%;
+}
+.humanResources {
+	margin-left: 2%;
+
+	background-image: url("Images/Asset\ 28.png");
+	background-size: 40%;
+	padding-top: 2%;
+	padding-bottom: 10%;
+	padding-left: 7%;
+}
+.principalPhoto {
+	height: 300px;
+	border-radius: 40px;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+#team {
+	width: 600px;
+	border-radius: 40px;
+	margin-left: 10%;
+
+	z-index: 1;
 }
