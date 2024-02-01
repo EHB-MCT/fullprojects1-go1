@@ -409,6 +409,9 @@ button {
 #rooster-2degraad {
 	background-position: 5% 80%;
 }
+.rooster-pdf{
+	visibility: hidden;
+}
 table {
 	border-collapse: collapse;
 	min-width: 400px;
@@ -922,10 +925,7 @@ td#vak {
 	width: auto;
 	margin-top: -2000vh;
 }
-#kosten1 {
-	height: 800px;
-	width: 100%;
-}
+
 #kosten2 {
 	height: 800px;
 	width: 100%;

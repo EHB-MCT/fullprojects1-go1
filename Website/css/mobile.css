@@ -119,10 +119,9 @@
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
-		background-image: none;
 	}
 	.graad{
-		height: auto;
+		height: 65vh;
 	}
 	.graad ul li, .graad h4{
 		color: #eff3e8;
@@ -151,15 +150,19 @@
 	}
 	.jaar1,
 	.jaar2{
-		margin: 32px 5% 0 5%;
+		margin: 16px 5% 0 5%;
 		padding: 10px 15px;
 		margin-right: 0;
 		width: 80%;
 		background-color: #e174ac;
 		border-radius: 1.5rem;
 	}
-	.rooster-wrapper{
+	.rooster{
 		visibility: hidden;
 	}
-
+	.rooster-pdf{
+		visibility: visible;
+		width: 80%;
+		margin: 16px 9% 0 9%;
+	}
 }
