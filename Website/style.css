@@ -8,7 +8,9 @@ body {
 	font-size: 14pt;
 	overflow-x: hidden; /* deactiveerd horizontaal scrollen */
 }
-
+a{
+	color: #eff3e8;
+}
 li {
 	list-style: disk outside url("SVG/List-item.svg");
 	font-family: "Arial", sans-serif;
@@ -1035,6 +1037,10 @@ td#vak {
 #footer-maximumfactuur {
 	margin-top: -55%;
 }
+.jear1-wrapper{
+	color:#eff3e8;
+}
+
 #kosten1 {
 	height: 800px;
 	width: 100%;
