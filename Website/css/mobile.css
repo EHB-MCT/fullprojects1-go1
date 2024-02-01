@@ -207,4 +207,31 @@
 	#info-open-class-days{
 		height: auto;
 	}
+	.Basic-pillars-wrapper {
+		background-size: 100%;
+		height: 500px;
+	}
+	.Basic-pillars h3 {
+		width: 80%;
+		padding-bottom: 20px;
+	}
+	.Basic-pillars p {
+		width: 80%;
+	}
+	.Basic-pillars-wrapper-right {
+		background-size: 100%;
+		height: 500px;
+	}
+	.Basic-pillars-right h3 {
+		width: 80%;
+		padding-left: 20%;
+		padding-bottom: 20px;
+	}
+	.Basic-pillars-right p {
+		width: 80%;
+		padding-left: 20%;
+	}
+	#footer-basispijlers {
+		height: 100vh;
+	}
 }
