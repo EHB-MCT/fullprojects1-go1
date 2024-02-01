@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Go! Atheneum Emanuel Hiel</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="css/nav.css" />
+		<link rel="shortcut icon" type="x-icon" href="Images/GO-Logo.png" />
+		<link rel="stylesheet" href="css/header-footer.css" />
+		<link rel="stylesheet" href="css/mobile.css" />
+		<link
+			href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="button-top">
+				<a href="#"><img src="Icons/Arrow-top_1.svg" />UP</a>
+			</div>
+			<div id="pop_up">
+				<div id="close_pop_up">X</div>
+				<div class="pop_up-inside">
+					<div class="pop_up-text">
+						<h2>Infodag</h2>
+						<hr />
+						<div class="flex row pop-up">
+							<img src="Icons/calendar.svg" alt="Calendar icon" />
+							<p>&nbsp; 8 mei 2024</p>
+						</div>
+						<div class="flex row pop-up">
+							<img src="Icons/clock.svg" alt="Clock icon" />
+							<p>&nbsp; 18 uur</p>
+						</div>
+					</div>
+					<div class="pop_up-asset">
+						<img id="pop_up_asset" src="Images/Asset 21.png" alt="asset" />
+					</div>
+				</div>
+			</div>
+			<div class="header-wrapper">
+				<header>
+					<nav>
+						<a href="index.html"
+							><img src="Images/Logo-school.png" class="logo"
+						/></a>
+						<div class="dropdown">
+							<span>Wie zijn we?</span>
+							<div class="dropdown-content">
+								<a href="wie-is-wie.html">Wie-is-wie</a>
+								<a href="studieaanbod.html">Studieaanbod</a>
+								<a href="https://schoolreglement.g-o.be/r/8_41756-1/?year=2022"
+									>Het GO!</a
+								>
+								<a href="schoolregelement.html">Schoolreglement</a>
+								<a href="leefregels.html">Leefregels</a>
+							</div>
+						</div>
+						<div class="dropdown">
+							<span>Waarom Hiel?</span>
+							<div class="dropdown-content">
+								<a href="basispijlers.html">De 3 basispijlers</a>
+								<a href="maximumfactuur.html">Maximumfactuur</a>
+								<a href="infrastructuur.html">Infrastructuur</a>
+								<a href="leerlingbegeleiding.html">Leerlingbegeleiding</a>
+							</div>
+						</div>
+						<div class="dropdown">
+							<span>Met Hiel op pad</span>
+							<div class="dropdown-content">
+								<a href="activiteiten.html">Activiteiten</a>
+								<a href="humaniora.html">Humaniora</a>
+							</div>
+						</div>
+						<div class="dropdown">
+							<span>Inschrijvingen</span>
+							<div class="dropdown-content">
+								<a href="Inschrijvingen.html">Inschrijvingen</a>
+								<a href="studieaanbod.html">Studieaanbod</a>
+								<a href="hospiteerlessen.html">Hospiteerlessen</a>
+							</div>
+						</div>
+						<div class="dropdown">
+							<a href="contact.html" id="contact-button">Contact</a>
+						</div>
+						<div class="ham-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="sidebar">
+							<ul class="nav-links">
+								<li>
+									<div class="iocn-link">
+										<a href="#"><span class="link_name">Waarom Hiel?</span></a>
+										<i class="bx bxs-chevron-down arrow"></i>
+									</div>
+									<ul class="sub-menu">
+										<li><a href="basispijlers.html">De 3 basispijlers</a></li>
+										<li><a href="maximumfactuur.html">Maximum factuur</a></li>
+										<li><a href="infrastructuur.html">Infrastructuur</a></li>
+										<li>
+											<a href="leerlingbegeleiding.html">Leerlingbegeleiding</a>
+										</li>
+										<li><a href="hospiteerlessen.html">Hospiteerlessen</a></li>
+									</ul>
+								</li>
+								<li>
+									<div class="iocn-link">
+										<a href="#"
+											><span class="link_name">Met Hiel op pad</span></a
+										>
+										<i class="bx bxs-chevron-down arrow"></i>
+									</div>
+									<ul class="sub-menu">
+										<li><a href="activiteiten.html">Activiteiten</a></li>
+										<li><a href="humaniora.html">Humaniora</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<script>
+							let arrow = document.querySelectorAll(".arrow");
+							for (var i = 0; i < arrow.length; i++) {
+								arrow[i].addEventListener("click", (e) => {
+									let arrowParent = e.target.parentElement.parentElement; //selecting main parent of arrow
+									arrowParent.classList.toggle("showMenu");
+								});
+							}
+						</script>
+					</nav>
+
+					<script src="script.js"></script>
+
+					<h1>
+						Welkom bij GO! <br />
+						Atheneum Emanuel Hiel
+					</h1>
+
+					<img src="SVG/Header-wave-homepage.svg" alt="" class="wave" />
+				</header>
+			</div>
+
+			<div class="info-wrapper">
+				<div class="info">
+					<div class="info-list">
+						<div class="info-image">
+							<div class="image-right-side">
+								<a href="basispijlers.html"
+									><img src="images/Onze-school.png" alt=""
+								/></a>
+							</div>
+							<h2>Onze school</h2>
+						</div>
+						<div class="info-text">
+							<p>
+								Welkom bij dé Nederlandstalige leergemeenschap in Brussel,
+								onderdeel van het GO! Onderwijs van de Vlaamse Gemeenschap.
+								<br />
+								<br />
+								Wij zijn een secundaire school in Schaarbeek met enthousiaste
+								leerlingen, gemotiveerde leerkrachten en een gevarieerd
+								studieaanbod in algemeen en technisch onderwijs.
+							</p>
+						</div>
+					</div>
+
+					<div class="info-list">
+						<div class="info-image">
+							<div class="image-left-side">
+								<a href="studieaanbod.html"
+									><img src="images/studieaanbod_1.png" alt=""
+								/></a>
+							</div>
+							<h2>Studieaanbod</h2>
+						</div>
+						<div class="info-text">
+							<p>
+								Ontdek jouw weg naar succes op onze school! In de eerste graad
+								kies je voor een uitgebreide algemene vorming. Vervolgens
+								bereidt de A-stroom in het eerste en tweede middelbaar je voor
+								op diverse vervolgtrajecten, zoals ASO, TSO, of KSO.
+							</p>
+						</div>
+					</div>
+
+					<div class="info-list">
+						<div class="info-image">
+							<div class="image-right-side">
+								<a href="Inschrijvingen.html"
+									><img src="images/inschrijving.png" alt=""
+								/></a>
+							</div>
+
+							<h2>Inschrijving</h2>
+						</div>
+						<div class="info-text">
+							<p>
+								Ontdek de kansen die op je wachten door je in te schrijven bij
+								het GO! Atheneum E. Hiel.
+								<br /><br />
+								Schrijf je nu in en ervaar persoonlijke ontwikkeling in een
+								omgeving die diversiteit omarmt, waar je leert
+								verantwoordelijkheid te nemen. Sluit je aan bij onze gemeenschap
+								van leergierige persoonlijkheden!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="quote-outer-wrapper">
+				<div class="quote-wrapper">
+					<h2 id="quote-image-text">
+						Onze Missie <br />
+						Jouw Toekomst
+					</h2>
+					<div class="quote-image">
+						<img src="images/Quote1.4.svg" alt="" />
+					</div>
+				</div>
+			</div>
+
+			<div class="pillars-wrapper">
+				<div class="pillars">
+					<div class="pillars-list">
+						<div class="pillars-list-header" id="pijlers-list-header-taal">
+							<img src="Images/Logo-taal.png" />
+							<h3>Taal</h3>
+						</div>
+						<p>
+							Taal is niet alleen een communicatiemiddel.Het is de sleutel tot
+							begrip, groei en zelfexpressie. Daarom zetten wij ons maximaal in
+							voor de Nederlandse taal, onder andere door middel van culturele
+							uitstappen. Hierdoor leert de leerling ook buiten het klaslokaal
+							omgaan met taal. Bovendien wordt lezen op school aangemoedigd door
+							de beschikbaarheid van boeken, zowel in de klas als in de
+							schoolbibliotheek.
+						</p>
+					</div>
+					<div class="pillars-list">
+						<div class="pillars-list-header" id="pijlers-list-header-OLB">
+							<h3>OLB</h3>
+							<img src="Images/Logo-welzijn.png" />
+						</div>
+						<p>
+							De school maakt gebruik van het Organisatie Leer- en Beheersysteem
+							(OLB) om haar interne processen te structureren en optimaliseren.
+							Hierdoor wordt de efficiëntie bevorderd, de transparantie en
+							communicatie tussen verschillende schoolafdelingen versterkt. Het
+							OLB-systeem helpt de school systematisch de operationele
+							procedures te evalueren en te verbeteren, waardoor een effectieve
+							leergerichte omgeving wordt gewaarborgd.
+						</p>
+					</div>
+					<div class="pillars-list">
+						<div class="pillars-list-header" id="pijlers-list-header-welzijn">
+							<img src="Images/Logo-OLB.png" />
+							<h3>Welzijn</h3>
+						</div>
+						<p>
+							Bij het GO! Atheneum E. Hiel staat welzijn op de voorgrond. We
+							geloven dat het welzijn van onze leerlingen en medewerkers niet
+							alleen de kwaliteit van hun dagelijkse schoolervaring beïnvloedt,
+							maar ook een cruciale factor is voor hun langetermijnsucces.
+							<br /><br />
+							Welzijn is een kernprioriteit bij ons. We streven naar een
+							veilige, ondersteunende omgeving waarin leerlingen zich thuis en
+							gewaardeerd voelen. Door open communicatie en samenwerking bouwen
+							we aan een schoolgemeenschap die niet alleen onderwijst, maar ook
+							inspireert en ondersteunt.
+						</p>
+					</div>
+					<div class="background-bollen">
+						<img src="Images/Asset 27.png" alt="" />
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-wrapper" id="footer-homepage">
+				<div class="footer-logo">
+					<img src="images/GO!_VLA_Logo_2regels_WIT.png" alt="" />
+				</div>
+				<div class="footer-list flex">
+					<div class="flex row">
+						<img src="Icons/Facebook_f_logo_(2019).svg" />
+						<a href="https://www.facebook.com/KAEHiel/?locale=nl_NL"
+							>Facebook</a
+						>
+					</div>
+					<div class="flex row">
+						<img src="Icons/instagram-logo.webp" />
+						<a href="https://www.instagram.com/atheneumhiel/">Instagram</a>
+					</div>
+					<div class="flex row">
+						<img src="Icons/smartschool_logo.png" />
+						<a href="https://kahiel.smartschool.be/login">Smartschool</a>
+					</div>
+				</div>
+				<div class="footer-list flex">
+					<div class="flex row">
+						<img src="Icons/Location-pin.svg" />
+						<a href="https://maps.app.goo.gl/P8RWkq9mgJQYTn7M7"
+							>Charles Gillesquetlaan 34 <br />1030, Brussel</a
+						>
+					</div>
+					<div class="flex row">
+						<img src="Icons/Phone.svg" />
+						<a href="tel:022413108">02 241 31 08</a>
+					</div>
+					<div class="flex row">
+						<img src="Icons/Mail.svg" />
+						<a href="mailto:info@kahiel.be">info@kahiel.be</a>
+					</div>
+				</div>
+				<!-- </div> -->
+
+				<div class="footer-list flex" id="footer-navigation">
+					<div class="flex row">
+						<p><strong>Menu</strong></p>
+					</div>
+					<div class="flex row">
+						<a href="studieaanbod.html">Studieaanbod</a>
+					</div>
+					<div class="flex row">
+						<a href="basispijlers.html">3 Basispijlers</a>
+					</div>
+					<div class="flex row"><a href="humaniora.html">Humaniora</a></div>
+					<div class="flex row">
+						<a href="Inschrijvingen.html">Inschrijvingen</a>
+					</div>
+					<div class="flex row"><a href="contact.html">Contact</a></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
